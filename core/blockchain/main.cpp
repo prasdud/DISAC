@@ -5,21 +5,21 @@
 
 int main(int argc, char const *argv[])
 {
-    // Provide appropriate values for the Block constructor parameters
-    std::string student_id = "12345"; // Example student ID
-    std::string cert_hash = "abcde12345"; // Example certificate hash
-    std::string prevHash = "00000"; // Example previous hash
+    std::string student_id = "12345"; // sample student ID
+    std::string prevHash = "00000"; // sample previous hash
 
-    // Create a Block instance
-    Block b1(student_id, cert_hash, prevHash);
+    // Block instance
+    Block b1(student_id, prevHash);
+    std::cout<<b1<<std::endl;
 
-    // Get the binary representation
+    // Get the binary and hash representation
     std::string binary = b1.getBinary();
-    std::string hash = b1.getHash();
+    std::string hash = b1.getCertHash();
     
-    // Output the binary representation
-    std::cout << "Binary Representation: " << binary << std::endl;
+    // Output the binary and hash representation
+    //std::cout << "Binary Representation: " << binary << std::endl;
     std::cout << "Hash Representation: " << hash << std::endl;
+    std::cout<<b1<<std::endl;
 
     return 0;
 }

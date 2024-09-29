@@ -14,15 +14,33 @@
 
 class Block{
 public:
-    Block(std::string student_id, std::string cert_hash, std::string prevHash)
+    Block(std::string student_id, std::string prevHash)
         : student_id(student_id), cert_hash(cert_hash), prev_hash(prevHash), timestamp(std::time(nullptr)) {
         pdf_binary = calculateBinary(); // Calculate binary representation on creation
-        curr_hash = calculateHash(pdf_binary); // Calculate hash based on binary
+        cert_hash = calculateHash(pdf_binary); // Calculate hash based on binary
+        curr_hash = calculateBlockHash();
     }
 
-    std::string getHash() const { return curr_hash; }
+    friend std::ostream & operator<<(std::ostream & os, Block const & block){
+        os <<"Student name: "<< block.student_name <<std::endl
+            <<"Student id: "<<block.student_id <<std::endl
+            <<"Certificate hash: "<<block.cert_hash <<std::endl
+            <<"Previous hash: "<<block.prev_hash <<std::endl
+            <<"Current hash: "<<block.curr_hash <<std::endl
+            <<"Timestamp: "<<block.timestamp <<std::endl;
+        return os;
+    }
+
+
+    //getters
     std::string getBinary() const { return pdf_binary; }
-    
+    std::string getCertHash() const { return cert_hash; }
+    std::string getBlockHash() const { return curr_hash; }
+
+    //setters
+    void setHash(const std::string& newHash){
+        cert_hash = newHash;
+    }    
 
 private:
     std::string student_name;
@@ -38,7 +56,7 @@ private:
     std::string calculateBinary() const{
         //int const size = 20;
         std::uintmax_t size = std::filesystem::file_size("../../assets/sample.pdf");
-        std::cout<<size<<std::endl;
+        //std::cout<<size<<std::endl;
 
         std::vector<char> ndata(size);
         std::string result_binary;
@@ -101,4 +119,11 @@ private:
             return ss.str();
         }
 
+
+        std::string calculateBlockHash() const {
+            std::stringstream block_data;
+            block_data << student_id << cert_hash << prev_hash << timestamp;
+
+            return calculateHash(block_data.str());
+        }
 };
