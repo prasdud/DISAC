@@ -19,6 +19,7 @@ int main(int argc, char const *argv[])
     
     // Output the binary representation
     std::cout << "Binary Representation: " << binary << std::endl;
+    std::cout << "Hash Representation: " << hash << std::endl;
 
     return 0;
 }
