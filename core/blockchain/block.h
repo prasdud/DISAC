@@ -35,12 +35,26 @@ public:
     //getters
     std::string getBinary() const { return pdf_binary; }
     std::string getCertHash() const { return cert_hash; }
-    std::string getBlockHash() const { return curr_hash; }
+    std::string getCurrHash() const { return curr_hash; }
+    std::string getPrevHash() const { return prev_hash; }
+    //std::string getBlockHash() const { return calculateBlockHash; }
 
     //setters
     void setHash(const std::string& newHash){
         cert_hash = newHash;
-    }    
+    }
+
+    void setPrevHash(const std::string& new_prev_hash){
+        prev_hash = new_prev_hash;
+    }
+
+    void setCurrHash(const std::string& new_curr_hash){
+        curr_hash = new_curr_hash;
+    }
+
+    void updateCurrHash(){
+        curr_hash = calculateBlockHash();
+    }
 
 private:
     std::string student_name;
