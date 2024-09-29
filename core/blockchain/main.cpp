@@ -2,12 +2,15 @@
 #include "block.h"
 #include "blockchain.h"
 #include <string>
-
+#include <cassert>
 
 void testGenesisBlock(){
     Blockchain blockchain;
-    Block genesisBlock = blockchain.getLast
-
+    Block genesisBlock = blockchain.getLastBlock();
+    std::cout << "Testing genesis block:"<< std::endl;
+    std::cout << genesisBlock << std::endl;
+    assert(genesisBlock.getPrevHash() == "000000");
+    assert(genesisBlock.getCertHash() != "");
 }
 
 int main(int argc, char const *argv[])
@@ -27,6 +30,8 @@ int main(int argc, char const *argv[])
     // //std::cout << "Binary Representation: " << binary << std::endl;
     // std::cout << "Hash Representation: " << hash << std::endl;
     // std::cout<<b1<<std::endl;
-
+    std:: cout<<"starting test genesis block "<<std::endl;
+    testGenesisBlock();
+    std:: cout<<"finished test genesis block "<<std::endl;
     return 0;
 }
