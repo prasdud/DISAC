@@ -15,7 +15,7 @@
 class Block{
 public:
     Block(std::string student_id, std::string prevHash)
-        : student_id(student_id), cert_hash(cert_hash), prev_hash(prevHash), timestamp(std::time(nullptr)) {
+        : student_id(student_id),  prev_hash(prevHash), timestamp(std::time(nullptr)) {
         pdf_binary = calculateBinary(); // Calculate binary representation on creation
         cert_hash = calculateHash(pdf_binary); // Calculate hash based on binary
         curr_hash = calculateBlockHash();
