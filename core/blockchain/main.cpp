@@ -12,6 +12,23 @@ void testGenesisBlock(){
     assert(genesisBlock.getPrevHash() == "000000");
     assert(genesisBlock.getCertHash() != "");
 }
+#include "blockchain.h"
+#include <iostream>
+
+void testBlockChain() {
+    // Create the blockchain
+    Blockchain blockchain;
+    // Create and add new blocks
+    Block block1("Student1", blockchain.getLastBlock().getCurrHash());
+    blockchain.addNewBlock(block1);
+
+    Block block2("Student2", blockchain.getLastBlock().getCurrHash());
+    blockchain.addNewBlock(block2);
+
+    // Print the blockchain
+    std::cout << "Blockchain: " << std::endl;
+    std::cout << blockchain.getLastBlock() << std::endl;
+}
 
 int main(int argc, char const *argv[])
 {
@@ -30,8 +47,13 @@ int main(int argc, char const *argv[])
     // //std::cout << "Binary Representation: " << binary << std::endl;
     // std::cout << "Hash Representation: " << hash << std::endl;
     // std::cout<<b1<<std::endl;
-    std:: cout<<"starting test genesis block "<<std::endl;
-    testGenesisBlock();
-    std:: cout<<"finished test genesis block "<<std::endl;
+
+    // std:: cout<<"starting test genesis block "<<std::endl;
+    // testGenesisBlock();
+    // std:: cout<<"finished test genesis block "<<std::endl;
+    std:: cout<<"starting test blockchain"<<std::endl;
+    testBlockChain();
+    std:: cout<<"finishing test blockchain"<<std::endl;
+
     return 0;
 }
