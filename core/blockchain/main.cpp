@@ -12,8 +12,6 @@ void testGenesisBlock(){
     assert(genesisBlock.getPrevHash() == "000000");
     assert(genesisBlock.getCertHash() != "");
 }
-#include "blockchain.h"
-#include <iostream>
 
 void testBlockChain() {
     // Create the blockchain
