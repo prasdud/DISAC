@@ -10,3 +10,6 @@ A blockchain based data integrity system for academic credentials, written from 
 1. Explain block and blockchain codebase
 2. Temporary site to handle API calls, 2 logins, 3 dashboards
 3. Certificate generator, build template with latex and automate with python for csv of student data?
+
+## LONG TERM
+1. How to scale up? Multiple universities.
