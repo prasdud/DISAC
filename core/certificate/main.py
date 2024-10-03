@@ -1,19 +1,36 @@
-import csv
-import os
+import pandas as pd
 import subprocess
+import os
 
-# Path to the CSV file
-csv_file = 'sample.csv'
+# Function to generate LaTeX document from CSV
+def generate_latex_from_csv(csv_file, output_file):
+    # Read the CSV file
+    df = pd.read_csv(csv_file)
 
-# Template for the LaTeX document
-latex_template = r'''
-\documentclass[a4paper,12pt]{article}
+    # Start writing the LaTeX document
+    latex_content = r"""\documentclass[a4paper,12pt]{article}
 \usepackage{graphicx}
 \usepackage{geometry}
 \geometry{a4paper, margin=10pt}
 \usepackage{array}
 
 \begin{document}
+
+% Header Section with VTU information and logo
+\begin{minipage}{0.2\textwidth}
+    \includegraphics[width=\textwidth]{vtulogo.png} % Replace 'vtulogo.jpg' with the path to your image file
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+    \centering
+    \textbf{\Large Visvesvaraya Technological University} \\
+    \vspace{0.2cm}
+    \textbf{\textsc{\large Vemana Institute of Technology}} \\
+    \vspace{0.2cm}
+    % "Jnana Sangama" Belagavi-590018, Karnataka, India
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+    \includegraphics[width=\textwidth]{vitlogo.jpg} % Replace 'vitlogo.jpg' with the path to your image file
+\end{minipage}
 
 % Header Section with VTU information
 \begin{center}
@@ -24,14 +41,15 @@ latex_template = r'''
 
 % Student Information Section
 \noindent
-\textbf{USN:} {usn} \\
-\textbf{Student Name:} {name}
-
-\vspace{0.5cm}
-
-\noindent
-\textbf{Semester: 4}
-
+\begin{minipage}{0.7\textwidth}
+\textbf{USN:} 1VI22CS106 \\\\
+\textbf{Student Name:} SANTHOSH KUMAR S\\\\
+\textbf{Semester: } 4\\\\
+\textbf{Month / Year: } August 2004
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+    \includegraphics[width=\textwidth]{vtulogo.png} % Replace 'vtulogo.jpg' with the path to your image file
+\end{minipage}
 \vspace{0.5cm}
 
 % Centered Table
@@ -40,72 +58,89 @@ latex_template = r'''
     \hline
     \textbf{Subject Code} & \textbf{Subject Title} & \textbf{Internal Marks} & \textbf{External Marks} & \textbf{Total Marks} & \textbf{Subject Result} \\
     \hline
-    {table_content}
+"""
+
+    # Add each row from the DataFrame to the LaTeX table
+    for index, row in df.iterrows():
+        latex_content += f"    {row['Subject Code']} & {row['Subject Title']} & {row['Internal Marks']} & {row['External Marks']} & {row['Total Marks']} & {row['Subject Result']} \\\\ \hline\n"
+
+    # Total calculations
+    total_marks = df['Total Marks'].sum()
+    cgpa = 9.5  # Example CGPA, replace with actual calculation if needed
+    class_result = "Outstanding"  # Example class result, replace as needed
+
+    latex_content += r"""    \end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{|m{3cm}|m{6cm}|m{3cm}|m{2cm}|m{4cm}|}
+\hline
+    \textbf{Total Marks} : """ + str(total_marks) + r""" & \multicolumn{2}{|c|}{\textbf{Marks in Words} : """ + convert_to_words(total_marks) + r"""} & \textbf{CGPA}: """ + str(cgpa) + r""" & \textbf{Class}: """ + class_result + r""" \\
+    \hline
+\end{tabular}
+\end{center} 
+
+\begin{center}
+\begin{tabular}{|m{3cm}|m{3cm}|m{3cm}|m{3cm}|m{4cm}|}
+\hline
+\multicolumn{5}{|c|}{\textbf{Nomenclature / Abbreviations}} \\
+\hline
+P $>$ PASS & F $>$ FAIL & A $>$ ABSENT & W $>$ WITHHELD & X, NE $>$ NOT ELIGIBLE \\
+\hline
 \end{tabular}
 \end{center}
 
-\vspace{1cm}
-
-\vfill
+\vspace{3cm}
 
 % Registrar signature
 \begin{flushright}
     Sd/- \\
-    \textbf{Principle}
+    \textbf{Principal}
 \end{flushright}
 
 \vspace{0.5cm}
 
 % Footer with result sheet ID and date
 \noindent
-
+\vfill
 \end{document}
-'''
+"""
 
-# Function to generate the LaTeX content
-def generate_latex(usn, name, subjects):
-    table_content = ''
-    for subject in subjects:
-        table_content += f"{subject['SubjectCode']} & {subject['SubjectTitle']} & {subject['InternalMarks']} & {subject['ExternalMarks']} & {subject['TotalMarks']} & {subject['Result']} \\\\ \\hline\n"
-    
-    latex_content = latex_template.format(usn=usn, name=name, table_content=table_content)
-    
-    # Save the LaTeX content to a file
-    filename = f"{usn}_certificate.tex"
-    with open(filename, 'w') as f:
+    # Write the LaTeX content to the output file
+    with open(output_file, 'w') as f:
         f.write(latex_content)
-    
-    return filename
 
-# Function to compile LaTeX to PDF
-def compile_latex(latex_file):
-    subprocess.run(['pdflatex', latex_file])
+    # Compile the LaTeX file to PDF
+    compile_latex_to_pdf(output_file)
 
-# Read data from CSV
-students_data = {}
-with open(csv_file, mode='r') as file:
-    csv_reader = csv.DictReader(file)
-    for row in csv_reader:
-        usn = row['USN']
-        name = row['Name']
-        subject_info = {
-            'SubjectCode': row['SubjectCode'],
-            'SubjectTitle': row['SubjectTitle'],
-            'InternalMarks': row['InternalMarks'],
-            'ExternalMarks': row['ExternalMarks'],
-            'TotalMarks': row['TotalMarks'],
-            'Result': row['Result']
-        }
-        
-        if usn not in students_data:
-            students_data[usn] = {'name': name, 'subjects': []}
-        
-        students_data[usn]['subjects'].append(subject_info)
+def convert_to_words(num):
+    # Simple function to convert numbers to words (only works for numbers up to 9999)
+    # You can expand this function as needed
+    units = ["", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"]
+    teens = ["Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"]
+    tens = ["", "Ten", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"]
+    thousands = ["", "Thousand"]
 
-# Generate LaTeX and compile for each student
-for usn, student_info in students_data.items():
-    latex_file = generate_latex(usn, student_info['name'], student_info['subjects'])
-    compile_latex(latex_file)
-    os.remove(latex_file)  # Clean up the .tex file after compiling
-    os.remove(latex_file.replace('.tex', '.log'))  # Clean up auxiliary files
-    os.remove(latex_file.replace('.tex', '.aux'))
+    if num < 10:
+        return units[num]
+    elif num < 20:
+        return teens[num - 10]
+    elif num < 100:
+        return tens[num // 10] + ('' if num % 10 == 0 else ' ' + units[num % 10])
+    elif num < 1000:
+        return units[num // 100] + ' Hundred' + ('' if num % 100 == 0 else ' and ' + convert_to_words(num % 100))
+    elif num < 10000:
+        return units[num // 1000] + ' Thousand' + ('' if num % 1000 == 0 else ' and ' + convert_to_words(num % 1000))
+
+def compile_latex_to_pdf(latex_file):
+    # Run pdflatex to generate PDF
+    try:
+        subprocess.run(['pdflatex', latex_file], check=True)
+        print(f"Successfully created {latex_file.replace('.tex', '.pdf')}")
+    except subprocess.CalledProcessError:
+        print("Error occurred while generating PDF.")
+
+# Usage example
+csv_file_path = 'students.csv'  # Replace with your CSV file path
+output_latex_file = 'output.tex'  # Output LaTeX file
+generate_latex_from_csv(csv_file_path, output_latex_file)
