@@ -13,3 +13,4 @@ A blockchain based data integrity system for academic credentials, written from 
 
 ## LONG TERM
 1. How to scale up? Multiple universities.
+2. Assume mistake in certificate, how will blockchain accomodate that?
