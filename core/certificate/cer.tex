@@ -1,10 +1,11 @@
 \documentclass[a4paper,12pt]{article}
 \usepackage{graphicx}
 \usepackage{geometry}
-\geometry{a4paper, margin=1in}
+\geometry{a4paper, margin=10pt}
 \usepackage{array}
 
 \begin{document}
+    
 
 % Header Section with VTU information
 \begin{center}
@@ -25,8 +26,9 @@
 
 \vspace{0.5cm}
 
-% Table for Marks
-\begin{tabular}{|m{3cm}|m{7cm}|m{2cm}|m{2cm}|m{2cm}|m{2cm}|}
+% Centered Table
+\begin{center} % Centering the table
+\begin{tabular}{|m{2cm}|m{7cm}|m{2cm}|m{2cm}|m{2cm}|m{2cm}|}
     \hline
     \textbf{Subject Code} & \textbf{Subject Title} & \textbf{Internal Marks} & \textbf{External Marks} & \textbf{Total Marks} & \textbf{Subject Result} \\
     \hline
@@ -49,47 +51,21 @@
     BCSL456D & TECHNICAL WRITING USING LATEX LAB & 50 & 50 & 100 & P \\
     \hline
 \end{tabular}
+\end{center}
 
 \vspace{1cm}
-
-% Nomenclature section
-\noindent
-\textbf{Nomenclature/Abbreviations:} \\
-P -> PASS \\
-F -> FAIL \\
-A -> ABSENT \\
-W -> WITHHELD \\
-X, NE -> NOT ELIGIBLE
-
-\vspace{0.5cm}
-
-% Note section
-\noindent
-\textbf{Note:}
-\begin{itemize}
-    \item Results of some subjects of some students are not appearing due to reasons such as, 
-    \begin{itemize}
-        \item CIE not Available
-        \item SEE not Available
-        \item Technical reasons, etc.
-    \end{itemize}
-    \item Withheld results to be announced later.
-\end{itemize}
 
 \vfill
 
 % Registrar signature
 \begin{flushright}
     Sd/- \\
-    \textbf{REGISTRAR (EVALUATION)}
+    \textbf{Principle}
 \end{flushright}
 
 \vspace{0.5cm}
 
 % Footer with result sheet ID and date
 \noindent
-Result Sheet ID: VTU66ee66589701VI22CS106 \\
-2024-09-21 11:45:14 \\
-Web portal: https://results.vtu.ac.in
 
 \end{document}
