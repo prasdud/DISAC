@@ -1,0 +1,83 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{cite}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{tikz}
+\usepackage{background}
+\usepackage{fontspec}
+\usetikzlibrary{calc}
+
+\backgroundsetup{angle = 0, scale = 1, vshift = -2ex,
+  contents = {\tikz[overlay, remember picture]
+    \draw[line width = 2.5pt, color = black!100]
+           ($(current page.north west)+(1cm,-1cm)$)
+           rectangle ($(current page.south east)+(-1,1)$);}}
+
+
+\geometry{top=0.5in, bottom=0.5in, left=0.5in, right=0.5in}
+\pagestyle{empty}
+\fancyhf{}
+
+\onehalfspacing
+\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+\title{\textbf{Project Proposal: [Your Project Title]}}
+\author{Your Name \\ Your Institution \\ Your Email}
+\date{\today}
+
+\begin{document}
+% University name
+\begin{center}
+
+    {\Large \textbf{Vemana Institute of Technology} \\[0.2em]}
+    \textbf{Affiliated to Visvesvaraya Technological University, Belagavi}\\[0.2em]{Bengaluru - 560034}\\[3em]
+
+    {\fontsize{20}{0}\selectfont\textbf{PROJECT PROPOSAL}} \\[1em]
+    {\fontsize{15}{0}\selectfont\textbf{BLOCKCHAIN BASED DATA INTEGRITY SYSTEM}} \\[3em]
+    
+    {\fontsize{12}{0}\textbf{SYNOPSIS}} \\[0.5em]
+    \begin{quote}
+      \small
+      In today's digital world, everything from phone bills to diplomas is available online and we need mechanisms in place to authenticate these digital documents. 
+      Employers and academic institutions often face challenges in verifying credentials due to the risk of falsified certificates. 
+      Current methods rely on centralized databases, which are susceptible to tampering, data leaks, and attacks from hackers. 
+      There is a pressing need for a decentralized and tamper-proof system to securely store and verify academic records.\newline \newline
+      The objective of this project is to design and develop a blockchain-based system that allows universities to store academic records; mainly digital diplomas — securely.
+      Employers and authorized university officials will be able to verify the authenticity of these records via the blockchain. 
+      This ensures the integrity and immutability of academic credentials, reducing the risk of fraud and adding ease of verification for employers. \newline \newline
+      By the end of the project, we expect to have a fully functional blockchain-based system for academic record storage and verification. 
+      The system will provide a secure, decentralized way to store and validate academic records, ensuring that the records are tamper-proof and easily verifiable by authorized parties.
+    \end{quote}
+
+    % Use minipage to keep content within the borders
+    \vfill
+    \begin{minipage}[b]{0.45\textwidth}
+      \begin{center}
+        {\fontsize{20}{0}\textbf{Batch Number 15}} \\[0.5em]
+        \textbf{5th Semester - CSE 'B'}\\[0.5em]
+        \textbf{Muhammed Abdul Muid - } \textbf{1VI22CS064}\\[0.5em]
+        \textbf{Rohan Reddy - } \textbf{1VI22CS097}\\[0.5em]
+        \textbf{Santhosh Kumar S - } \textbf{1VI22CS106}\\[0.5em]
+        \textbf{Vishwas S - } \textbf{1VI22CS125}\\[3em]
+      \end{center}
+    \end{minipage}
+    
+    \vfill
+    \begin{minipage}[b]{0.45\textwidth}
+      \begin{center}        
+        {\fontsize{20}{0}\textbf{Project Guide}} \\[0.5em]
+        \textbf{Prof. Menaka A} \\[2em]
+        \textbf{------------------} \\[0.5em]
+      \end{center}
+    \end{minipage}
+
+\end{center}
+
+% Your content goes here
+\end{document}
