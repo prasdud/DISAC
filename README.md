@@ -3,8 +3,9 @@ A blockchain based data integrity system for academic credentials, written from 
 
 # TODO
 1. finish temporary testing terminal
-2. backend API, Crow
-3. figure out offchain pdf storage
+2. database functionality for addBlocks()
+3. backend API, Crow
+4. figure out offchain pdf storage
 
 ## TEAM
 1. Explain block and blockchain codebase
