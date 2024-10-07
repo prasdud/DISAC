@@ -1,19 +1,19 @@
 #include <iostream>
-#include "blockchain.h"
+#include "../blockchain/blockchain.h"
 
 void menu(){
-    std::cout <<"----------------------";
-    std::cout <<"1 - check database content";
-    std::cout <<"2 - initialize blockchain (genesis block)";
-    std::cout <<"3 - add block";
-    std::cout <<"4 - view blockchain";
-    std::cout <<"5 - validate blockchain";
-    std::cout <<"6 - exit";
+    std::cout <<"----------------------"<<std::endl;
+    std::cout <<"1 - check database content"<<std::endl;
+    std::cout <<"2 - initialize blockchain (genesis block)"<<std::endl;
+    std::cout <<"3 - add block"<<std::endl;
+    std::cout <<"4 - view blockchain"<<std::endl;
+    std::cout <<"5 - validate blockchain"<<std::endl;
+    std::cout <<"6 - exit"<<std::endl;
 }
 
 int main(int argc, char const *argv[])
 {
-    Blockchain blockchain;
+    Blockchain blockchain; 
     int choice = 0;
     std::cout <<"Enter choice" <<std::endl;
     do

@@ -1,6 +1,7 @@
 #pragma once
 #include "block.h"
 #include <vector>
+#include <sqlite3.h>
 
 class Blockchain{
 public:
@@ -23,7 +24,22 @@ private:
     std::vector<Block> chain;
     bool isChainValid() const;
     Block createGenesisBlock() const{   //genesis block is the first block in the blockchain
-        return Block("Genesis", "000000");
+        const char* insertSql = 
+            "INSERT INTO blockchain (student_id, block_hash, prev_hash, certificate_hash, timestamp) "
+            "VALUES ('GENESIS', '901131d838b17aac0f7885b81e03cbdc9f5157a00343d30ab22083685ed1416a', '0000000', '0000000', '1');";
+            char* errorMessage;
+            int rc = sqlite3_exec(DB, sql, nullptr, nullptr, &errorMessage);
+            rc = sqlite3_exec(DB, insertSql, nullptr, nullptr, &errorMessage);
+
+                if (rc != SQLITE_OK) {
+                std::cerr << "Insert error: " << errorMessage << std::endl;
+                sqlite3_free(errorMessage);
+            } else {
+                std::cout << "Data inserted successfully" << std::endl;
+            }            
+            
+            return Block("GENESIS", "0000000");        
+            //return Block("GENESIS", "901131d838b17aac0f7885b81e03cbdc9f5157a00343d30ab22083685ed1416a", "0000000", "0000000", "1");
     }
     
     void addBlock(Block& newBlock){
