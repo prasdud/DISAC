@@ -18,15 +18,28 @@ public:
         } else {
             std::cout << "Opened database successfully!" << std::endl;
         }
-
-        //chain.push_back(createGenesisBlock());
     }
 
-    // ~Blockchain(){
-    //     sqlite3_close(DB);
-    // }
+    /**Add a destructor here maybe?
+     * 
+     * 
+     * 
+     */
+    
+    // getters
+
+
+
+    // setters
+    
+
+private:
+    std::vector<Block> chain;
+    bool isChainValid() const;
+    sqlite3* DB;
 
     void addNewBlock(Block& new_block) {
+
         // Set previous hash based on the last block in the database
         if (new_block.getStudentId().empty() || new_block.getStudentName().empty() || 
             new_block.getCertHash().empty() || new_block.getPrevHash().empty()) {
@@ -41,13 +54,6 @@ public:
 
         // Add block to the database
         addBlockToDatabase(new_block);
-    }
-
-    Block getLastBlock() const {
-        if (chain.empty()) {
-            throw std::runtime_error("Blockchain is empty.");
-        }
-        return chain.back();
     }
 
     void displayDatabaseContents() const {
@@ -93,70 +99,23 @@ public:
 
     void addBlockToDatabase(const Block& block) {
         char* errMsg;
+        
+        // Simplified SQL Insert Statement (no transactions, no prepared statements)
+        std::string insertSql = "INSERT INTO blockchain (student_id, block_hash, prev_hash, certificate_hash, timestamp) VALUES ('" 
+                                + block.getStudentId() + "', '" 
+                                + block.getCurrHash() + "', '" 
+                                + block.getPrevHash() + "', '" 
+                                + block.getCertHash() + "', " 
+                                + std::to_string(block.getTimestamp()) + ");";
 
-        // Begin transaction
-        if (sqlite3_exec(DB, "BEGIN TRANSACTION;", nullptr, nullptr, &errMsg) != SQLITE_OK) {
-            std::cerr << "Failed to begin transaction: " << errMsg << std::endl;
-            sqlite3_free(errMsg);
-            return;
-        }
-
-        const char* insertSql = "INSERT INTO blockchain (student_id, block_hash, prev_hash, certificate_hash, timestamp) VALUES (?, ?, ?, ?, ?);";
-        sqlite3_stmt* stmt;
-
-        if (sqlite3_prepare_v2(DB, insertSql, -1, &stmt, nullptr) != SQLITE_OK) {
-            std::cerr << "Failed to prepare insert statement: " << sqlite3_errmsg(DB) << std::endl;
-            sqlite3_exec(DB, "ROLLBACK;", nullptr, nullptr, &errMsg);
-            sqlite3_free(errMsg);
-            return;
-        }
-
-        // Bind parameters
-        sqlite3_bind_text(stmt, 1, block.getStudentId().c_str(), -1, SQLITE_STATIC);
-        sqlite3_bind_text(stmt, 2, block.getCurrHash().c_str(), -1, SQLITE_STATIC);
-        sqlite3_bind_text(stmt, 3, block.getPrevHash().c_str(), -1, SQLITE_STATIC);
-        sqlite3_bind_text(stmt, 4, block.getCertHash().c_str(), -1, SQLITE_STATIC);
-        sqlite3_bind_int64(stmt, 5, block.getTimestamp());
-
-        // Execute the statement
-        if (sqlite3_step(stmt) != SQLITE_DONE) {
-            std::cerr << "Failed to insert block: " << sqlite3_errmsg(DB) << std::endl;
-            sqlite3_exec(DB, "ROLLBACK;", nullptr, nullptr, &errMsg);
+        // Execute the SQL statement directly
+        if (sqlite3_exec(DB, insertSql.c_str(), nullptr, nullptr, &errMsg) != SQLITE_OK) {
+            std::cerr << "SQL error: " << errMsg << std::endl;
             sqlite3_free(errMsg);
         } else {
-            // Commit the transaction
-            if (sqlite3_exec(DB, "COMMIT;", nullptr, nullptr, &errMsg) != SQLITE_OK) {
-                std::cerr << "Failed to commit transaction: " << errMsg << std::endl;
-                sqlite3_free(errMsg);
-            }
+            std::cout << "Block inserted successfully!" << std::endl;
         }
-
-        sqlite3_finalize(stmt);
     }
-
-private:
-    std::vector<Block> chain;
-    bool isChainValid() const;
-    sqlite3* DB;
-
-    bool blockchainExists() const {
-        const char* query = "SELECT COUNT(*) FROM blockchain WHERE student_id = 'GENESIS';";
-        sqlite3_stmt* stmt;
-
-        if (sqlite3_prepare_v2(DB, query, -1, &stmt, nullptr) != SQLITE_OK) {
-            std::cerr << "Failed to prepare statement: " << sqlite3_errmsg(DB) << std::endl;
-            return false;
-        }
-
-        bool exists = false;
-        if (sqlite3_step(stmt) == SQLITE_ROW) {
-            exists = (sqlite3_column_int(stmt, 0) > 0);
-        }
-
-        sqlite3_finalize(stmt);
-        return exists;
-    }
-
 
 
 };
