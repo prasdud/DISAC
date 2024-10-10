@@ -15,20 +15,26 @@
 class Block{
 public:
     Block(std::string prevHash)
-        : student_id(student_id),  prev_hash(prevHash), timestamp(std::time(nullptr)) {
-            std::cout << "Enter the student name -> "<<std::endl;
-            std::string temp;
-            std::cin >> temp;
-            setStudentName(temp);
-            std::cout << "Enter the student id -> "<<std::endl;
-            std::cin >> temp;
-            setStudentId(temp);
-            std::cout << "Enter the pdf file -> "<<std::endl;
-            std::cin >> temp;
-            setPdfName(temp);
-            pdf_binary = calculateBinary(); // Calculate binary representation on creation
-            cert_hash = calculateHash(pdf_binary); // Calculate hash based on binary
-            curr_hash = calculateBlockHash();
+    : student_id(""), prev_hash(prevHash), timestamp(std::time(nullptr)) {
+        std::string tempName;
+        std::string tempId;
+        std::string tempPdf;
+        std::cout << "Enter the student name -> " << std::endl;
+        std::cin>> tempName; // Use getline to capture full name
+        setStudentName(tempName);
+        
+        std::cout << "Enter the student id -> " << std::endl;
+        std::cin >> tempId;
+        setStudentId(tempId);
+        
+        std::cout << "Enter the pdf file -> " << std::endl;
+        std::cin >> tempPdf;
+        setPdfName(tempPdf);
+        
+        pdf_binary = calculateBinary(); // Calculate binary representation on creation
+        cert_hash = calculateHash(pdf_binary); // Calculate hash based on binary
+        curr_hash = calculateBlockHash();
+        updateCurrHash();
     }
 
     friend std::ostream & operator<<(std::ostream & os, Block const & block){
@@ -47,6 +53,9 @@ public:
     std::string getCertHash() const { return cert_hash; }
     std::string getCurrHash() const { return curr_hash; }
     std::string getPrevHash() const { return prev_hash; }
+    std::string getStudentId() const{ return student_id; }
+    std::string getStudentName() const{ return student_name; }
+    time_t getTimestamp() const{ return timestamp; }
     //std::string getBlockHash() const { return calculateBlockHash; }
 
     //setters
@@ -94,13 +103,13 @@ private:
 
     std::string calculateBinary() const{
         //int const size = 20;
-        std::uintmax_t size = std::filesystem::file_size("../../assets/dummy-certs/"+pdf_name);
+        std::uintmax_t size = std::filesystem::file_size("../../assets/dummy-certs/"+pdf_name+".pdf");
         //std::cout<<size<<std::endl;
 
         std::vector<char> ndata(size);
         std::string result_binary;
         //getting input data.pdf
-        std::ifstream infile("../../assets/dummy-certs/"+pdf_name, std::ios::binary);
+        std::ifstream infile("../../assets/dummy-certs/"+pdf_name+".pdf", std::ios::binary);
         if (!infile.read(ndata.data(), size)) {
             std::cerr << "Error reading file." << std::endl;
             return result_binary;

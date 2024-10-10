@@ -24,19 +24,22 @@ int main(int argc, char const *argv[])
         {
         case 1:
             std::cout<< "Displaying database contents "<<std::endl;
-            break;
+            blockchain.displayDatabaseContents();
             std::cout<< "DONE."<<std::endl;
+            break;
         case 2:
             std::cout<< "Initializing blockchain... Creating genesis block "<<std::endl;
             blockchain = Blockchain(); 
             std::cout<< "DONE."<<std::endl;
             break;
-        case 3:
-            std::cout<< "Adding block "<<std::endl;
-            Block block("0000000");
-            blockchain.addNewBlock(block);
-            std::cout<< "DONE."<<std::endl;
-            break;
+        case 3:{
+                std::cout<< "Adding block "<<std::endl;
+                std::string prevHash = blockchain.getLastBlockHash();
+                Block block(prevHash);
+                blockchain.addNewBlock(block);
+                std::cout<< "DONE."<<std::endl;
+                break;
+        }
         case 4:
             std::cout<< "Displaying blockchain contents "<<std::endl;
             std::cout<< "DONE."<<std::endl;

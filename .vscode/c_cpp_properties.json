@@ -4,7 +4,6 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/lib/Crow/include",
                 "/usr/include/boost"
             ],
             "defines": [],
