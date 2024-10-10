@@ -76,7 +76,7 @@ private:
                 std::cout << "Data inserted successfully" << std::endl;
             }            
             
-            return Block("GENESIS", "0000000");        
+            return Block("0000000");        
             //return Block("GENESIS", "901131d838b17aac0f7885b81e03cbdc9f5157a00343d30ab22083685ed1416a", "0000000", "0000000", "1");
     }
     

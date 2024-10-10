@@ -14,11 +14,21 @@
 
 class Block{
 public:
-    Block(std::string student_id, std::string prevHash)
+    Block(std::string prevHash)
         : student_id(student_id),  prev_hash(prevHash), timestamp(std::time(nullptr)) {
-        pdf_binary = calculateBinary(); // Calculate binary representation on creation
-        cert_hash = calculateHash(pdf_binary); // Calculate hash based on binary
-        curr_hash = calculateBlockHash();
+            std::cout << "Enter the student name -> "<<std::endl;
+            std::string temp;
+            std::cin >> temp;
+            setStudentName(temp);
+            std::cout << "Enter the student id -> "<<std::endl;
+            std::cin >> temp;
+            setStudentId(temp);
+            std::cout << "Enter the pdf file -> "<<std::endl;
+            std::cin >> temp;
+            setPdfName(temp);
+            pdf_binary = calculateBinary(); // Calculate binary representation on creation
+            cert_hash = calculateHash(pdf_binary); // Calculate hash based on binary
+            curr_hash = calculateBlockHash();
     }
 
     friend std::ostream & operator<<(std::ostream & os, Block const & block){
@@ -56,6 +66,20 @@ public:
         curr_hash = calculateBlockHash();
     }
 
+    void setStudentName(const std::string& new_student_name){
+        student_name = new_student_name;
+    }
+
+    void setStudentId(const std::string& new_student_id){
+        student_id = new_student_id;
+    }
+
+    void setPdfName(const std::string& new_pdf_name){
+        pdf_name = new_pdf_name;
+    }
+
+
+
 private:
     std::string student_name;
     std::string student_id;
@@ -63,19 +87,20 @@ private:
     std::string prev_hash;
     std::string curr_hash;
     std::string pdf_binary;
+    std::string pdf_name;
     time_t timestamp;
 
 
 
     std::string calculateBinary() const{
         //int const size = 20;
-        std::uintmax_t size = std::filesystem::file_size("../../assets/sample.pdf");
+        std::uintmax_t size = std::filesystem::file_size("../../assets/dummy-certs/"+pdf_name);
         //std::cout<<size<<std::endl;
 
         std::vector<char> ndata(size);
         std::string result_binary;
         //getting input data.pdf
-        std::ifstream infile("../../assets/sample.pdf", std::ios::binary);
+        std::ifstream infile("../../assets/dummy-certs/"+pdf_name, std::ios::binary);
         if (!infile.read(ndata.data(), size)) {
             std::cerr << "Error reading file." << std::endl;
             return result_binary;

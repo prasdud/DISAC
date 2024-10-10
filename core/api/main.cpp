@@ -33,6 +33,8 @@ int main(int argc, char const *argv[])
             break;
         case 3:
             std::cout<< "Adding block "<<std::endl;
+            Block block("0000000");
+            blockchain.addNewBlock(block);
             std::cout<< "DONE."<<std::endl;
             break;
         case 4:
