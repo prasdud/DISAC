@@ -3,13 +3,15 @@ A blockchain based data integrity system for academic credentials, written from 
 
 # TODO
 1. finish temporary testing terminal
-2. database functionality for addBlocks()
+2. implement blockchain validation. merkle trees?
 3. backend API, Crow
 4. figure out offchain pdf storage
 
 ## TEAM
 1. Explain block and blockchain codebase
 2. Temporary site to handle API calls, 2 logins, 3 dashboards
+3. Logo
+4. PPT
 
 ## LONG TERM
 1. How to scale up? Multiple universities.

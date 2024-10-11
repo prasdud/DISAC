@@ -111,6 +111,10 @@ public:
         }
     }
 
+    bool validateBlockchain(){
+        
+    }
+
 private:
     std::vector<Block> chain;
     bool isChainValid() const;
