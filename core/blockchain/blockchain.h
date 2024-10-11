@@ -31,12 +31,6 @@ public:
 
 
     // setters
-    
-
-private:
-    std::vector<Block> chain;
-    bool isChainValid() const;
-    sqlite3* DB;
 
     void addNewBlock(Block& new_block) {
 
@@ -117,5 +111,9 @@ private:
         }
     }
 
+private:
+    std::vector<Block> chain;
+    bool isChainValid() const;
+    sqlite3* DB;
 
 };
