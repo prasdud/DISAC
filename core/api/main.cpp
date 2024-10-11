@@ -3,12 +3,11 @@
 
 void menu(){
     std::cout <<"----------------------"<<std::endl;
-    std::cout <<"1 - check database content"<<std::endl;
-    std::cout <<"2 - initialize blockchain (genesis block)"<<std::endl;
-    std::cout <<"3 - add block"<<std::endl;
-    std::cout <<"4 - view blockchain"<<std::endl;
-    std::cout <<"5 - validate blockchain"<<std::endl;
-    std::cout <<"6 - exit"<<std::endl;
+    std::cout <<"1 - Check database content"<<std::endl;
+    std::cout <<"2 - Verify DB connection"<<std::endl;
+    std::cout <<"3 - Add block to blockchain"<<std::endl;
+    std::cout <<"4 - Validate blockchain"<<std::endl;
+    std::cout <<"5 - Quit"<<std::endl;
 }
 
 int main(int argc, char const *argv[])
@@ -28,7 +27,7 @@ int main(int argc, char const *argv[])
             std::cout<< "DONE."<<std::endl;
             break;
         case 2:
-            std::cout<< "Initializing blockchain... Creating genesis block "<<std::endl;
+            std::cout<< "Connecting to DB... Verifying connection.."<<std::endl;
             blockchain = Blockchain(); 
             std::cout<< "DONE."<<std::endl;
             break;
@@ -40,12 +39,8 @@ int main(int argc, char const *argv[])
                 std::cout<< "DONE."<<std::endl;
                 break;
         }
-        case 4:
-            std::cout<< "Displaying blockchain contents "<<std::endl;
-            std::cout<< "DONE."<<std::endl;
-            break;
         case 5:
-            std::cout<< "validating the blockchain "<<std::endl;
+            std::cout<< "Validating the blockchain "<<std::endl;
             std::cout<< "DONE."<<std::endl;
             break;
         case 6:
