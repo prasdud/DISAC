@@ -1,10 +1,2501 @@
-Subject Code,Subject Title,Credits,Internal Marks,External Marks,Total Marks,Subject Result
-BCS401,ANALYSIS AND DESIGN OF ALGORITHMS,3,50,41,91,P
-BCS402,MICROCONTROLLERS,4,50,18,68,P
-BCS403,DATABASE MANAGEMENT SYSTEMS,4,49,36,85,P
-BCSL404,ANALYSIS AND DESIGN OF ALGORITHMS LAB,1,50,50,100,P
-BBOC407,BIOLOGY FOR COMPUTER ENGINEERS,2,44,30,74,P
-BUHK408,UNIVERSAL HUMAN VALUES COURSE,1,50,42,92,P
-BPEK459,PHYSICAL EDUCATION,NA,94,0,94,P
-BCS405B,GRAPH THEORY,3,44,31,75,P
-BCSL456D,TECHNICAL WRITING USING LATEX LAB,1,50,50,100,P
+USN,Student Name,Subject Code,Subject Title,Internal Marks,External Marks,Total Marks,Subject Result
+1VI22CS846,Michael Schwartz,CS471,Authority class simply.,8,19,27,Fail
+1VI22CS846,Michael Schwartz,CS263,Phone yard.,18,14,32,Fail
+1VI22CS846,Michael Schwartz,CS882,Speech most.,42,9,51,Pass
+1VI22CS846,Michael Schwartz,CS666,True.,15,13,28,Fail
+1VI22CS846,Michael Schwartz,CS176,All own.,40,14,54,Pass
+1VI22CS261,John Thomas,CS434,Person type radio.,10,37,47,Pass
+1VI22CS261,John Thomas,CS590,Treatment onto.,15,6,21,Fail
+1VI22CS261,John Thomas,CS776,Admit who network vote.,34,26,60,Pass
+1VI22CS261,John Thomas,CS382,Shake member together.,21,21,42,Pass
+1VI22CS261,John Thomas,CS839,Only drug camera than.,28,29,57,Pass
+1VI22CS869,Amy Gordon,CS248,Any film consumer.,0,10,10,Fail
+1VI22CS869,Amy Gordon,CS208,White from.,15,39,54,Pass
+1VI22CS869,Amy Gordon,CS724,Safe probably hand option.,13,39,52,Pass
+1VI22CS869,Amy Gordon,CS980,Little.,39,46,85,Pass
+1VI22CS869,Amy Gordon,CS490,Population wrong about.,24,2,26,Fail
+1VI22CS829,Kara Alvarado,CS460,Mouth beat training.,17,7,24,Fail
+1VI22CS829,Kara Alvarado,CS808,Build.,7,21,28,Fail
+1VI22CS829,Kara Alvarado,CS175,Image production.,19,30,49,Pass
+1VI22CS829,Kara Alvarado,CS463,Positive.,13,39,52,Pass
+1VI22CS829,Kara Alvarado,CS697,Institution purpose.,2,36,38,Fail
+1VI22CS642,Robert Thornton,CS401,Line support any.,14,18,32,Fail
+1VI22CS642,Robert Thornton,CS514,Sort watch.,36,36,72,Pass
+1VI22CS642,Robert Thornton,CS202,Purpose than.,6,11,17,Fail
+1VI22CS642,Robert Thornton,CS256,Sure how end happen.,25,27,52,Pass
+1VI22CS642,Robert Thornton,CS390,Rise issue might store.,44,16,60,Pass
+1VI22CS811,Christine Smith,CS932,Drug three.,8,50,58,Pass
+1VI22CS811,Christine Smith,CS524,Bag even together.,42,3,45,Pass
+1VI22CS811,Christine Smith,CS686,Enjoy already hear.,17,23,40,Pass
+1VI22CS811,Christine Smith,CS462,Leader lay.,16,29,45,Pass
+1VI22CS811,Christine Smith,CS718,Fire draw.,25,9,34,Fail
+1VI22CS445,Kristen Austin,CS491,Sign cause.,38,20,58,Pass
+1VI22CS445,Kristen Austin,CS505,Friend.,20,33,53,Pass
+1VI22CS445,Kristen Austin,CS289,Fund all.,39,41,80,Pass
+1VI22CS445,Kristen Austin,CS723,Expert according who paper.,17,47,64,Pass
+1VI22CS445,Kristen Austin,CS776,Government war.,26,4,30,Fail
+1VI22CS857,Albert Reese,CS464,Despite teach marriage chair.,1,32,33,Fail
+1VI22CS857,Albert Reese,CS292,Send.,33,16,49,Pass
+1VI22CS857,Albert Reese,CS861,Get despite decision.,48,48,96,Pass
+1VI22CS857,Albert Reese,CS856,Often hour physical.,43,5,48,Pass
+1VI22CS857,Albert Reese,CS266,Evening official just only.,12,6,18,Fail
+1VI22CS180,Christina Davidson,CS520,Region rock ball human.,24,12,36,Fail
+1VI22CS180,Christina Davidson,CS419,Not skin.,34,38,72,Pass
+1VI22CS180,Christina Davidson,CS695,Yet bar.,27,33,60,Pass
+1VI22CS180,Christina Davidson,CS923,Industry just edge.,35,32,67,Pass
+1VI22CS180,Christina Davidson,CS830,Smile reduce.,9,43,52,Pass
+1VI22CS284,John Barrera,CS275,Traditional PM thank.,30,33,63,Pass
+1VI22CS284,John Barrera,CS249,Business direction approach.,25,24,49,Pass
+1VI22CS284,John Barrera,CS392,Me career evening.,13,27,40,Pass
+1VI22CS284,John Barrera,CS464,Film nature by.,9,49,58,Pass
+1VI22CS284,John Barrera,CS373,Boy meet oil ball.,8,6,14,Fail
+1VI22CS242,Tami Brennan,CS653,Training wind draw.,30,48,78,Pass
+1VI22CS242,Tami Brennan,CS341,Mr impact ahead.,14,35,49,Pass
+1VI22CS242,Tami Brennan,CS543,Four themselves decade.,15,44,59,Pass
+1VI22CS242,Tami Brennan,CS556,Defense move positive.,10,21,31,Fail
+1VI22CS242,Tami Brennan,CS576,Program or use.,19,36,55,Pass
+1VI22CS967,Jessica Rangel,CS863,Tax clear.,5,24,29,Fail
+1VI22CS967,Jessica Rangel,CS909,Significant later beautiful manage.,44,1,45,Pass
+1VI22CS967,Jessica Rangel,CS341,It court.,34,12,46,Pass
+1VI22CS967,Jessica Rangel,CS904,Save measure book.,15,30,45,Pass
+1VI22CS967,Jessica Rangel,CS582,Truth maybe focus.,44,5,49,Pass
+1VI22CS446,Wendy Shannon DVM,CS583,Activity story.,43,14,57,Pass
+1VI22CS446,Wendy Shannon DVM,CS811,None fish down.,7,49,56,Pass
+1VI22CS446,Wendy Shannon DVM,CS417,Mind environment.,50,34,84,Pass
+1VI22CS446,Wendy Shannon DVM,CS609,Outside sport word.,0,48,48,Pass
+1VI22CS446,Wendy Shannon DVM,CS404,Green audience left.,47,21,68,Pass
+1VI22CS261,Elaine Ross,CS256,Staff them energy.,3,14,17,Fail
+1VI22CS261,Elaine Ross,CS497,Collection risk note.,44,50,94,Pass
+1VI22CS261,Elaine Ross,CS850,Lawyer natural.,44,20,64,Pass
+1VI22CS261,Elaine Ross,CS937,Western.,6,43,49,Pass
+1VI22CS261,Elaine Ross,CS806,Book international religious.,16,5,21,Fail
+1VI22CS227,Cheryl Graves,CS233,Into about production glass.,1,11,12,Fail
+1VI22CS227,Cheryl Graves,CS452,Cover near save every.,13,48,61,Pass
+1VI22CS227,Cheryl Graves,CS266,Less.,37,41,78,Pass
+1VI22CS227,Cheryl Graves,CS906,House fight reveal.,44,4,48,Pass
+1VI22CS227,Cheryl Graves,CS421,Technology thing.,27,39,66,Pass
+1VI22CS770,Tammy Rivas,CS773,Door evidence year.,35,33,68,Pass
+1VI22CS770,Tammy Rivas,CS640,Perhaps section.,39,14,53,Pass
+1VI22CS770,Tammy Rivas,CS774,Also majority whom.,14,29,43,Pass
+1VI22CS770,Tammy Rivas,CS145,Weight authority.,38,35,73,Pass
+1VI22CS770,Tammy Rivas,CS130,Throw girl research ten.,34,50,84,Pass
+1VI22CS180,William Gray,CS552,Campaign.,5,4,9,Fail
+1VI22CS180,William Gray,CS608,Scene case teach.,3,25,28,Fail
+1VI22CS180,William Gray,CS106,Become economic.,33,10,43,Pass
+1VI22CS180,William Gray,CS465,On conference.,15,4,19,Fail
+1VI22CS180,William Gray,CS427,Reduce most report.,34,32,66,Pass
+1VI22CS156,Jordan Crawford,CS220,Recently information there.,41,3,44,Pass
+1VI22CS156,Jordan Crawford,CS505,Often never.,8,5,13,Fail
+1VI22CS156,Jordan Crawford,CS980,Share federal all part.,0,41,41,Pass
+1VI22CS156,Jordan Crawford,CS224,Policy goal.,49,21,70,Pass
+1VI22CS156,Jordan Crawford,CS541,Prepare evening.,10,9,19,Fail
+1VI22CS955,William Rodriguez,CS360,Finally into stuff.,10,35,45,Pass
+1VI22CS955,William Rodriguez,CS135,Real.,47,38,85,Pass
+1VI22CS955,William Rodriguez,CS877,Child including.,42,2,44,Pass
+1VI22CS955,William Rodriguez,CS527,Much building eye none.,12,43,55,Pass
+1VI22CS955,William Rodriguez,CS905,True able general.,12,19,31,Fail
+1VI22CS830,Alexander Lambert MD,CS449,Pick keep.,45,49,94,Pass
+1VI22CS830,Alexander Lambert MD,CS182,Rock us.,12,46,58,Pass
+1VI22CS830,Alexander Lambert MD,CS279,Message.,5,24,29,Fail
+1VI22CS830,Alexander Lambert MD,CS220,Free fall south.,3,48,51,Pass
+1VI22CS830,Alexander Lambert MD,CS758,Energy discussion.,25,46,71,Pass
+1VI22CS826,Manuel Li,CS217,Discuss box real.,48,32,80,Pass
+1VI22CS826,Manuel Li,CS428,Magazine doctor.,22,14,36,Fail
+1VI22CS826,Manuel Li,CS753,Large show several.,39,30,69,Pass
+1VI22CS826,Manuel Li,CS979,Source add arrive of.,20,32,52,Pass
+1VI22CS826,Manuel Li,CS620,Research edge teach where.,41,49,90,Pass
+1VI22CS679,Alicia Ayala MD,CS881,Always heart.,47,20,67,Pass
+1VI22CS679,Alicia Ayala MD,CS404,Friend strategy ok.,44,43,87,Pass
+1VI22CS679,Alicia Ayala MD,CS620,Hold police top.,41,16,57,Pass
+1VI22CS679,Alicia Ayala MD,CS657,Gas close bring article.,37,34,71,Pass
+1VI22CS679,Alicia Ayala MD,CS124,Chance newspaper usually there.,6,46,52,Pass
+1VI22CS462,Monica Miller,CS859,Have call.,10,45,55,Pass
+1VI22CS462,Monica Miller,CS869,Wall maintain these.,5,34,39,Fail
+1VI22CS462,Monica Miller,CS576,Manager.,39,42,81,Pass
+1VI22CS462,Monica Miller,CS496,Many around wind.,13,8,21,Fail
+1VI22CS462,Monica Miller,CS375,Remember concern industry.,44,40,84,Pass
+1VI22CS541,Kevin Cohen,CS386,Especially some.,14,11,25,Fail
+1VI22CS541,Kevin Cohen,CS901,Food conference at.,34,6,40,Pass
+1VI22CS541,Kevin Cohen,CS895,Power you rich.,33,36,69,Pass
+1VI22CS541,Kevin Cohen,CS742,Provide quickly.,46,42,88,Pass
+1VI22CS541,Kevin Cohen,CS897,Summer staff wife.,45,30,75,Pass
+1VI22CS985,Kevin Powell,CS289,Firm measure yourself.,15,36,51,Pass
+1VI22CS985,Kevin Powell,CS140,Star record behind.,12,29,41,Pass
+1VI22CS985,Kevin Powell,CS129,Voice pick.,8,8,16,Fail
+1VI22CS985,Kevin Powell,CS247,Rule thing.,22,37,59,Pass
+1VI22CS985,Kevin Powell,CS502,Relationship.,50,15,65,Pass
+1VI22CS417,Don Parker,CS256,Establish either.,38,32,70,Pass
+1VI22CS417,Don Parker,CS200,Final product.,42,7,49,Pass
+1VI22CS417,Don Parker,CS137,Possible employee act.,29,46,75,Pass
+1VI22CS417,Don Parker,CS666,Special several.,41,26,67,Pass
+1VI22CS417,Don Parker,CS442,Table work manager.,47,0,47,Pass
+1VI22CS633,Corey Wyatt,CS848,Involve west.,48,18,66,Pass
+1VI22CS633,Corey Wyatt,CS348,Exist evening.,25,16,41,Pass
+1VI22CS633,Corey Wyatt,CS827,Fine candidate say.,14,40,54,Pass
+1VI22CS633,Corey Wyatt,CS296,Network surface.,35,31,66,Pass
+1VI22CS633,Corey Wyatt,CS568,Read beyond edge.,30,37,67,Pass
+1VI22CS599,Gina Lutz,CS417,You fund.,39,35,74,Pass
+1VI22CS599,Gina Lutz,CS682,Practice book the.,3,18,21,Fail
+1VI22CS599,Gina Lutz,CS374,Talk learn especially.,25,7,32,Fail
+1VI22CS599,Gina Lutz,CS688,Debate model part.,26,0,26,Fail
+1VI22CS599,Gina Lutz,CS585,Particularly student even.,24,32,56,Pass
+1VI22CS879,Diane Green,CS210,Vote machine.,3,9,12,Fail
+1VI22CS879,Diane Green,CS448,Bill race.,17,46,63,Pass
+1VI22CS879,Diane Green,CS744,More even or.,32,4,36,Fail
+1VI22CS879,Diane Green,CS679,Market.,25,41,66,Pass
+1VI22CS879,Diane Green,CS498,Realize others heart difference.,39,15,54,Pass
+1VI22CS113,Ryan Johnson,CS312,Receive able something.,39,16,55,Pass
+1VI22CS113,Ryan Johnson,CS365,Debate quickly.,31,3,34,Fail
+1VI22CS113,Ryan Johnson,CS802,Guy authority southern.,42,30,72,Pass
+1VI22CS113,Ryan Johnson,CS338,Defense rich machine.,21,41,62,Pass
+1VI22CS113,Ryan Johnson,CS106,Believe from college.,48,31,79,Pass
+1VI22CS889,Todd Jenkins,CS152,Time property.,14,34,48,Pass
+1VI22CS889,Todd Jenkins,CS491,Memory.,7,27,34,Fail
+1VI22CS889,Todd Jenkins,CS710,Down very war.,6,45,51,Pass
+1VI22CS889,Todd Jenkins,CS741,End your.,6,39,45,Pass
+1VI22CS889,Todd Jenkins,CS232,Treat order.,13,18,31,Fail
+1VI22CS115,Barbara Jones,CS939,Best difference eat.,8,33,41,Pass
+1VI22CS115,Barbara Jones,CS315,Method sing.,20,8,28,Fail
+1VI22CS115,Barbara Jones,CS667,Admit before way.,2,33,35,Fail
+1VI22CS115,Barbara Jones,CS609,Day short seat.,2,6,8,Fail
+1VI22CS115,Barbara Jones,CS679,Friend.,31,3,34,Fail
+1VI22CS197,Donald Fisher,CS874,Business hope.,26,47,73,Pass
+1VI22CS197,Donald Fisher,CS223,Argue four.,7,22,29,Fail
+1VI22CS197,Donald Fisher,CS886,May thank.,14,50,64,Pass
+1VI22CS197,Donald Fisher,CS633,Push unit.,11,33,44,Pass
+1VI22CS197,Donald Fisher,CS563,Article turn onto audience.,21,25,46,Pass
+1VI22CS857,Michelle Hartman,CS509,Only tree special.,4,26,30,Fail
+1VI22CS857,Michelle Hartman,CS416,Past less.,24,10,34,Fail
+1VI22CS857,Michelle Hartman,CS458,Collection structure.,15,8,23,Fail
+1VI22CS857,Michelle Hartman,CS998,Large.,19,5,24,Fail
+1VI22CS857,Michelle Hartman,CS874,Measure travel newspaper live.,25,9,34,Fail
+1VI22CS280,Amanda George,CS419,Cost.,17,33,50,Pass
+1VI22CS280,Amanda George,CS537,Task carry growth.,48,12,60,Pass
+1VI22CS280,Amanda George,CS149,Goal type cell.,8,26,34,Fail
+1VI22CS280,Amanda George,CS568,Your evening.,33,17,50,Pass
+1VI22CS280,Amanda George,CS567,Mind prove answer.,15,26,41,Pass
+1VI22CS463,John Fisher,CS197,Stand may.,15,44,59,Pass
+1VI22CS463,John Fisher,CS489,Example final.,29,9,38,Fail
+1VI22CS463,John Fisher,CS530,Voice ground.,39,13,52,Pass
+1VI22CS463,John Fisher,CS782,Partner dream.,45,7,52,Pass
+1VI22CS463,John Fisher,CS223,Miss plant spring.,34,21,55,Pass
+1VI22CS804,Adam Ray,CS304,Key body reveal.,3,2,5,Fail
+1VI22CS804,Adam Ray,CS400,Any religious.,3,50,53,Pass
+1VI22CS804,Adam Ray,CS829,Deal nearly music.,20,20,40,Pass
+1VI22CS804,Adam Ray,CS523,Without door.,36,24,60,Pass
+1VI22CS804,Adam Ray,CS843,Open.,27,46,73,Pass
+1VI22CS493,Mackenzie Gill,CS874,Place consumer able.,6,3,9,Fail
+1VI22CS493,Mackenzie Gill,CS870,Fact forget.,38,39,77,Pass
+1VI22CS493,Mackenzie Gill,CS277,Next white country.,20,25,45,Pass
+1VI22CS493,Mackenzie Gill,CS583,Free respond.,28,38,66,Pass
+1VI22CS493,Mackenzie Gill,CS268,Administration ten.,50,15,65,Pass
+1VI22CS704,Kristopher Adams,CS452,Truth follow.,49,3,52,Pass
+1VI22CS704,Kristopher Adams,CS648,Society.,3,29,32,Fail
+1VI22CS704,Kristopher Adams,CS781,Yes last activity.,23,48,71,Pass
+1VI22CS704,Kristopher Adams,CS908,Go well.,21,9,30,Fail
+1VI22CS704,Kristopher Adams,CS499,Design country.,47,38,85,Pass
+1VI22CS314,Tiffany Peters,CS323,Catch group simple.,49,37,86,Pass
+1VI22CS314,Tiffany Peters,CS893,Reduce who.,26,31,57,Pass
+1VI22CS314,Tiffany Peters,CS606,Tax beat.,8,31,39,Fail
+1VI22CS314,Tiffany Peters,CS828,Value structure reflect.,2,20,22,Fail
+1VI22CS314,Tiffany Peters,CS399,Present how side tell.,21,50,71,Pass
+1VI22CS911,Jennifer Kramer,CS589,Front right free.,20,22,42,Pass
+1VI22CS911,Jennifer Kramer,CS715,Glass study size.,41,44,85,Pass
+1VI22CS911,Jennifer Kramer,CS177,Smile compare.,34,18,52,Pass
+1VI22CS911,Jennifer Kramer,CS959,Rule red.,46,24,70,Pass
+1VI22CS911,Jennifer Kramer,CS414,This glass stage.,33,29,62,Pass
+1VI22CS913,Anne Tucker,CS949,Next standard.,44,17,61,Pass
+1VI22CS913,Anne Tucker,CS317,Success.,3,8,11,Fail
+1VI22CS913,Anne Tucker,CS253,Probably notice.,37,9,46,Pass
+1VI22CS913,Anne Tucker,CS747,Rise team factor.,35,8,43,Pass
+1VI22CS913,Anne Tucker,CS482,Body they air.,5,23,28,Fail
+1VI22CS223,Timothy Guzman,CS282,Like true.,48,16,64,Pass
+1VI22CS223,Timothy Guzman,CS792,Next remember message.,8,4,12,Fail
+1VI22CS223,Timothy Guzman,CS616,Happen week stand practice.,24,13,37,Fail
+1VI22CS223,Timothy Guzman,CS255,Usually campaign.,49,50,99,Pass
+1VI22CS223,Timothy Guzman,CS247,Himself place.,43,20,63,Pass
+1VI22CS220,Omar Cooper,CS320,Charge rate head.,14,42,56,Pass
+1VI22CS220,Omar Cooper,CS802,Others.,19,8,27,Fail
+1VI22CS220,Omar Cooper,CS878,Picture ten collection.,47,14,61,Pass
+1VI22CS220,Omar Cooper,CS734,Happen cause either discover.,38,27,65,Pass
+1VI22CS220,Omar Cooper,CS814,Piece raise.,7,45,52,Pass
+1VI22CS807,Gregory Martin,CS864,As get.,28,36,64,Pass
+1VI22CS807,Gregory Martin,CS215,No trouble.,36,2,38,Fail
+1VI22CS807,Gregory Martin,CS134,Soldier west middle.,37,16,53,Pass
+1VI22CS807,Gregory Martin,CS365,Term region.,21,50,71,Pass
+1VI22CS807,Gregory Martin,CS703,Property camera.,32,1,33,Fail
+1VI22CS199,Mrs. Marissa Gilmore,CS530,Rise wonder democratic.,8,44,52,Pass
+1VI22CS199,Mrs. Marissa Gilmore,CS744,Data.,23,49,72,Pass
+1VI22CS199,Mrs. Marissa Gilmore,CS639,Upon stand policy.,50,49,99,Pass
+1VI22CS199,Mrs. Marissa Gilmore,CS804,Thought as.,7,34,41,Pass
+1VI22CS199,Mrs. Marissa Gilmore,CS922,Yard tree identify present.,39,37,76,Pass
+1VI22CS748,John Jones,CS704,Training laugh first.,20,30,50,Pass
+1VI22CS748,John Jones,CS221,Candidate always wish.,5,13,18,Fail
+1VI22CS748,John Jones,CS114,Total attention.,35,27,62,Pass
+1VI22CS748,John Jones,CS610,Media must technology.,37,17,54,Pass
+1VI22CS748,John Jones,CS533,Travel whatever message.,23,19,42,Pass
+1VI22CS658,Matthew Price,CS621,Always question born.,23,42,65,Pass
+1VI22CS658,Matthew Price,CS289,Remember ever memory.,37,9,46,Pass
+1VI22CS658,Matthew Price,CS933,Soon leg.,23,38,61,Pass
+1VI22CS658,Matthew Price,CS350,System speech public.,38,4,42,Pass
+1VI22CS658,Matthew Price,CS735,Indeed other move.,41,35,76,Pass
+1VI22CS897,Sara Wilson,CS589,Pattern.,26,37,63,Pass
+1VI22CS897,Sara Wilson,CS859,Build common everything.,46,24,70,Pass
+1VI22CS897,Sara Wilson,CS352,Event shoulder.,17,42,59,Pass
+1VI22CS897,Sara Wilson,CS741,Occur admit job.,14,35,49,Pass
+1VI22CS897,Sara Wilson,CS693,System sort.,5,22,27,Fail
+1VI22CS621,Barbara Bell,CS189,Whole character small.,38,26,64,Pass
+1VI22CS621,Barbara Bell,CS466,Station single radio accept.,36,50,86,Pass
+1VI22CS621,Barbara Bell,CS328,Guy road high.,49,32,81,Pass
+1VI22CS621,Barbara Bell,CS693,Join large she.,24,38,62,Pass
+1VI22CS621,Barbara Bell,CS529,Attorney line project.,20,38,58,Pass
+1VI22CS249,Joseph Atkinson,CS356,Rest another campaign.,3,20,23,Fail
+1VI22CS249,Joseph Atkinson,CS487,Never treatment continue.,42,9,51,Pass
+1VI22CS249,Joseph Atkinson,CS853,Return.,0,1,1,Fail
+1VI22CS249,Joseph Atkinson,CS312,History speak.,42,23,65,Pass
+1VI22CS249,Joseph Atkinson,CS148,Hot system us government.,3,8,11,Fail
+1VI22CS691,Daniel Calhoun,CS509,Great walk.,3,13,16,Fail
+1VI22CS691,Daniel Calhoun,CS975,Six baby yard rest.,43,13,56,Pass
+1VI22CS691,Daniel Calhoun,CS923,Three positive action.,3,25,28,Fail
+1VI22CS691,Daniel Calhoun,CS824,Build fine quite.,15,35,50,Pass
+1VI22CS691,Daniel Calhoun,CS766,Sort quite policy.,17,4,21,Fail
+1VI22CS735,Jesse Martin,CS840,Market.,45,50,95,Pass
+1VI22CS735,Jesse Martin,CS545,Fact another.,17,19,36,Fail
+1VI22CS735,Jesse Martin,CS350,Act whatever.,37,31,68,Pass
+1VI22CS735,Jesse Martin,CS217,Agreement right likely.,24,47,71,Pass
+1VI22CS735,Jesse Martin,CS177,Computer treatment investment.,28,10,38,Fail
+1VI22CS525,George Smith,CS463,Member its.,36,9,45,Pass
+1VI22CS525,George Smith,CS918,Security edge.,13,1,14,Fail
+1VI22CS525,George Smith,CS113,Media spend use.,10,8,18,Fail
+1VI22CS525,George Smith,CS365,Eye quality.,45,17,62,Pass
+1VI22CS525,George Smith,CS316,Each director just.,36,23,59,Pass
+1VI22CS819,Mark Hartman,CS898,Entire provide able.,6,6,12,Fail
+1VI22CS819,Mark Hartman,CS332,Dark student mind.,2,10,12,Fail
+1VI22CS819,Mark Hartman,CS531,Others suggest maintain.,43,13,56,Pass
+1VI22CS819,Mark Hartman,CS278,Recognize provide.,19,11,30,Fail
+1VI22CS819,Mark Hartman,CS348,Law Congress sell.,42,5,47,Pass
+1VI22CS136,Douglas Lowery,CS611,Tell tend chance.,26,5,31,Fail
+1VI22CS136,Douglas Lowery,CS158,Government main thousand.,33,8,41,Pass
+1VI22CS136,Douglas Lowery,CS135,Benefit table use.,37,44,81,Pass
+1VI22CS136,Douglas Lowery,CS608,Age several.,33,12,45,Pass
+1VI22CS136,Douglas Lowery,CS517,Pass teacher.,47,46,93,Pass
+1VI22CS563,Peter Waters,CS685,Fly professor.,28,1,29,Fail
+1VI22CS563,Peter Waters,CS665,Yeah behind.,23,41,64,Pass
+1VI22CS563,Peter Waters,CS611,Them.,46,13,59,Pass
+1VI22CS563,Peter Waters,CS518,Chair.,8,42,50,Pass
+1VI22CS563,Peter Waters,CS414,Recent thought.,5,4,9,Fail
+1VI22CS624,Bethany Baird,CS738,Check bad.,18,43,61,Pass
+1VI22CS624,Bethany Baird,CS811,Black indeed high.,30,24,54,Pass
+1VI22CS624,Bethany Baird,CS405,Question party environment.,33,35,68,Pass
+1VI22CS624,Bethany Baird,CS445,On admit data.,37,0,37,Fail
+1VI22CS624,Bethany Baird,CS567,Town author standard.,40,7,47,Pass
+1VI22CS851,Sara Klein,CS776,Also.,28,16,44,Pass
+1VI22CS851,Sara Klein,CS506,Meet yet protect.,27,46,73,Pass
+1VI22CS851,Sara Klein,CS132,Right speak short wide.,6,10,16,Fail
+1VI22CS851,Sara Klein,CS894,Image response.,36,2,38,Fail
+1VI22CS851,Sara Klein,CS108,Form kitchen fight.,45,31,76,Pass
+1VI22CS818,Mrs. Jamie Ferguson,CS333,Father.,37,1,38,Fail
+1VI22CS818,Mrs. Jamie Ferguson,CS389,Century include fish.,0,12,12,Fail
+1VI22CS818,Mrs. Jamie Ferguson,CS126,Discussion truth participant.,32,18,50,Pass
+1VI22CS818,Mrs. Jamie Ferguson,CS582,Recent condition.,45,33,78,Pass
+1VI22CS818,Mrs. Jamie Ferguson,CS653,Little yourself.,10,48,58,Pass
+1VI22CS937,Anna Ellis,CS601,Resource without east.,50,33,83,Pass
+1VI22CS937,Anna Ellis,CS752,Leader very.,22,31,53,Pass
+1VI22CS937,Anna Ellis,CS648,Little trouble.,23,18,41,Pass
+1VI22CS937,Anna Ellis,CS620,Agreement everyone current.,43,32,75,Pass
+1VI22CS937,Anna Ellis,CS540,Billion man then.,0,21,21,Fail
+1VI22CS553,Dr. Eric Cruz,CS983,Debate would note.,10,34,44,Pass
+1VI22CS553,Dr. Eric Cruz,CS596,Green glass.,28,50,78,Pass
+1VI22CS553,Dr. Eric Cruz,CS881,Us example sing.,13,33,46,Pass
+1VI22CS553,Dr. Eric Cruz,CS263,West interesting enjoy.,24,6,30,Fail
+1VI22CS553,Dr. Eric Cruz,CS720,Either.,39,40,79,Pass
+1VI22CS101,Brandon Smith,CS560,Design charge.,21,37,58,Pass
+1VI22CS101,Brandon Smith,CS260,Eight expect plant floor.,27,48,75,Pass
+1VI22CS101,Brandon Smith,CS111,Could five ball.,9,20,29,Fail
+1VI22CS101,Brandon Smith,CS256,Simply phone shoulder.,8,15,23,Fail
+1VI22CS101,Brandon Smith,CS829,Time audience.,44,36,80,Pass
+1VI22CS327,Jennifer Lee,CS982,Year day.,47,21,68,Pass
+1VI22CS327,Jennifer Lee,CS995,Hold leg understand.,37,40,77,Pass
+1VI22CS327,Jennifer Lee,CS609,There interview.,45,40,85,Pass
+1VI22CS327,Jennifer Lee,CS569,If appear list.,21,13,34,Fail
+1VI22CS327,Jennifer Lee,CS180,Several way.,49,40,89,Pass
+1VI22CS410,Julia Stark,CS396,Church news.,11,45,56,Pass
+1VI22CS410,Julia Stark,CS547,Front population community.,43,36,79,Pass
+1VI22CS410,Julia Stark,CS186,Itself through successful.,23,0,23,Fail
+1VI22CS410,Julia Stark,CS703,Rate task clearly.,5,25,30,Fail
+1VI22CS410,Julia Stark,CS656,Eye visit.,31,26,57,Pass
+1VI22CS366,Catherine Flores,CS155,Rock measure.,29,9,38,Fail
+1VI22CS366,Catherine Flores,CS327,Hear.,48,24,72,Pass
+1VI22CS366,Catherine Flores,CS324,Service none image.,24,8,32,Fail
+1VI22CS366,Catherine Flores,CS388,Message material.,14,5,19,Fail
+1VI22CS366,Catherine Flores,CS290,Great.,48,19,67,Pass
+1VI22CS683,Sara Holmes,CS782,Administration show fill allow.,1,20,21,Fail
+1VI22CS683,Sara Holmes,CS244,Example speech.,28,39,67,Pass
+1VI22CS683,Sara Holmes,CS878,Water family door.,46,29,75,Pass
+1VI22CS683,Sara Holmes,CS427,Good staff with the.,24,1,25,Fail
+1VI22CS683,Sara Holmes,CS626,Want picture.,38,23,61,Pass
+1VI22CS859,Brian Roman,CS521,Half three.,49,42,91,Pass
+1VI22CS859,Brian Roman,CS216,From direction bed.,44,30,74,Pass
+1VI22CS859,Brian Roman,CS793,How race however.,35,3,38,Fail
+1VI22CS859,Brian Roman,CS839,Relationship feel.,11,21,32,Fail
+1VI22CS859,Brian Roman,CS849,Long man understand.,44,8,52,Pass
+1VI22CS233,Joseph Lopez,CS731,Manage within see.,19,2,21,Fail
+1VI22CS233,Joseph Lopez,CS898,Trial argue local serve.,38,18,56,Pass
+1VI22CS233,Joseph Lopez,CS894,Avoid short.,40,19,59,Pass
+1VI22CS233,Joseph Lopez,CS631,None suffer.,1,27,28,Fail
+1VI22CS233,Joseph Lopez,CS618,Own condition letter.,48,20,68,Pass
+1VI22CS501,Ashley Henry,CS275,Sport fine book.,28,11,39,Fail
+1VI22CS501,Ashley Henry,CS188,Then Democrat.,50,7,57,Pass
+1VI22CS501,Ashley Henry,CS664,Teach rock.,47,48,95,Pass
+1VI22CS501,Ashley Henry,CS590,During ahead science.,9,27,36,Fail
+1VI22CS501,Ashley Henry,CS460,Lead present.,8,1,9,Fail
+1VI22CS600,Leonard Mccoy,CS167,Police science.,34,32,66,Pass
+1VI22CS600,Leonard Mccoy,CS352,Best address.,14,25,39,Fail
+1VI22CS600,Leonard Mccoy,CS218,Detail.,38,42,80,Pass
+1VI22CS600,Leonard Mccoy,CS687,Color author.,11,38,49,Pass
+1VI22CS600,Leonard Mccoy,CS904,Democrat great.,47,22,69,Pass
+1VI22CS668,Andrea Chavez,CS534,Would officer best.,27,30,57,Pass
+1VI22CS668,Andrea Chavez,CS229,Pattern that.,38,15,53,Pass
+1VI22CS668,Andrea Chavez,CS662,Past result.,45,48,93,Pass
+1VI22CS668,Andrea Chavez,CS290,Particularly decade once.,48,7,55,Pass
+1VI22CS668,Andrea Chavez,CS297,Item decision.,32,30,62,Pass
+1VI22CS130,Amy Shah,CS298,Manage woman discover reason.,16,16,32,Fail
+1VI22CS130,Amy Shah,CS969,Career book family.,19,8,27,Fail
+1VI22CS130,Amy Shah,CS269,Growth soldier.,16,23,39,Fail
+1VI22CS130,Amy Shah,CS161,Catch create follow.,21,14,35,Fail
+1VI22CS130,Amy Shah,CS996,Cell behavior test.,7,12,19,Fail
+1VI22CS545,Cynthia Ryan,CS447,Star sister.,37,50,87,Pass
+1VI22CS545,Cynthia Ryan,CS637,Better.,17,15,32,Fail
+1VI22CS545,Cynthia Ryan,CS525,Easy public rather.,11,24,35,Fail
+1VI22CS545,Cynthia Ryan,CS904,Garden only.,5,19,24,Fail
+1VI22CS545,Cynthia Ryan,CS162,Financial dog.,43,5,48,Pass
+1VI22CS426,Pamela Rivera,CS296,Agree ahead plant.,19,32,51,Pass
+1VI22CS426,Pamela Rivera,CS515,Collection forward.,11,12,23,Fail
+1VI22CS426,Pamela Rivera,CS199,Include true.,17,30,47,Pass
+1VI22CS426,Pamela Rivera,CS698,Late compare.,46,26,72,Pass
+1VI22CS426,Pamela Rivera,CS954,Shake after close.,23,9,32,Fail
+1VI22CS520,Sarah Turner,CS693,Wide list computer.,4,48,52,Pass
+1VI22CS520,Sarah Turner,CS609,We main.,16,33,49,Pass
+1VI22CS520,Sarah Turner,CS662,Professional one.,6,21,27,Fail
+1VI22CS520,Sarah Turner,CS457,Give eat one.,15,19,34,Fail
+1VI22CS520,Sarah Turner,CS268,Image director.,41,7,48,Pass
+1VI22CS148,Roy Ryan,CS861,Together per.,25,1,26,Fail
+1VI22CS148,Roy Ryan,CS675,Strategy both level.,12,50,62,Pass
+1VI22CS148,Roy Ryan,CS447,Action other.,15,39,54,Pass
+1VI22CS148,Roy Ryan,CS702,Certain Congress.,32,14,46,Pass
+1VI22CS148,Roy Ryan,CS255,Wear important.,40,42,82,Pass
+1VI22CS280,Samuel Hernandez,CS517,Politics do.,12,4,16,Fail
+1VI22CS280,Samuel Hernandez,CS730,Yes near.,2,23,25,Fail
+1VI22CS280,Samuel Hernandez,CS808,How article himself.,41,17,58,Pass
+1VI22CS280,Samuel Hernandez,CS405,Region activity cultural audience.,33,45,78,Pass
+1VI22CS280,Samuel Hernandez,CS186,Anyone blue.,6,29,35,Fail
+1VI22CS653,Karen Thomas,CS250,Heart teacher.,15,28,43,Pass
+1VI22CS653,Karen Thomas,CS328,Should animal.,8,44,52,Pass
+1VI22CS653,Karen Thomas,CS761,Hope structure travel stuff.,21,1,22,Fail
+1VI22CS653,Karen Thomas,CS804,Spring.,25,12,37,Fail
+1VI22CS653,Karen Thomas,CS713,White leader.,27,14,41,Pass
+1VI22CS234,Aaron Newman,CS641,Course believe.,32,19,51,Pass
+1VI22CS234,Aaron Newman,CS824,Responsibility stock.,33,6,39,Fail
+1VI22CS234,Aaron Newman,CS556,Although.,6,37,43,Pass
+1VI22CS234,Aaron Newman,CS389,Your second often.,20,0,20,Fail
+1VI22CS234,Aaron Newman,CS611,Central really responsibility.,21,18,39,Fail
+1VI22CS796,Matthew Foster,CS249,Win century.,24,18,42,Pass
+1VI22CS796,Matthew Foster,CS577,Decide suddenly.,37,9,46,Pass
+1VI22CS796,Matthew Foster,CS398,Necessary.,33,4,37,Fail
+1VI22CS796,Matthew Foster,CS962,South above able.,29,10,39,Fail
+1VI22CS796,Matthew Foster,CS158,Ok.,15,45,60,Pass
+1VI22CS727,Timothy Johnston,CS194,Push experience figure official.,44,25,69,Pass
+1VI22CS727,Timothy Johnston,CS319,Magazine follow.,36,18,54,Pass
+1VI22CS727,Timothy Johnston,CS419,Fill stuff.,28,36,64,Pass
+1VI22CS727,Timothy Johnston,CS858,Similar attorney catch.,25,41,66,Pass
+1VI22CS727,Timothy Johnston,CS211,Become at manage.,32,28,60,Pass
+1VI22CS922,Cathy Perez,CS281,Fall.,14,47,61,Pass
+1VI22CS922,Cathy Perez,CS649,Hour education.,49,44,93,Pass
+1VI22CS922,Cathy Perez,CS651,Seek season all.,11,10,21,Fail
+1VI22CS922,Cathy Perez,CS682,Ask together.,5,21,26,Fail
+1VI22CS922,Cathy Perez,CS346,Force responsibility.,9,9,18,Fail
+1VI22CS750,Becky Reyes,CS314,White close.,1,50,51,Pass
+1VI22CS750,Becky Reyes,CS508,About.,12,27,39,Fail
+1VI22CS750,Becky Reyes,CS748,Hair indeed.,50,2,52,Pass
+1VI22CS750,Becky Reyes,CS695,News foot.,12,33,45,Pass
+1VI22CS750,Becky Reyes,CS350,Red represent team six.,21,15,36,Fail
+1VI22CS548,Daniel Lane,CS220,Cultural coach.,43,23,66,Pass
+1VI22CS548,Daniel Lane,CS789,Herself six.,9,39,48,Pass
+1VI22CS548,Daniel Lane,CS810,Second seek.,5,35,40,Pass
+1VI22CS548,Daniel Lane,CS636,Political agreement between.,9,16,25,Fail
+1VI22CS548,Daniel Lane,CS859,Something her employee.,45,26,71,Pass
+1VI22CS918,Christina Anderson,CS263,Build far.,13,44,57,Pass
+1VI22CS918,Christina Anderson,CS323,Board strategy.,18,10,28,Fail
+1VI22CS918,Christina Anderson,CS898,Product big.,5,33,38,Fail
+1VI22CS918,Christina Anderson,CS642,Almost writer.,25,13,38,Fail
+1VI22CS918,Christina Anderson,CS355,Sea happen.,12,27,39,Fail
+1VI22CS697,Becky Johnson,CS897,Court report.,24,15,39,Fail
+1VI22CS697,Becky Johnson,CS431,Weight.,9,24,33,Fail
+1VI22CS697,Becky Johnson,CS944,More across program.,6,33,39,Fail
+1VI22CS697,Becky Johnson,CS283,Event senior and.,21,44,65,Pass
+1VI22CS697,Becky Johnson,CS316,Kid remember.,47,5,52,Pass
+1VI22CS346,Elizabeth Douglas,CS876,Activity spring world.,6,34,40,Pass
+1VI22CS346,Elizabeth Douglas,CS998,First adult.,38,22,60,Pass
+1VI22CS346,Elizabeth Douglas,CS533,Put risk.,27,50,77,Pass
+1VI22CS346,Elizabeth Douglas,CS536,Movie listen agreement.,44,43,87,Pass
+1VI22CS346,Elizabeth Douglas,CS488,Language instead exist section.,13,28,41,Pass
+1VI22CS319,Timothy Ryan,CS388,More professor author.,8,11,19,Fail
+1VI22CS319,Timothy Ryan,CS354,American artist.,7,10,17,Fail
+1VI22CS319,Timothy Ryan,CS798,Sell heart moment.,49,21,70,Pass
+1VI22CS319,Timothy Ryan,CS836,She.,4,18,22,Fail
+1VI22CS319,Timothy Ryan,CS923,Organization degree game.,38,16,54,Pass
+1VI22CS863,Mallory Russo,CS373,Win seat.,39,6,45,Pass
+1VI22CS863,Mallory Russo,CS541,Back thing.,32,12,44,Pass
+1VI22CS863,Mallory Russo,CS805,Hospital order.,40,28,68,Pass
+1VI22CS863,Mallory Russo,CS813,Road project stop while.,23,46,69,Pass
+1VI22CS863,Mallory Russo,CS658,Behind reality total.,47,37,84,Pass
+1VI22CS338,Joyce Moore,CS344,Cause which.,21,48,69,Pass
+1VI22CS338,Joyce Moore,CS591,Trial phone challenge.,32,11,43,Pass
+1VI22CS338,Joyce Moore,CS617,Be eat for.,26,49,75,Pass
+1VI22CS338,Joyce Moore,CS897,Something staff box.,49,21,70,Pass
+1VI22CS338,Joyce Moore,CS571,Religious sell.,30,5,35,Fail
+1VI22CS388,Kenneth Erickson,CS908,Yeah.,14,10,24,Fail
+1VI22CS388,Kenneth Erickson,CS214,Answer off produce wait.,44,42,86,Pass
+1VI22CS388,Kenneth Erickson,CS135,So family section.,1,0,1,Fail
+1VI22CS388,Kenneth Erickson,CS938,Participant however billion.,5,1,6,Fail
+1VI22CS388,Kenneth Erickson,CS323,Student.,40,27,67,Pass
+1VI22CS221,Daniel Hughes,CS962,Which high.,29,22,51,Pass
+1VI22CS221,Daniel Hughes,CS224,Condition late development.,35,10,45,Pass
+1VI22CS221,Daniel Hughes,CS903,Rate gun.,49,31,80,Pass
+1VI22CS221,Daniel Hughes,CS249,See including mother development.,13,23,36,Fail
+1VI22CS221,Daniel Hughes,CS915,Rather pay side light.,24,18,42,Pass
+1VI22CS404,Cheyenne Robbins,CS555,Another season image.,25,7,32,Fail
+1VI22CS404,Cheyenne Robbins,CS682,Spend entire.,43,26,69,Pass
+1VI22CS404,Cheyenne Robbins,CS280,Stuff I food.,2,10,12,Fail
+1VI22CS404,Cheyenne Robbins,CS387,Deep three.,34,19,53,Pass
+1VI22CS404,Cheyenne Robbins,CS606,Rock remember.,37,8,45,Pass
+1VI22CS704,Caroline Hill,CS347,Economy better movie.,24,12,36,Fail
+1VI22CS704,Caroline Hill,CS575,Reveal yeah yourself.,5,20,25,Fail
+1VI22CS704,Caroline Hill,CS256,Unit challenge night.,34,43,77,Pass
+1VI22CS704,Caroline Hill,CS683,Daughter number contain.,16,11,27,Fail
+1VI22CS704,Caroline Hill,CS402,Happy both while.,44,14,58,Pass
+1VI22CS580,Diana Taylor,CS753,Senior avoid.,18,22,40,Pass
+1VI22CS580,Diana Taylor,CS576,Newspaper because organization.,18,26,44,Pass
+1VI22CS580,Diana Taylor,CS867,Happy miss.,39,42,81,Pass
+1VI22CS580,Diana Taylor,CS212,Employee prepare clearly.,22,9,31,Fail
+1VI22CS580,Diana Taylor,CS963,Raise pull speak.,10,24,34,Fail
+1VI22CS716,Jessica King,CS770,Conference hope activity.,6,7,13,Fail
+1VI22CS716,Jessica King,CS277,Significant son today.,47,6,53,Pass
+1VI22CS716,Jessica King,CS277,Remain.,20,50,70,Pass
+1VI22CS716,Jessica King,CS120,Candidate light.,44,37,81,Pass
+1VI22CS716,Jessica King,CS249,Catch myself.,23,36,59,Pass
+1VI22CS689,Mr. Tyler Spencer Jr.,CS391,Difficult to response.,40,33,73,Pass
+1VI22CS689,Mr. Tyler Spencer Jr.,CS336,Once member.,28,33,61,Pass
+1VI22CS689,Mr. Tyler Spencer Jr.,CS694,Director personal list.,28,34,62,Pass
+1VI22CS689,Mr. Tyler Spencer Jr.,CS410,Approach appear.,22,49,71,Pass
+1VI22CS689,Mr. Tyler Spencer Jr.,CS596,Economic color.,31,48,79,Pass
+1VI22CS319,Alexis Nolan,CS901,Wish especially have.,37,45,82,Pass
+1VI22CS319,Alexis Nolan,CS478,Owner enough score.,27,45,72,Pass
+1VI22CS319,Alexis Nolan,CS107,Until sea.,17,41,58,Pass
+1VI22CS319,Alexis Nolan,CS629,Value career.,16,14,30,Fail
+1VI22CS319,Alexis Nolan,CS321,Late yard star.,48,37,85,Pass
+1VI22CS376,Kristina Newton,CS947,Activity accept.,9,0,9,Fail
+1VI22CS376,Kristina Newton,CS335,Truth.,2,4,6,Fail
+1VI22CS376,Kristina Newton,CS154,Color image officer.,25,45,70,Pass
+1VI22CS376,Kristina Newton,CS562,Manager cultural name.,42,45,87,Pass
+1VI22CS376,Kristina Newton,CS493,Water any finish find.,36,17,53,Pass
+1VI22CS884,Joy Schwartz,CS702,Science though computer.,34,9,43,Pass
+1VI22CS884,Joy Schwartz,CS839,Teacher late.,37,20,57,Pass
+1VI22CS884,Joy Schwartz,CS834,Nation part.,34,4,38,Fail
+1VI22CS884,Joy Schwartz,CS679,Officer letter director.,14,49,63,Pass
+1VI22CS884,Joy Schwartz,CS449,Could weight result.,24,23,47,Pass
+1VI22CS258,Michael Foster,CS374,Citizen skill system.,18,22,40,Pass
+1VI22CS258,Michael Foster,CS458,Participant laugh ball foreign.,50,19,69,Pass
+1VI22CS258,Michael Foster,CS930,Why.,2,21,23,Fail
+1VI22CS258,Michael Foster,CS714,Increase generation positive.,10,16,26,Fail
+1VI22CS258,Michael Foster,CS712,Machine knowledge.,27,3,30,Fail
+1VI22CS883,Amy Miller,CS727,Positive source effect.,47,41,88,Pass
+1VI22CS883,Amy Miller,CS925,New fly.,30,15,45,Pass
+1VI22CS883,Amy Miller,CS494,There usually power fight.,36,45,81,Pass
+1VI22CS883,Amy Miller,CS147,Laugh evening.,3,10,13,Fail
+1VI22CS883,Amy Miller,CS761,You cell compare.,24,37,61,Pass
+1VI22CS510,Paul Howard,CS993,Approach peace their defense.,1,40,41,Pass
+1VI22CS510,Paul Howard,CS898,Thus certain exist.,8,38,46,Pass
+1VI22CS510,Paul Howard,CS264,Street the.,47,4,51,Pass
+1VI22CS510,Paul Howard,CS346,Particular professor.,12,28,40,Pass
+1VI22CS510,Paul Howard,CS442,Air east paper.,28,12,40,Pass
+1VI22CS941,Cheryl Nunez,CS844,Again through pick.,36,7,43,Pass
+1VI22CS941,Cheryl Nunez,CS714,Rest agency against.,2,18,20,Fail
+1VI22CS941,Cheryl Nunez,CS801,Health.,5,16,21,Fail
+1VI22CS941,Cheryl Nunez,CS399,He experience.,16,5,21,Fail
+1VI22CS941,Cheryl Nunez,CS177,Safe business.,41,29,70,Pass
+1VI22CS468,Zachary Villa,CS352,However.,17,27,44,Pass
+1VI22CS468,Zachary Villa,CS855,Measure medical Republican.,36,17,53,Pass
+1VI22CS468,Zachary Villa,CS777,Station kid.,49,37,86,Pass
+1VI22CS468,Zachary Villa,CS882,Back including.,11,38,49,Pass
+1VI22CS468,Zachary Villa,CS962,High fund energy.,11,44,55,Pass
+1VI22CS538,Sean Merritt,CS116,Second herself drug.,26,45,71,Pass
+1VI22CS538,Sean Merritt,CS918,Idea full culture.,14,1,15,Fail
+1VI22CS538,Sean Merritt,CS208,Price mission soldier.,39,37,76,Pass
+1VI22CS538,Sean Merritt,CS640,Special indicate war.,31,27,58,Pass
+1VI22CS538,Sean Merritt,CS581,Better.,23,15,38,Fail
+1VI22CS162,Natalie Garcia,CS149,Floor sit those.,18,20,38,Fail
+1VI22CS162,Natalie Garcia,CS515,Mrs need produce.,40,49,89,Pass
+1VI22CS162,Natalie Garcia,CS629,Century few agency woman.,6,50,56,Pass
+1VI22CS162,Natalie Garcia,CS328,Recent hear.,39,23,62,Pass
+1VI22CS162,Natalie Garcia,CS302,Buy thought.,20,14,34,Fail
+1VI22CS947,Robert Myers,CS187,Consumer.,14,15,29,Fail
+1VI22CS947,Robert Myers,CS720,Treat loss produce today.,3,43,46,Pass
+1VI22CS947,Robert Myers,CS571,Magazine although treatment audience.,4,16,20,Fail
+1VI22CS947,Robert Myers,CS981,Board such team.,34,14,48,Pass
+1VI22CS947,Robert Myers,CS329,Middle collection.,17,36,53,Pass
+1VI22CS793,Pamela Russell,CS366,Population town.,43,43,86,Pass
+1VI22CS793,Pamela Russell,CS420,Indeed put per.,12,0,12,Fail
+1VI22CS793,Pamela Russell,CS996,Cost skin.,1,25,26,Fail
+1VI22CS793,Pamela Russell,CS694,Wear employee team.,1,23,24,Fail
+1VI22CS793,Pamela Russell,CS837,Student trial.,37,35,72,Pass
+1VI22CS448,Jorge Wilson,CS220,Into lead.,23,19,42,Pass
+1VI22CS448,Jorge Wilson,CS217,Remember himself.,29,34,63,Pass
+1VI22CS448,Jorge Wilson,CS877,Size sense.,7,0,7,Fail
+1VI22CS448,Jorge Wilson,CS499,Away foot rate.,14,41,55,Pass
+1VI22CS448,Jorge Wilson,CS684,Political.,19,44,63,Pass
+1VI22CS334,Jacob Love,CS640,See go bank.,0,33,33,Fail
+1VI22CS334,Jacob Love,CS625,Increase feel each.,13,21,34,Fail
+1VI22CS334,Jacob Love,CS122,Law eye.,11,44,55,Pass
+1VI22CS334,Jacob Love,CS508,Any.,21,47,68,Pass
+1VI22CS334,Jacob Love,CS512,Building others sister.,35,39,74,Pass
+1VI22CS905,Kevin Gonzalez,CS811,Drop usually explain.,19,30,49,Pass
+1VI22CS905,Kevin Gonzalez,CS784,Age.,26,41,67,Pass
+1VI22CS905,Kevin Gonzalez,CS959,Responsibility.,50,44,94,Pass
+1VI22CS905,Kevin Gonzalez,CS497,Mean gun.,21,21,42,Pass
+1VI22CS905,Kevin Gonzalez,CS649,At close identify.,28,47,75,Pass
+1VI22CS513,Mike Vega,CS213,Hear more.,39,22,61,Pass
+1VI22CS513,Mike Vega,CS913,Religious notice its.,11,35,46,Pass
+1VI22CS513,Mike Vega,CS462,Give check onto.,25,27,52,Pass
+1VI22CS513,Mike Vega,CS676,Success community natural.,39,22,61,Pass
+1VI22CS513,Mike Vega,CS448,Wind six now.,15,40,55,Pass
+1VI22CS491,Karen Buckley,CS838,Range his.,50,26,76,Pass
+1VI22CS491,Karen Buckley,CS124,Year apply good.,48,43,91,Pass
+1VI22CS491,Karen Buckley,CS590,Agent seven thousand.,37,19,56,Pass
+1VI22CS491,Karen Buckley,CS736,Require financial safe.,13,4,17,Fail
+1VI22CS491,Karen Buckley,CS442,Thousand responsibility.,44,37,81,Pass
+1VI22CS343,Louis Hines,CS344,Body wide identify.,10,20,30,Fail
+1VI22CS343,Louis Hines,CS455,Glass think.,8,46,54,Pass
+1VI22CS343,Louis Hines,CS506,Produce school look.,0,8,8,Fail
+1VI22CS343,Louis Hines,CS641,Actually election.,38,0,38,Fail
+1VI22CS343,Louis Hines,CS716,Clearly.,19,33,52,Pass
+1VI22CS662,Kimberly Cole,CS464,Choose my.,15,19,34,Fail
+1VI22CS662,Kimberly Cole,CS146,Share glass others.,26,41,67,Pass
+1VI22CS662,Kimberly Cole,CS752,Pay a.,33,13,46,Pass
+1VI22CS662,Kimberly Cole,CS186,Least almost.,6,11,17,Fail
+1VI22CS662,Kimberly Cole,CS680,Staff also rise about.,13,7,20,Fail
+1VI22CS942,William Foster,CS125,Energy another skin.,14,37,51,Pass
+1VI22CS942,William Foster,CS334,Upon truth.,0,30,30,Fail
+1VI22CS942,William Foster,CS153,Computer play either.,34,24,58,Pass
+1VI22CS942,William Foster,CS816,Car add.,15,31,46,Pass
+1VI22CS942,William Foster,CS191,Social add medical.,50,12,62,Pass
+1VI22CS856,Devin Williams,CS341,Community conference.,36,16,52,Pass
+1VI22CS856,Devin Williams,CS827,Green positive analysis.,20,42,62,Pass
+1VI22CS856,Devin Williams,CS797,When skill.,23,7,30,Fail
+1VI22CS856,Devin Williams,CS351,Base fast.,45,3,48,Pass
+1VI22CS856,Devin Williams,CS940,None break.,7,6,13,Fail
+1VI22CS434,Amanda Kane,CS769,Forward.,0,26,26,Fail
+1VI22CS434,Amanda Kane,CS356,Top share.,35,45,80,Pass
+1VI22CS434,Amanda Kane,CS788,Behavior other.,38,18,56,Pass
+1VI22CS434,Amanda Kane,CS238,Audience explain.,4,5,9,Fail
+1VI22CS434,Amanda Kane,CS646,Beat reason per.,46,18,64,Pass
+1VI22CS896,Kristina Hubbard,CS976,Sure activity.,2,22,24,Fail
+1VI22CS896,Kristina Hubbard,CS750,Eight environmental.,45,34,79,Pass
+1VI22CS896,Kristina Hubbard,CS932,Against range.,19,7,26,Fail
+1VI22CS896,Kristina Hubbard,CS302,Key fight.,19,0,19,Fail
+1VI22CS896,Kristina Hubbard,CS211,Born say threat.,5,41,46,Pass
+1VI22CS938,Dana Perkins,CS721,Mouth water great.,6,21,27,Fail
+1VI22CS938,Dana Perkins,CS450,Use figure almost.,35,29,64,Pass
+1VI22CS938,Dana Perkins,CS345,Body cultural together.,0,24,24,Fail
+1VI22CS938,Dana Perkins,CS921,Run.,49,18,67,Pass
+1VI22CS938,Dana Perkins,CS134,Front glass talk.,20,19,39,Fail
+1VI22CS959,Brad Weber,CS697,Become support else.,48,12,60,Pass
+1VI22CS959,Brad Weber,CS543,Nature together.,28,0,28,Fail
+1VI22CS959,Brad Weber,CS159,Participant in outside.,15,35,50,Pass
+1VI22CS959,Brad Weber,CS273,Himself summer sign.,17,0,17,Fail
+1VI22CS959,Brad Weber,CS329,Back interest.,17,17,34,Fail
+1VI22CS165,Lisa Hawkins,CS567,Team difference floor.,7,2,9,Fail
+1VI22CS165,Lisa Hawkins,CS104,Option method hand.,43,9,52,Pass
+1VI22CS165,Lisa Hawkins,CS713,Standard hope election.,20,44,64,Pass
+1VI22CS165,Lisa Hawkins,CS224,Drive a.,25,7,32,Fail
+1VI22CS165,Lisa Hawkins,CS223,Kid space.,46,1,47,Pass
+1VI22CS657,Jonathan Smith,CS917,Yes choose.,37,2,39,Fail
+1VI22CS657,Jonathan Smith,CS466,Allow may easy.,0,45,45,Pass
+1VI22CS657,Jonathan Smith,CS110,Sense lead.,4,43,47,Pass
+1VI22CS657,Jonathan Smith,CS816,Best hundred.,26,47,73,Pass
+1VI22CS657,Jonathan Smith,CS572,Hour sign control.,41,50,91,Pass
+1VI22CS583,Maria Jackson,CS847,Southern single little.,31,13,44,Pass
+1VI22CS583,Maria Jackson,CS723,Forget window.,35,17,52,Pass
+1VI22CS583,Maria Jackson,CS399,Everything need believe special.,2,39,41,Pass
+1VI22CS583,Maria Jackson,CS566,Thought data member.,39,13,52,Pass
+1VI22CS583,Maria Jackson,CS598,Everyone join during.,47,7,54,Pass
+1VI22CS467,Maureen Pace,CS539,Assume concern.,31,31,62,Pass
+1VI22CS467,Maureen Pace,CS642,Need ask discussion.,0,45,45,Pass
+1VI22CS467,Maureen Pace,CS689,Long him.,1,40,41,Pass
+1VI22CS467,Maureen Pace,CS463,Environmental report.,23,37,60,Pass
+1VI22CS467,Maureen Pace,CS945,Try.,49,17,66,Pass
+1VI22CS738,Denise Porter,CS606,In media.,12,4,16,Fail
+1VI22CS738,Denise Porter,CS893,Reach list hair present.,12,32,44,Pass
+1VI22CS738,Denise Porter,CS913,Assume may.,37,35,72,Pass
+1VI22CS738,Denise Porter,CS710,Open.,36,10,46,Pass
+1VI22CS738,Denise Porter,CS734,As really.,4,18,22,Fail
+1VI22CS862,Cindy Gonzalez,CS552,Available its certainly.,47,12,59,Pass
+1VI22CS862,Cindy Gonzalez,CS924,Think international.,44,13,57,Pass
+1VI22CS862,Cindy Gonzalez,CS115,Believe experience wide.,5,16,21,Fail
+1VI22CS862,Cindy Gonzalez,CS841,Option reach answer.,24,25,49,Pass
+1VI22CS862,Cindy Gonzalez,CS581,Fine board.,0,50,50,Pass
+1VI22CS328,Jose Martin,CS754,Tell whether.,33,42,75,Pass
+1VI22CS328,Jose Martin,CS262,News chance moment.,22,50,72,Pass
+1VI22CS328,Jose Martin,CS821,Home experience ball.,32,1,33,Fail
+1VI22CS328,Jose Martin,CS711,Suggest cover.,11,26,37,Fail
+1VI22CS328,Jose Martin,CS926,Approach prove friend.,36,37,73,Pass
+1VI22CS232,Jason Moore,CS247,Policy woman natural.,46,43,89,Pass
+1VI22CS232,Jason Moore,CS725,Huge probably later.,33,47,80,Pass
+1VI22CS232,Jason Moore,CS687,Let direction.,43,41,84,Pass
+1VI22CS232,Jason Moore,CS963,Decision control this.,27,5,32,Fail
+1VI22CS232,Jason Moore,CS345,Training open hold.,39,17,56,Pass
+1VI22CS953,Richard Gonzalez,CS314,Mean decade.,39,48,87,Pass
+1VI22CS953,Richard Gonzalez,CS325,Different history major.,18,9,27,Fail
+1VI22CS953,Richard Gonzalez,CS553,Image determine.,46,42,88,Pass
+1VI22CS953,Richard Gonzalez,CS791,Approach prevent executive.,35,38,73,Pass
+1VI22CS953,Richard Gonzalez,CS588,Edge tax.,15,5,20,Fail
+1VI22CS703,James Thompson,CS154,Book local.,7,25,32,Fail
+1VI22CS703,James Thompson,CS863,Around Mr.,34,31,65,Pass
+1VI22CS703,James Thompson,CS678,Would including whose.,45,23,68,Pass
+1VI22CS703,James Thompson,CS653,Only adult between.,6,24,30,Fail
+1VI22CS703,James Thompson,CS925,Western red level.,11,8,19,Fail
+1VI22CS440,Cheryl Reed,CS931,Necessary nor.,26,16,42,Pass
+1VI22CS440,Cheryl Reed,CS805,More interest close.,22,24,46,Pass
+1VI22CS440,Cheryl Reed,CS768,Plan nearly add her.,34,33,67,Pass
+1VI22CS440,Cheryl Reed,CS680,Through blood prevent.,28,21,49,Pass
+1VI22CS440,Cheryl Reed,CS839,Drive place.,15,29,44,Pass
+1VI22CS872,Anthony Chavez,CS734,Painting structure could.,48,6,54,Pass
+1VI22CS872,Anthony Chavez,CS836,Bag education write.,9,25,34,Fail
+1VI22CS872,Anthony Chavez,CS957,Help edge subject cell.,16,41,57,Pass
+1VI22CS872,Anthony Chavez,CS364,Role front feeling.,43,37,80,Pass
+1VI22CS872,Anthony Chavez,CS899,Kind government.,2,14,16,Fail
+1VI22CS162,Leslie Mullins,CS896,Recent toward staff.,1,1,2,Fail
+1VI22CS162,Leslie Mullins,CS346,Small possible.,39,4,43,Pass
+1VI22CS162,Leslie Mullins,CS955,Professional maintain most.,13,21,34,Fail
+1VI22CS162,Leslie Mullins,CS674,Pay we child.,2,40,42,Pass
+1VI22CS162,Leslie Mullins,CS992,Likely help.,10,17,27,Fail
+1VI22CS961,Paul Hendricks,CS847,Water today.,9,24,33,Fail
+1VI22CS961,Paul Hendricks,CS492,Walk base single.,28,10,38,Fail
+1VI22CS961,Paul Hendricks,CS949,Maintain ready nation.,30,27,57,Pass
+1VI22CS961,Paul Hendricks,CS258,Day fight sense.,25,27,52,Pass
+1VI22CS961,Paul Hendricks,CS539,Eat culture specific.,12,22,34,Fail
+1VI22CS482,Christina Cooper,CS767,Majority.,44,12,56,Pass
+1VI22CS482,Christina Cooper,CS207,Wife although place.,30,41,71,Pass
+1VI22CS482,Christina Cooper,CS833,Four partner remember.,27,32,59,Pass
+1VI22CS482,Christina Cooper,CS674,Know produce.,18,37,55,Pass
+1VI22CS482,Christina Cooper,CS216,Understand room level.,40,6,46,Pass
+1VI22CS946,Jessica Christian,CS352,Interesting chair pass.,12,7,19,Fail
+1VI22CS946,Jessica Christian,CS179,Thousand sister.,36,34,70,Pass
+1VI22CS946,Jessica Christian,CS286,Newspaper truth minute.,13,30,43,Pass
+1VI22CS946,Jessica Christian,CS637,Star deal myself.,47,10,57,Pass
+1VI22CS946,Jessica Christian,CS430,Ok season.,5,20,25,Fail
+1VI22CS807,Joseph Duarte,CS722,Company assume wide.,48,7,55,Pass
+1VI22CS807,Joseph Duarte,CS324,Him thank.,29,18,47,Pass
+1VI22CS807,Joseph Duarte,CS621,Style give after.,10,21,31,Fail
+1VI22CS807,Joseph Duarte,CS366,Brother network under.,22,39,61,Pass
+1VI22CS807,Joseph Duarte,CS778,Partner sell weight several.,21,46,67,Pass
+1VI22CS683,Autumn Brown,CS314,Indeed race step no.,6,1,7,Fail
+1VI22CS683,Autumn Brown,CS890,State begin ago.,3,39,42,Pass
+1VI22CS683,Autumn Brown,CS711,Organization may.,50,32,82,Pass
+1VI22CS683,Autumn Brown,CS664,Direction simple since both.,50,33,83,Pass
+1VI22CS683,Autumn Brown,CS154,Nature notice agree.,10,38,48,Pass
+1VI22CS727,Tamara Keith,CS294,Officer public.,19,13,32,Fail
+1VI22CS727,Tamara Keith,CS624,Detail police address.,38,35,73,Pass
+1VI22CS727,Tamara Keith,CS277,Someone eat century.,45,27,72,Pass
+1VI22CS727,Tamara Keith,CS279,Certainly peace success red.,5,36,41,Pass
+1VI22CS727,Tamara Keith,CS433,Return summer them.,2,41,43,Pass
+1VI22CS235,Michael Miller,CS689,Rather.,12,42,54,Pass
+1VI22CS235,Michael Miller,CS990,Such.,35,34,69,Pass
+1VI22CS235,Michael Miller,CS757,Site focus window.,32,46,78,Pass
+1VI22CS235,Michael Miller,CS248,Now throughout soon.,43,39,82,Pass
+1VI22CS235,Michael Miller,CS386,We serious rather.,7,8,15,Fail
+1VI22CS528,Arthur Hamilton,CS992,Life speak huge.,0,1,1,Fail
+1VI22CS528,Arthur Hamilton,CS673,Imagine describe.,16,9,25,Fail
+1VI22CS528,Arthur Hamilton,CS224,Arm approach.,15,14,29,Fail
+1VI22CS528,Arthur Hamilton,CS264,Too natural.,26,3,29,Fail
+1VI22CS528,Arthur Hamilton,CS428,Dog speak foreign.,10,34,44,Pass
+1VI22CS128,Raymond Parker,CS420,Social foot skill there.,4,14,18,Fail
+1VI22CS128,Raymond Parker,CS485,Force language.,23,41,64,Pass
+1VI22CS128,Raymond Parker,CS396,Member realize.,1,23,24,Fail
+1VI22CS128,Raymond Parker,CS157,Ability around service.,9,13,22,Fail
+1VI22CS128,Raymond Parker,CS689,Kind center.,33,8,41,Pass
+1VI22CS481,Thomas Robinson,CS743,Teach provide.,48,49,97,Pass
+1VI22CS481,Thomas Robinson,CS855,Realize discussion cultural.,32,7,39,Fail
+1VI22CS481,Thomas Robinson,CS509,Watch development.,49,9,58,Pass
+1VI22CS481,Thomas Robinson,CS979,Travel.,9,7,16,Fail
+1VI22CS481,Thomas Robinson,CS571,Near question through.,14,41,55,Pass
+1VI22CS149,Jeff Aguilar,CS167,Test from.,24,32,56,Pass
+1VI22CS149,Jeff Aguilar,CS132,Before parent treat.,33,19,52,Pass
+1VI22CS149,Jeff Aguilar,CS860,Strategy left.,21,30,51,Pass
+1VI22CS149,Jeff Aguilar,CS966,Within memory.,49,15,64,Pass
+1VI22CS149,Jeff Aguilar,CS383,Report should.,28,17,45,Pass
+1VI22CS498,Billy Newman,CS480,Get form.,38,43,81,Pass
+1VI22CS498,Billy Newman,CS880,Family happy tax.,42,12,54,Pass
+1VI22CS498,Billy Newman,CS908,Yeah people.,42,34,76,Pass
+1VI22CS498,Billy Newman,CS652,Loss run.,4,37,41,Pass
+1VI22CS498,Billy Newman,CS306,May dark same.,10,22,32,Fail
+1VI22CS117,Jennifer Powell,CS927,Serve himself.,18,11,29,Fail
+1VI22CS117,Jennifer Powell,CS312,Body dinner.,49,20,69,Pass
+1VI22CS117,Jennifer Powell,CS167,Political recognize subject.,25,4,29,Fail
+1VI22CS117,Jennifer Powell,CS733,World friend.,36,21,57,Pass
+1VI22CS117,Jennifer Powell,CS241,Home number condition form.,42,9,51,Pass
+1VI22CS757,Joshua Hawkins,CS189,All us stuff.,16,46,62,Pass
+1VI22CS757,Joshua Hawkins,CS429,Help mission.,17,34,51,Pass
+1VI22CS757,Joshua Hawkins,CS970,Possible story at.,7,0,7,Fail
+1VI22CS757,Joshua Hawkins,CS388,Million sort range.,10,3,13,Fail
+1VI22CS757,Joshua Hawkins,CS665,Hand let.,6,32,38,Fail
+1VI22CS887,Judy Campbell,CS958,Trouble full growth true.,26,37,63,Pass
+1VI22CS887,Judy Campbell,CS946,Large commercial community.,27,5,32,Fail
+1VI22CS887,Judy Campbell,CS861,Relationship point project government.,4,7,11,Fail
+1VI22CS887,Judy Campbell,CS263,Quite offer.,36,42,78,Pass
+1VI22CS887,Judy Campbell,CS167,And understand different.,26,35,61,Pass
+1VI22CS678,Sarah Richardson,CS162,My whole.,5,16,21,Fail
+1VI22CS678,Sarah Richardson,CS949,Design population phone.,50,21,71,Pass
+1VI22CS678,Sarah Richardson,CS286,Fire answer present.,16,37,53,Pass
+1VI22CS678,Sarah Richardson,CS296,Significant claim.,42,49,91,Pass
+1VI22CS678,Sarah Richardson,CS405,Today indeed beautiful.,43,5,48,Pass
+1VI22CS833,Laura Terry,CS980,Apply note.,42,19,61,Pass
+1VI22CS833,Laura Terry,CS673,Build way.,25,40,65,Pass
+1VI22CS833,Laura Terry,CS111,About artist despite.,31,24,55,Pass
+1VI22CS833,Laura Terry,CS896,Nor watch consider.,46,20,66,Pass
+1VI22CS833,Laura Terry,CS760,Idea where.,10,50,60,Pass
+1VI22CS187,Scott Rhodes,CS673,Yard guy.,3,46,49,Pass
+1VI22CS187,Scott Rhodes,CS502,Rise single.,37,8,45,Pass
+1VI22CS187,Scott Rhodes,CS719,Management ten model.,43,49,92,Pass
+1VI22CS187,Scott Rhodes,CS744,Test happen condition.,41,32,73,Pass
+1VI22CS187,Scott Rhodes,CS987,Environment subject control.,27,3,30,Fail
+1VI22CS573,Sarah Wiggins,CS721,Oil.,42,10,52,Pass
+1VI22CS573,Sarah Wiggins,CS457,Stay bar himself.,44,14,58,Pass
+1VI22CS573,Sarah Wiggins,CS132,Need tough.,29,26,55,Pass
+1VI22CS573,Sarah Wiggins,CS457,Ask moment student.,6,13,19,Fail
+1VI22CS573,Sarah Wiggins,CS171,Mouth born prepare somebody.,30,19,49,Pass
+1VI22CS947,James Moore,CS439,Me for event.,39,24,63,Pass
+1VI22CS947,James Moore,CS416,South law international radio.,9,19,28,Fail
+1VI22CS947,James Moore,CS728,Scientist no culture.,0,17,17,Fail
+1VI22CS947,James Moore,CS660,Never.,42,49,91,Pass
+1VI22CS947,James Moore,CS637,Age parent near include.,41,45,86,Pass
+1VI22CS560,Sarah Pena,CS704,Administration.,4,1,5,Fail
+1VI22CS560,Sarah Pena,CS563,Tv evidence.,46,39,85,Pass
+1VI22CS560,Sarah Pena,CS933,Exist among report.,33,35,68,Pass
+1VI22CS560,Sarah Pena,CS545,Usually improve weight those.,14,10,24,Fail
+1VI22CS560,Sarah Pena,CS142,With.,18,24,42,Pass
+1VI22CS150,Matthew Roberts,CS394,So guess or.,27,22,49,Pass
+1VI22CS150,Matthew Roberts,CS144,Wear quickly realize.,38,4,42,Pass
+1VI22CS150,Matthew Roberts,CS682,Attack late.,0,50,50,Pass
+1VI22CS150,Matthew Roberts,CS186,Prove understand oil.,37,15,52,Pass
+1VI22CS150,Matthew Roberts,CS971,Never control.,5,44,49,Pass
+1VI22CS151,Molly Carter,CS217,Debate win fire into.,32,7,39,Fail
+1VI22CS151,Molly Carter,CS797,Ever defense face.,44,8,52,Pass
+1VI22CS151,Molly Carter,CS169,Recent since provide.,2,26,28,Fail
+1VI22CS151,Molly Carter,CS207,Question doctor.,3,30,33,Fail
+1VI22CS151,Molly Carter,CS664,Best summer watch.,16,25,41,Pass
+1VI22CS214,Katie Whitaker,CS581,Your tough.,4,4,8,Fail
+1VI22CS214,Katie Whitaker,CS309,Leave radio development.,23,39,62,Pass
+1VI22CS214,Katie Whitaker,CS127,Alone feel customer sometimes.,31,35,66,Pass
+1VI22CS214,Katie Whitaker,CS620,Today us.,13,41,54,Pass
+1VI22CS214,Katie Whitaker,CS475,Suffer area.,14,49,63,Pass
+1VI22CS532,Erik Kennedy,CS744,Arrive outside.,22,23,45,Pass
+1VI22CS532,Erik Kennedy,CS728,Easy far leave.,10,12,22,Fail
+1VI22CS532,Erik Kennedy,CS864,Official sister his.,10,22,32,Fail
+1VI22CS532,Erik Kennedy,CS821,Add cultural seek draw.,20,18,38,Fail
+1VI22CS532,Erik Kennedy,CS586,On heart.,16,25,41,Pass
+1VI22CS351,Jennifer Peters,CS418,Gun range.,9,30,39,Fail
+1VI22CS351,Jennifer Peters,CS693,Sense seem us rich.,9,35,44,Pass
+1VI22CS351,Jennifer Peters,CS535,Deep business suffer crime.,43,33,76,Pass
+1VI22CS351,Jennifer Peters,CS531,Would player night.,19,10,29,Fail
+1VI22CS351,Jennifer Peters,CS362,Second nearly response.,26,4,30,Fail
+1VI22CS519,Jennifer Ramos,CS962,Defense.,1,32,33,Fail
+1VI22CS519,Jennifer Ramos,CS692,High.,0,9,9,Fail
+1VI22CS519,Jennifer Ramos,CS184,Create data.,18,13,31,Fail
+1VI22CS519,Jennifer Ramos,CS125,Onto themselves.,26,14,40,Pass
+1VI22CS519,Jennifer Ramos,CS346,Test five picture.,19,18,37,Fail
+1VI22CS387,Erin Petersen,CS219,Activity us.,32,40,72,Pass
+1VI22CS387,Erin Petersen,CS914,Page message nearly.,22,35,57,Pass
+1VI22CS387,Erin Petersen,CS514,Baby writer evidence.,40,26,66,Pass
+1VI22CS387,Erin Petersen,CS229,Person how agent.,50,19,69,Pass
+1VI22CS387,Erin Petersen,CS389,Image.,15,22,37,Fail
+1VI22CS855,Bobby Lee,CS383,Later in partner.,31,20,51,Pass
+1VI22CS855,Bobby Lee,CS279,Radio none particularly.,6,6,12,Fail
+1VI22CS855,Bobby Lee,CS256,Whose week trial cost.,22,38,60,Pass
+1VI22CS855,Bobby Lee,CS436,Course adult.,18,15,33,Fail
+1VI22CS855,Bobby Lee,CS457,Energy skin several.,24,46,70,Pass
+1VI22CS628,Kurt Schneider,CS879,Huge.,3,45,48,Pass
+1VI22CS628,Kurt Schneider,CS712,Sound increase.,38,45,83,Pass
+1VI22CS628,Kurt Schneider,CS816,Stage lay by.,45,32,77,Pass
+1VI22CS628,Kurt Schneider,CS263,Weight.,19,0,19,Fail
+1VI22CS628,Kurt Schneider,CS518,Capital three stock.,20,2,22,Fail
+1VI22CS984,Sheila Mathews,CS128,Commercial anyone.,50,5,55,Pass
+1VI22CS984,Sheila Mathews,CS244,Thank teach.,20,1,21,Fail
+1VI22CS984,Sheila Mathews,CS699,Trouble newspaper eat.,0,48,48,Pass
+1VI22CS984,Sheila Mathews,CS196,Into require.,15,50,65,Pass
+1VI22CS984,Sheila Mathews,CS905,Work term.,29,32,61,Pass
+1VI22CS454,Jessica Williams,CS196,Ball stand.,15,18,33,Fail
+1VI22CS454,Jessica Williams,CS980,Theory Mr.,46,39,85,Pass
+1VI22CS454,Jessica Williams,CS742,Music.,6,19,25,Fail
+1VI22CS454,Jessica Williams,CS462,Institution drug.,22,41,63,Pass
+1VI22CS454,Jessica Williams,CS563,Attack should.,32,10,42,Pass
+1VI22CS408,Elizabeth Jordan,CS434,Data recognize and.,30,14,44,Pass
+1VI22CS408,Elizabeth Jordan,CS413,Anyone answer.,12,16,28,Fail
+1VI22CS408,Elizabeth Jordan,CS801,Walk final then.,18,46,64,Pass
+1VI22CS408,Elizabeth Jordan,CS698,Myself single.,36,26,62,Pass
+1VI22CS408,Elizabeth Jordan,CS818,Network run soon series.,23,42,65,Pass
+1VI22CS785,Tasha Bell,CS328,Man bad.,20,30,50,Pass
+1VI22CS785,Tasha Bell,CS465,Per include party.,50,12,62,Pass
+1VI22CS785,Tasha Bell,CS142,Week four.,28,21,49,Pass
+1VI22CS785,Tasha Bell,CS900,Analysis four where.,25,34,59,Pass
+1VI22CS785,Tasha Bell,CS475,Country.,23,22,45,Pass
+1VI22CS191,Maria Nelson,CS899,Feel activity open hand.,23,8,31,Fail
+1VI22CS191,Maria Nelson,CS993,Trouble serve.,37,32,69,Pass
+1VI22CS191,Maria Nelson,CS327,Myself me information.,17,14,31,Fail
+1VI22CS191,Maria Nelson,CS925,Guy thousand cause.,26,3,29,Fail
+1VI22CS191,Maria Nelson,CS401,Hope process.,10,14,24,Fail
+1VI22CS841,Brittney Cooper,CS293,Hand until.,6,2,8,Fail
+1VI22CS841,Brittney Cooper,CS288,Human blue both.,41,20,61,Pass
+1VI22CS841,Brittney Cooper,CS674,Him red light.,42,27,69,Pass
+1VI22CS841,Brittney Cooper,CS871,Fish family drop.,0,50,50,Pass
+1VI22CS841,Brittney Cooper,CS798,West half yeah.,38,16,54,Pass
+1VI22CS369,Erik Stevenson,CS522,Any cost leader.,17,10,27,Fail
+1VI22CS369,Erik Stevenson,CS604,Man everybody.,5,24,29,Fail
+1VI22CS369,Erik Stevenson,CS762,Thousand store else.,32,27,59,Pass
+1VI22CS369,Erik Stevenson,CS168,Team reduce pay find.,0,29,29,Fail
+1VI22CS369,Erik Stevenson,CS286,Apply newspaper.,12,23,35,Fail
+1VI22CS185,Toni Jenkins,CS714,Great cost although.,23,4,27,Fail
+1VI22CS185,Toni Jenkins,CS455,President hotel fish rather.,0,33,33,Fail
+1VI22CS185,Toni Jenkins,CS891,Finish woman.,43,17,60,Pass
+1VI22CS185,Toni Jenkins,CS840,Challenge.,48,46,94,Pass
+1VI22CS185,Toni Jenkins,CS522,American if.,13,40,53,Pass
+1VI22CS246,Diana Martin,CS874,Today card.,1,37,38,Fail
+1VI22CS246,Diana Martin,CS653,Blood.,36,29,65,Pass
+1VI22CS246,Diana Martin,CS328,Action nature.,48,10,58,Pass
+1VI22CS246,Diana Martin,CS153,Figure modern.,46,1,47,Pass
+1VI22CS246,Diana Martin,CS851,Threat discover candidate.,20,26,46,Pass
+1VI22CS646,Laura Hayes,CS861,Draw scientist.,24,4,28,Fail
+1VI22CS646,Laura Hayes,CS247,Time song lead.,38,46,84,Pass
+1VI22CS646,Laura Hayes,CS857,Walk hand pay.,43,8,51,Pass
+1VI22CS646,Laura Hayes,CS638,Term base.,13,39,52,Pass
+1VI22CS646,Laura Hayes,CS613,Never.,18,30,48,Pass
+1VI22CS955,Michael Mcdaniel,CS189,Station as.,5,24,29,Fail
+1VI22CS955,Michael Mcdaniel,CS782,What color career.,13,13,26,Fail
+1VI22CS955,Michael Mcdaniel,CS407,Tree.,30,48,78,Pass
+1VI22CS955,Michael Mcdaniel,CS463,Pattern management need.,39,7,46,Pass
+1VI22CS955,Michael Mcdaniel,CS399,Image soldier music list.,3,43,46,Pass
+1VI22CS771,Jeffrey Cole,CS353,Professional rather.,8,7,15,Fail
+1VI22CS771,Jeffrey Cole,CS574,Boy each.,38,29,67,Pass
+1VI22CS771,Jeffrey Cole,CS942,Shake.,32,1,33,Fail
+1VI22CS771,Jeffrey Cole,CS814,Week detail carry.,39,12,51,Pass
+1VI22CS771,Jeffrey Cole,CS865,Seat administration certainly.,28,49,77,Pass
+1VI22CS521,Brian Rojas,CS188,Attorney wonder.,14,11,25,Fail
+1VI22CS521,Brian Rojas,CS706,Send onto.,26,18,44,Pass
+1VI22CS521,Brian Rojas,CS397,Eight ability.,44,16,60,Pass
+1VI22CS521,Brian Rojas,CS988,Collection short simply.,26,24,50,Pass
+1VI22CS521,Brian Rojas,CS323,Board address chance.,11,42,53,Pass
+1VI22CS326,Ryan Morales,CS998,Stock protect.,8,5,13,Fail
+1VI22CS326,Ryan Morales,CS299,Argue effort opportunity.,23,29,52,Pass
+1VI22CS326,Ryan Morales,CS207,Ball prove.,26,46,72,Pass
+1VI22CS326,Ryan Morales,CS849,Those compare consider list.,17,45,62,Pass
+1VI22CS326,Ryan Morales,CS945,Catch worry.,32,38,70,Pass
+1VI22CS521,Peggy Liu DDS,CS607,Charge subject material.,15,21,36,Fail
+1VI22CS521,Peggy Liu DDS,CS623,Weight strong.,24,37,61,Pass
+1VI22CS521,Peggy Liu DDS,CS205,Somebody again simple.,21,41,62,Pass
+1VI22CS521,Peggy Liu DDS,CS995,Environmental.,3,45,48,Pass
+1VI22CS521,Peggy Liu DDS,CS104,Style lose great.,47,24,71,Pass
+1VI22CS481,Brandon Maxwell,CS196,What support just.,8,7,15,Fail
+1VI22CS481,Brandon Maxwell,CS221,Month against.,13,5,18,Fail
+1VI22CS481,Brandon Maxwell,CS310,Decade senior born.,17,13,30,Fail
+1VI22CS481,Brandon Maxwell,CS795,There TV.,29,21,50,Pass
+1VI22CS481,Brandon Maxwell,CS842,Detail customer member.,49,43,92,Pass
+1VI22CS881,Charles Gutierrez,CS513,Talk decision.,44,35,79,Pass
+1VI22CS881,Charles Gutierrez,CS388,Begin up.,33,26,59,Pass
+1VI22CS881,Charles Gutierrez,CS385,Up nothing.,9,40,49,Pass
+1VI22CS881,Charles Gutierrez,CS659,Onto another section half.,12,48,60,Pass
+1VI22CS881,Charles Gutierrez,CS674,Go name big poor.,22,28,50,Pass
+1VI22CS784,Denise Wade,CS124,Road key.,28,41,69,Pass
+1VI22CS784,Denise Wade,CS934,Risk.,12,0,12,Fail
+1VI22CS784,Denise Wade,CS446,Computer control reduce.,13,6,19,Fail
+1VI22CS784,Denise Wade,CS244,Animal something role.,13,24,37,Fail
+1VI22CS784,Denise Wade,CS368,City bring.,11,19,30,Fail
+1VI22CS321,Kevin Ruiz,CS834,Beyond go.,46,42,88,Pass
+1VI22CS321,Kevin Ruiz,CS333,Piece through.,37,14,51,Pass
+1VI22CS321,Kevin Ruiz,CS517,Rock follow.,7,10,17,Fail
+1VI22CS321,Kevin Ruiz,CS182,Peace worry.,0,38,38,Fail
+1VI22CS321,Kevin Ruiz,CS813,Girl thousand address.,39,7,46,Pass
+1VI22CS342,Jesse Martin,CS768,Talk road deal.,17,42,59,Pass
+1VI22CS342,Jesse Martin,CS590,Full side stage.,9,22,31,Fail
+1VI22CS342,Jesse Martin,CS536,What pay interest.,41,32,73,Pass
+1VI22CS342,Jesse Martin,CS762,Understand up.,24,30,54,Pass
+1VI22CS342,Jesse Martin,CS639,Prove.,42,8,50,Pass
+1VI22CS600,Jessica Stephenson,CS472,Politics century.,35,6,41,Pass
+1VI22CS600,Jessica Stephenson,CS561,Attention religious executive.,37,50,87,Pass
+1VI22CS600,Jessica Stephenson,CS687,Some suggest.,13,47,60,Pass
+1VI22CS600,Jessica Stephenson,CS919,Doctor but.,15,31,46,Pass
+1VI22CS600,Jessica Stephenson,CS918,Southern company behind.,38,49,87,Pass
+1VI22CS445,Shane Young,CS133,Nation message.,43,36,79,Pass
+1VI22CS445,Shane Young,CS127,Vote east ready.,7,35,42,Pass
+1VI22CS445,Shane Young,CS788,Happen.,45,1,46,Pass
+1VI22CS445,Shane Young,CS154,Small director.,18,3,21,Fail
+1VI22CS445,Shane Young,CS121,Sing side offer.,24,37,61,Pass
+1VI22CS120,Benjamin Mills,CS303,Amount material.,27,44,71,Pass
+1VI22CS120,Benjamin Mills,CS323,Traditional although husband.,48,41,89,Pass
+1VI22CS120,Benjamin Mills,CS712,Information control participant go.,36,14,50,Pass
+1VI22CS120,Benjamin Mills,CS859,Side seem skill.,46,3,49,Pass
+1VI22CS120,Benjamin Mills,CS253,Scientist attack live.,5,5,10,Fail
+1VI22CS758,Lori Miller,CS174,New stuff.,10,48,58,Pass
+1VI22CS758,Lori Miller,CS405,Raise tax author.,27,12,39,Fail
+1VI22CS758,Lori Miller,CS891,City door.,40,37,77,Pass
+1VI22CS758,Lori Miller,CS302,Research much.,32,14,46,Pass
+1VI22CS758,Lori Miller,CS556,Ever member.,36,33,69,Pass
+1VI22CS776,Kelly Brown,CS622,Speech type experience.,38,9,47,Pass
+1VI22CS776,Kelly Brown,CS919,Attack development what.,34,37,71,Pass
+1VI22CS776,Kelly Brown,CS208,Tonight very everybody.,29,4,33,Fail
+1VI22CS776,Kelly Brown,CS196,Form myself.,4,12,16,Fail
+1VI22CS776,Kelly Brown,CS337,Third process sort.,17,28,45,Pass
+1VI22CS318,Nathan Williams,CS864,Theory seek history.,40,19,59,Pass
+1VI22CS318,Nathan Williams,CS934,Energy spring let.,46,29,75,Pass
+1VI22CS318,Nathan Williams,CS531,Lay law fine.,5,45,50,Pass
+1VI22CS318,Nathan Williams,CS292,Defense population instead.,42,42,84,Pass
+1VI22CS318,Nathan Williams,CS698,Line behind.,15,12,27,Fail
+1VI22CS516,Shawna Butler,CS935,Guy edge general.,3,4,7,Fail
+1VI22CS516,Shawna Butler,CS391,Event.,26,29,55,Pass
+1VI22CS516,Shawna Butler,CS774,Rather.,5,23,28,Fail
+1VI22CS516,Shawna Butler,CS213,Center glass help.,40,45,85,Pass
+1VI22CS516,Shawna Butler,CS645,Toward including.,11,2,13,Fail
+1VI22CS150,Kevin Walker,CS827,Perhaps whom.,31,11,42,Pass
+1VI22CS150,Kevin Walker,CS326,Increase building.,48,2,50,Pass
+1VI22CS150,Kevin Walker,CS272,All college.,10,41,51,Pass
+1VI22CS150,Kevin Walker,CS395,Road institution.,29,47,76,Pass
+1VI22CS150,Kevin Walker,CS137,Today easy his wide.,20,12,32,Fail
+1VI22CS472,Shawn Crawford,CS698,Garden toward expert.,26,44,70,Pass
+1VI22CS472,Shawn Crawford,CS123,Heart off.,16,17,33,Fail
+1VI22CS472,Shawn Crawford,CS978,Cover majority.,25,44,69,Pass
+1VI22CS472,Shawn Crawford,CS274,Remember include.,42,0,42,Pass
+1VI22CS472,Shawn Crawford,CS290,By.,26,8,34,Fail
+1VI22CS965,Gene Bradshaw,CS848,Boy defense.,13,2,15,Fail
+1VI22CS965,Gene Bradshaw,CS889,Current less great.,5,44,49,Pass
+1VI22CS965,Gene Bradshaw,CS662,West much.,50,15,65,Pass
+1VI22CS965,Gene Bradshaw,CS828,Exist finally natural.,8,43,51,Pass
+1VI22CS965,Gene Bradshaw,CS306,Simple listen others.,11,28,39,Fail
+1VI22CS989,Helen Jones,CS344,Place art least.,1,18,19,Fail
+1VI22CS989,Helen Jones,CS681,Drop ability.,1,42,43,Pass
+1VI22CS989,Helen Jones,CS545,Voice get.,48,2,50,Pass
+1VI22CS989,Helen Jones,CS568,Moment interest source.,20,20,40,Pass
+1VI22CS989,Helen Jones,CS676,Other.,45,13,58,Pass
+1VI22CS727,David Campbell,CS758,Great institution score already.,40,16,56,Pass
+1VI22CS727,David Campbell,CS398,Nation treat go.,43,16,59,Pass
+1VI22CS727,David Campbell,CS646,Thousand especially difference.,9,27,36,Fail
+1VI22CS727,David Campbell,CS142,Almost.,8,38,46,Pass
+1VI22CS727,David Campbell,CS451,Court community.,16,22,38,Fail
+1VI22CS908,Tammy Brown,CS279,Official out movement.,35,25,60,Pass
+1VI22CS908,Tammy Brown,CS578,Key factor home.,21,35,56,Pass
+1VI22CS908,Tammy Brown,CS831,Base machine difference.,27,36,63,Pass
+1VI22CS908,Tammy Brown,CS578,Painting music.,21,22,43,Pass
+1VI22CS908,Tammy Brown,CS689,Popular.,30,34,64,Pass
+1VI22CS843,Penny Wolf,CS755,Glass respond in.,34,39,73,Pass
+1VI22CS843,Penny Wolf,CS792,Century.,46,38,84,Pass
+1VI22CS843,Penny Wolf,CS120,Nearly church brother.,17,45,62,Pass
+1VI22CS843,Penny Wolf,CS971,Officer interest blue.,37,25,62,Pass
+1VI22CS843,Penny Wolf,CS793,Defense always eye.,35,26,61,Pass
+1VI22CS258,Matthew Yang,CS810,Mention meeting return.,39,36,75,Pass
+1VI22CS258,Matthew Yang,CS885,Change such per.,15,42,57,Pass
+1VI22CS258,Matthew Yang,CS790,Offer finish like.,24,5,29,Fail
+1VI22CS258,Matthew Yang,CS765,Make project.,38,18,56,Pass
+1VI22CS258,Matthew Yang,CS587,Account name group.,11,2,13,Fail
+1VI22CS704,Eric Watkins,CS700,Audience method water.,36,2,38,Fail
+1VI22CS704,Eric Watkins,CS599,Off leader include.,44,42,86,Pass
+1VI22CS704,Eric Watkins,CS235,Material walk.,22,48,70,Pass
+1VI22CS704,Eric Watkins,CS272,Product result.,5,29,34,Fail
+1VI22CS704,Eric Watkins,CS783,Late.,3,22,25,Fail
+1VI22CS480,David Bell,CS896,Account arrive stand.,31,0,31,Fail
+1VI22CS480,David Bell,CS397,Word parent gun.,18,6,24,Fail
+1VI22CS480,David Bell,CS866,Performance us industry.,22,39,61,Pass
+1VI22CS480,David Bell,CS205,Especially which cover.,48,50,98,Pass
+1VI22CS480,David Bell,CS244,Represent close girl give.,35,2,37,Fail
+1VI22CS507,James Sampson,CS222,Line throughout.,9,19,28,Fail
+1VI22CS507,James Sampson,CS586,More pay.,7,42,49,Pass
+1VI22CS507,James Sampson,CS704,Need find.,11,0,11,Fail
+1VI22CS507,James Sampson,CS898,Establish research want.,13,6,19,Fail
+1VI22CS507,James Sampson,CS392,Popular computer.,28,44,72,Pass
+1VI22CS459,Brittney Carter,CS217,Final magazine.,44,24,68,Pass
+1VI22CS459,Brittney Carter,CS846,Poor few audience.,39,21,60,Pass
+1VI22CS459,Brittney Carter,CS180,Leg television especially.,10,10,20,Fail
+1VI22CS459,Brittney Carter,CS351,Arm character.,36,29,65,Pass
+1VI22CS459,Brittney Carter,CS198,Why boy rock.,18,5,23,Fail
+1VI22CS460,Zachary Cooper,CS434,Full machine.,8,16,24,Fail
+1VI22CS460,Zachary Cooper,CS887,Teacher maybe food.,32,12,44,Pass
+1VI22CS460,Zachary Cooper,CS210,Movement seat turn.,22,44,66,Pass
+1VI22CS460,Zachary Cooper,CS588,Sport country table view.,17,4,21,Fail
+1VI22CS460,Zachary Cooper,CS434,Truth plant amount.,38,12,50,Pass
+1VI22CS403,Paige Bennett,CS354,Laugh phone parent.,10,36,46,Pass
+1VI22CS403,Paige Bennett,CS320,Receive perhaps save.,1,36,37,Fail
+1VI22CS403,Paige Bennett,CS720,Sometimes risk have.,10,25,35,Fail
+1VI22CS403,Paige Bennett,CS167,Good fast.,22,20,42,Pass
+1VI22CS403,Paige Bennett,CS594,Method our even.,27,41,68,Pass
+1VI22CS230,Bruce Bell,CS336,Stuff crime.,42,26,68,Pass
+1VI22CS230,Bruce Bell,CS887,Certainly success.,9,39,48,Pass
+1VI22CS230,Bruce Bell,CS773,Trial sense.,13,41,54,Pass
+1VI22CS230,Bruce Bell,CS243,Something beautiful eye.,14,23,37,Fail
+1VI22CS230,Bruce Bell,CS677,Office consumer ball.,21,36,57,Pass
+1VI22CS302,Christine Fernandez,CS349,Development administration.,3,10,13,Fail
+1VI22CS302,Christine Fernandez,CS283,Scientist race.,16,0,16,Fail
+1VI22CS302,Christine Fernandez,CS592,Movie leader.,17,9,26,Fail
+1VI22CS302,Christine Fernandez,CS337,Consumer run.,13,15,28,Fail
+1VI22CS302,Christine Fernandez,CS584,Small hot their high.,12,27,39,Fail
+1VI22CS479,Alexander Garcia,CS536,As institution.,2,41,43,Pass
+1VI22CS479,Alexander Garcia,CS395,Political fill.,47,17,64,Pass
+1VI22CS479,Alexander Garcia,CS128,Economy role.,9,35,44,Pass
+1VI22CS479,Alexander Garcia,CS633,Like challenge single that.,38,15,53,Pass
+1VI22CS479,Alexander Garcia,CS990,Continue will.,31,46,77,Pass
+1VI22CS413,Samantha Caldwell,CS383,Whatever discover.,38,30,68,Pass
+1VI22CS413,Samantha Caldwell,CS740,Agreement leg west.,48,5,53,Pass
+1VI22CS413,Samantha Caldwell,CS154,Interesting well.,27,40,67,Pass
+1VI22CS413,Samantha Caldwell,CS740,Create process cold because.,8,4,12,Fail
+1VI22CS413,Samantha Caldwell,CS106,Finally language shake.,36,41,77,Pass
+1VI22CS122,Maria Ingram,CS418,Yet system.,34,22,56,Pass
+1VI22CS122,Maria Ingram,CS631,Join million test.,8,24,32,Fail
+1VI22CS122,Maria Ingram,CS732,Analysis cold method business.,27,27,54,Pass
+1VI22CS122,Maria Ingram,CS939,Yet where behavior.,3,28,31,Fail
+1VI22CS122,Maria Ingram,CS139,Big bring attention.,49,16,65,Pass
+1VI22CS592,Jamie Williams,CS796,Off herself force.,8,38,46,Pass
+1VI22CS592,Jamie Williams,CS315,Establish fast argue.,29,39,68,Pass
+1VI22CS592,Jamie Williams,CS675,Him class market determine.,42,29,71,Pass
+1VI22CS592,Jamie Williams,CS457,Find yard.,36,47,83,Pass
+1VI22CS592,Jamie Williams,CS206,Trouble picture world.,30,50,80,Pass
+1VI22CS431,Ariana Barton,CS236,Budget court step.,23,38,61,Pass
+1VI22CS431,Ariana Barton,CS410,Police institution.,31,21,52,Pass
+1VI22CS431,Ariana Barton,CS329,I base me.,33,43,76,Pass
+1VI22CS431,Ariana Barton,CS925,Fire try.,35,50,85,Pass
+1VI22CS431,Ariana Barton,CS319,Section data by seem.,1,13,14,Fail
+1VI22CS988,David White,CS719,Why politics.,32,22,54,Pass
+1VI22CS988,David White,CS674,Threat reduce.,2,37,39,Fail
+1VI22CS988,David White,CS902,Eye this.,42,45,87,Pass
+1VI22CS988,David White,CS885,Kitchen draw.,14,26,40,Pass
+1VI22CS988,David White,CS615,First.,35,21,56,Pass
+1VI22CS103,Jennifer Gray,CS715,Number beautiful truth her.,48,31,79,Pass
+1VI22CS103,Jennifer Gray,CS189,Live name fine.,44,47,91,Pass
+1VI22CS103,Jennifer Gray,CS623,They view.,16,14,30,Fail
+1VI22CS103,Jennifer Gray,CS948,True thank.,33,34,67,Pass
+1VI22CS103,Jennifer Gray,CS993,Central stay.,47,29,76,Pass
+1VI22CS225,William Garrison,CS164,Others tree.,2,42,44,Pass
+1VI22CS225,William Garrison,CS787,Service base.,47,21,68,Pass
+1VI22CS225,William Garrison,CS669,Beautiful general.,50,21,71,Pass
+1VI22CS225,William Garrison,CS189,Often yet.,24,46,70,Pass
+1VI22CS225,William Garrison,CS888,Moment more.,7,17,24,Fail
+1VI22CS608,Mary Vaughn,CS703,Point art.,16,7,23,Fail
+1VI22CS608,Mary Vaughn,CS453,That prove wife.,49,24,73,Pass
+1VI22CS608,Mary Vaughn,CS481,Break.,33,9,42,Pass
+1VI22CS608,Mary Vaughn,CS492,Room page well laugh.,22,25,47,Pass
+1VI22CS608,Mary Vaughn,CS464,Wife trial.,7,10,17,Fail
+1VI22CS919,Nancy Gilmore,CS847,Behind discussion.,24,40,64,Pass
+1VI22CS919,Nancy Gilmore,CS958,Everybody least war.,17,14,31,Fail
+1VI22CS919,Nancy Gilmore,CS506,War floor.,49,14,63,Pass
+1VI22CS919,Nancy Gilmore,CS425,Able story make.,4,29,33,Fail
+1VI22CS919,Nancy Gilmore,CS161,Particularly new fall.,40,41,81,Pass
+1VI22CS827,Karen Chapman,CS538,Back consider choose sense.,1,26,27,Fail
+1VI22CS827,Karen Chapman,CS170,Sell remain should.,8,23,31,Fail
+1VI22CS827,Karen Chapman,CS898,Appear value.,38,5,43,Pass
+1VI22CS827,Karen Chapman,CS626,Mr high.,50,18,68,Pass
+1VI22CS827,Karen Chapman,CS261,Skill if.,22,7,29,Fail
+1VI22CS963,Tara Johnson,CS547,Occur consumer.,21,45,66,Pass
+1VI22CS963,Tara Johnson,CS975,Economic against.,30,49,79,Pass
+1VI22CS963,Tara Johnson,CS229,Floor action.,31,47,78,Pass
+1VI22CS963,Tara Johnson,CS501,Outside open play.,8,14,22,Fail
+1VI22CS963,Tara Johnson,CS887,Individual show music.,30,38,68,Pass
+1VI22CS474,Natalie Kelly,CS880,Republican meeting either.,16,5,21,Fail
+1VI22CS474,Natalie Kelly,CS265,Official.,49,16,65,Pass
+1VI22CS474,Natalie Kelly,CS387,Evening share.,9,46,55,Pass
+1VI22CS474,Natalie Kelly,CS161,Traditional fire.,38,8,46,Pass
+1VI22CS474,Natalie Kelly,CS365,Dark.,32,14,46,Pass
+1VI22CS819,Julie Hunt,CS873,Hard animal husband.,35,45,80,Pass
+1VI22CS819,Julie Hunt,CS293,Fund although.,31,10,41,Pass
+1VI22CS819,Julie Hunt,CS965,Experience well increase.,47,28,75,Pass
+1VI22CS819,Julie Hunt,CS799,Down item.,45,37,82,Pass
+1VI22CS819,Julie Hunt,CS113,Hospital add there.,37,24,61,Pass
+1VI22CS822,Christina Sanchez,CS605,Economy suffer.,49,36,85,Pass
+1VI22CS822,Christina Sanchez,CS539,Worry participant.,12,3,15,Fail
+1VI22CS822,Christina Sanchez,CS166,Parent.,44,3,47,Pass
+1VI22CS822,Christina Sanchez,CS467,Others eat our.,10,1,11,Fail
+1VI22CS822,Christina Sanchez,CS471,Important professor.,3,29,32,Fail
+1VI22CS600,Tiffany Simmons,CS562,Suffer between else.,25,47,72,Pass
+1VI22CS600,Tiffany Simmons,CS389,Modern four.,46,37,83,Pass
+1VI22CS600,Tiffany Simmons,CS627,Say catch.,29,31,60,Pass
+1VI22CS600,Tiffany Simmons,CS473,Appear poor.,1,7,8,Fail
+1VI22CS600,Tiffany Simmons,CS713,Response price shake.,22,42,64,Pass
+1VI22CS825,Lauren Nguyen,CS270,Interesting guess.,1,8,9,Fail
+1VI22CS825,Lauren Nguyen,CS652,Over how player.,43,10,53,Pass
+1VI22CS825,Lauren Nguyen,CS617,Human mean.,37,18,55,Pass
+1VI22CS825,Lauren Nguyen,CS693,Without job.,20,0,20,Fail
+1VI22CS825,Lauren Nguyen,CS561,Wish executive.,6,0,6,Fail
+1VI22CS444,Jennifer Carroll,CS435,Beautiful since.,15,1,16,Fail
+1VI22CS444,Jennifer Carroll,CS217,Appear know purpose.,17,20,37,Fail
+1VI22CS444,Jennifer Carroll,CS452,Hope.,19,9,28,Fail
+1VI22CS444,Jennifer Carroll,CS270,Do investment.,4,34,38,Fail
+1VI22CS444,Jennifer Carroll,CS386,Responsibility.,17,37,54,Pass
+1VI22CS206,Stacey Crosby,CS760,Price human dinner.,16,45,61,Pass
+1VI22CS206,Stacey Crosby,CS972,Stuff activity.,25,8,33,Fail
+1VI22CS206,Stacey Crosby,CS753,First truth.,2,13,15,Fail
+1VI22CS206,Stacey Crosby,CS731,Mean study.,34,17,51,Pass
+1VI22CS206,Stacey Crosby,CS424,Responsibility a.,49,2,51,Pass
+1VI22CS517,Heather Alvarado,CS667,Value throw.,16,18,34,Fail
+1VI22CS517,Heather Alvarado,CS890,Let may.,24,7,31,Fail
+1VI22CS517,Heather Alvarado,CS499,Campaign fast artist.,3,23,26,Fail
+1VI22CS517,Heather Alvarado,CS443,Go finally herself.,41,9,50,Pass
+1VI22CS517,Heather Alvarado,CS468,Money purpose staff.,21,6,27,Fail
+1VI22CS617,Yvette Campbell,CS865,Send eight lose.,2,39,41,Pass
+1VI22CS617,Yvette Campbell,CS603,Summer open church.,33,29,62,Pass
+1VI22CS617,Yvette Campbell,CS556,Use herself soon.,28,44,72,Pass
+1VI22CS617,Yvette Campbell,CS204,Here accept along.,6,9,15,Fail
+1VI22CS617,Yvette Campbell,CS204,Less two.,42,3,45,Pass
+1VI22CS726,Nicholas Pace,CS757,Parent close.,18,15,33,Fail
+1VI22CS726,Nicholas Pace,CS867,Southern increase option manage.,19,2,21,Fail
+1VI22CS726,Nicholas Pace,CS172,Difficult my.,39,43,82,Pass
+1VI22CS726,Nicholas Pace,CS239,Recently peace think.,38,24,62,Pass
+1VI22CS726,Nicholas Pace,CS133,Probably.,14,13,27,Fail
+1VI22CS243,Julie Clarke,CS278,Stage control.,38,7,45,Pass
+1VI22CS243,Julie Clarke,CS182,Note growth.,3,49,52,Pass
+1VI22CS243,Julie Clarke,CS788,Officer something discussion accept.,33,15,48,Pass
+1VI22CS243,Julie Clarke,CS609,Sister.,37,17,54,Pass
+1VI22CS243,Julie Clarke,CS802,Car law.,10,10,20,Fail
+1VI22CS898,Julie Dominguez,CS561,Create benefit.,26,23,49,Pass
+1VI22CS898,Julie Dominguez,CS728,Blood employee others.,34,6,40,Pass
+1VI22CS898,Julie Dominguez,CS659,Development still just.,49,14,63,Pass
+1VI22CS898,Julie Dominguez,CS915,Call particular will low.,37,27,64,Pass
+1VI22CS898,Julie Dominguez,CS299,Over.,1,43,44,Pass
+1VI22CS670,Jose Joyce,CS986,Again tree.,18,3,21,Fail
+1VI22CS670,Jose Joyce,CS148,Wrong contain.,12,19,31,Fail
+1VI22CS670,Jose Joyce,CS424,Color great.,14,1,15,Fail
+1VI22CS670,Jose Joyce,CS354,Difference behavior short.,13,28,41,Pass
+1VI22CS670,Jose Joyce,CS804,Decade thank.,35,30,65,Pass
+1VI22CS849,Samuel Ellis,CS745,May magazine sign war.,46,43,89,Pass
+1VI22CS849,Samuel Ellis,CS141,Church fill.,22,45,67,Pass
+1VI22CS849,Samuel Ellis,CS640,Cell half five.,39,29,68,Pass
+1VI22CS849,Samuel Ellis,CS178,Up safe.,11,6,17,Fail
+1VI22CS849,Samuel Ellis,CS862,Pass key.,40,29,69,Pass
+1VI22CS227,Andrew Peters,CS510,Almost glass window.,5,4,9,Fail
+1VI22CS227,Andrew Peters,CS347,Bring lay put.,38,43,81,Pass
+1VI22CS227,Andrew Peters,CS759,Grow across.,34,19,53,Pass
+1VI22CS227,Andrew Peters,CS123,Manage.,30,21,51,Pass
+1VI22CS227,Andrew Peters,CS710,Member account.,14,49,63,Pass
+1VI22CS802,Christopher Howell,CS696,Benefit interesting.,18,28,46,Pass
+1VI22CS802,Christopher Howell,CS446,Adult film fund.,40,40,80,Pass
+1VI22CS802,Christopher Howell,CS355,These stage product.,45,2,47,Pass
+1VI22CS802,Christopher Howell,CS937,Much account.,48,40,88,Pass
+1VI22CS802,Christopher Howell,CS753,Machine build.,46,41,87,Pass
+1VI22CS276,Kevin Barry,CS850,Church stand consider energy.,2,8,10,Fail
+1VI22CS276,Kevin Barry,CS900,Half attention discuss.,35,29,64,Pass
+1VI22CS276,Kevin Barry,CS238,Act address.,21,6,27,Fail
+1VI22CS276,Kevin Barry,CS232,Woman serious.,22,41,63,Pass
+1VI22CS276,Kevin Barry,CS735,Those past need.,36,50,86,Pass
+1VI22CS280,Justin Escobar,CS592,Mind prepare.,8,17,25,Fail
+1VI22CS280,Justin Escobar,CS433,Anything arrive direction.,28,1,29,Fail
+1VI22CS280,Justin Escobar,CS751,Avoid those.,46,8,54,Pass
+1VI22CS280,Justin Escobar,CS597,Possible.,36,4,40,Pass
+1VI22CS280,Justin Escobar,CS755,Civil evening chair.,2,17,19,Fail
+1VI22CS793,Rachael Washington,CS751,Pay whether.,26,34,60,Pass
+1VI22CS793,Rachael Washington,CS622,Company class his.,19,35,54,Pass
+1VI22CS793,Rachael Washington,CS235,Front billion popular.,1,25,26,Fail
+1VI22CS793,Rachael Washington,CS350,End.,9,23,32,Fail
+1VI22CS793,Rachael Washington,CS611,Away feeling policy carry.,22,32,54,Pass
+1VI22CS783,Shelby Barrett,CS799,Student bad something.,43,39,82,Pass
+1VI22CS783,Shelby Barrett,CS483,Through back affect writer.,20,10,30,Fail
+1VI22CS783,Shelby Barrett,CS501,Actually participant idea.,15,6,21,Fail
+1VI22CS783,Shelby Barrett,CS298,Republican top.,4,34,38,Fail
+1VI22CS783,Shelby Barrett,CS442,People hard better.,22,8,30,Fail
+1VI22CS128,John Koch,CS497,Against very.,17,18,35,Fail
+1VI22CS128,John Koch,CS912,Particular themselves.,38,43,81,Pass
+1VI22CS128,John Koch,CS689,Cause history family.,33,22,55,Pass
+1VI22CS128,John Koch,CS436,Get decision.,42,14,56,Pass
+1VI22CS128,John Koch,CS685,Be four.,22,50,72,Pass
+1VI22CS318,David Martinez,CS487,Somebody high have.,48,24,72,Pass
+1VI22CS318,David Martinez,CS832,Organization herself technology.,2,46,48,Pass
+1VI22CS318,David Martinez,CS925,Ten size owner.,2,1,3,Fail
+1VI22CS318,David Martinez,CS244,Defense cause visit.,23,23,46,Pass
+1VI22CS318,David Martinez,CS309,Star number raise.,26,20,46,Pass
+1VI22CS530,Michael Garcia,CS195,Miss company such.,45,30,75,Pass
+1VI22CS530,Michael Garcia,CS501,Toward continue.,35,11,46,Pass
+1VI22CS530,Michael Garcia,CS977,Image seat draw.,7,33,40,Pass
+1VI22CS530,Michael Garcia,CS463,Consumer career article.,6,38,44,Pass
+1VI22CS530,Michael Garcia,CS247,Moment reveal.,36,45,81,Pass
+1VI22CS679,Angel Wilkinson,CS709,Name position themselves.,16,23,39,Fail
+1VI22CS679,Angel Wilkinson,CS594,Become which west.,1,48,49,Pass
+1VI22CS679,Angel Wilkinson,CS891,Blue soon share.,18,8,26,Fail
+1VI22CS679,Angel Wilkinson,CS698,Evening source election.,5,42,47,Pass
+1VI22CS679,Angel Wilkinson,CS935,Here floor boy.,32,3,35,Fail
+1VI22CS878,Valerie Abbott,CS708,Seek standard improve.,20,34,54,Pass
+1VI22CS878,Valerie Abbott,CS367,Gas room always.,21,41,62,Pass
+1VI22CS878,Valerie Abbott,CS583,Among.,49,22,71,Pass
+1VI22CS878,Valerie Abbott,CS444,Beautiful.,6,3,9,Fail
+1VI22CS878,Valerie Abbott,CS847,Positive out without.,28,13,41,Pass
+1VI22CS943,Jasmin Burns,CS427,Clearly thank.,4,5,9,Fail
+1VI22CS943,Jasmin Burns,CS217,Similar research lead.,4,19,23,Fail
+1VI22CS943,Jasmin Burns,CS979,To bank.,49,9,58,Pass
+1VI22CS943,Jasmin Burns,CS948,Policy visit.,22,5,27,Fail
+1VI22CS943,Jasmin Burns,CS461,Leave know both.,14,15,29,Fail
+1VI22CS429,Ian Palmer,CS190,Better serious.,34,8,42,Pass
+1VI22CS429,Ian Palmer,CS161,Walk.,36,41,77,Pass
+1VI22CS429,Ian Palmer,CS259,Try other.,20,38,58,Pass
+1VI22CS429,Ian Palmer,CS518,Perform summer.,15,5,20,Fail
+1VI22CS429,Ian Palmer,CS472,Little these.,20,16,36,Fail
+1VI22CS959,Jeffrey Evans,CS862,Spend read whose.,45,38,83,Pass
+1VI22CS959,Jeffrey Evans,CS290,Technology can successful.,3,39,42,Pass
+1VI22CS959,Jeffrey Evans,CS931,Clearly speech security.,19,4,23,Fail
+1VI22CS959,Jeffrey Evans,CS257,Moment page eye.,38,43,81,Pass
+1VI22CS959,Jeffrey Evans,CS927,Out organization conference.,17,19,36,Fail
+1VI22CS128,Dustin Wagner,CS465,Bit pattern.,48,30,78,Pass
+1VI22CS128,Dustin Wagner,CS398,Wrong stage myself.,6,11,17,Fail
+1VI22CS128,Dustin Wagner,CS182,Despite already agreement.,27,48,75,Pass
+1VI22CS128,Dustin Wagner,CS697,This catch far.,15,29,44,Pass
+1VI22CS128,Dustin Wagner,CS396,Among forward house.,4,48,52,Pass
+1VI22CS998,Tony Farrell,CS884,Major within.,35,15,50,Pass
+1VI22CS998,Tony Farrell,CS974,Top rule gun.,16,8,24,Fail
+1VI22CS998,Tony Farrell,CS624,Heart light.,16,45,61,Pass
+1VI22CS998,Tony Farrell,CS327,Push situation wonder.,4,34,38,Fail
+1VI22CS998,Tony Farrell,CS848,Shoulder by deep each.,45,43,88,Pass
+1VI22CS337,Barry Smith,CS345,Street deal.,33,8,41,Pass
+1VI22CS337,Barry Smith,CS807,Everybody newspaper.,21,40,61,Pass
+1VI22CS337,Barry Smith,CS786,Send suddenly.,34,29,63,Pass
+1VI22CS337,Barry Smith,CS262,Oil old.,8,17,25,Fail
+1VI22CS337,Barry Smith,CS900,Ago kitchen before.,18,10,28,Fail
+1VI22CS906,Tyler Flores,CS727,Want create.,28,37,65,Pass
+1VI22CS906,Tyler Flores,CS908,Room result.,37,27,64,Pass
+1VI22CS906,Tyler Flores,CS712,Voice help.,10,43,53,Pass
+1VI22CS906,Tyler Flores,CS887,Along population magazine.,48,46,94,Pass
+1VI22CS906,Tyler Flores,CS551,Skill event.,23,43,66,Pass
+1VI22CS846,Dylan Mcgee,CS830,At firm technology real.,31,32,63,Pass
+1VI22CS846,Dylan Mcgee,CS924,Real five where yeah.,41,0,41,Pass
+1VI22CS846,Dylan Mcgee,CS396,Organization Mr.,15,18,33,Fail
+1VI22CS846,Dylan Mcgee,CS682,National different picture.,30,20,50,Pass
+1VI22CS846,Dylan Mcgee,CS314,Draw study feel.,40,42,82,Pass
+1VI22CS514,Kevin Williams,CS611,Today into others.,19,27,46,Pass
+1VI22CS514,Kevin Williams,CS416,Even per natural.,45,50,95,Pass
+1VI22CS514,Kevin Williams,CS103,Check few.,35,12,47,Pass
+1VI22CS514,Kevin Williams,CS375,Build action.,22,13,35,Fail
+1VI22CS514,Kevin Williams,CS575,Might whole participant.,19,10,29,Fail
+1VI22CS829,Andrew Roth,CS876,Where.,8,43,51,Pass
+1VI22CS829,Andrew Roth,CS579,Job it herself.,32,37,69,Pass
+1VI22CS829,Andrew Roth,CS356,Reach wait region.,35,29,64,Pass
+1VI22CS829,Andrew Roth,CS748,Check your.,21,0,21,Fail
+1VI22CS829,Andrew Roth,CS209,Within provide let.,43,30,73,Pass
+1VI22CS455,Angela Ware,CS537,Term attack four.,18,20,38,Fail
+1VI22CS455,Angela Ware,CS800,Design within.,5,46,51,Pass
+1VI22CS455,Angela Ware,CS758,Say part.,26,16,42,Pass
+1VI22CS455,Angela Ware,CS121,Prevent some risk.,29,48,77,Pass
+1VI22CS455,Angela Ware,CS550,Right movement.,47,50,97,Pass
+1VI22CS200,Nicole Carr,CS668,Myself cover include.,25,38,63,Pass
+1VI22CS200,Nicole Carr,CS840,Reflect their carry.,0,24,24,Fail
+1VI22CS200,Nicole Carr,CS496,Yet recognize.,5,34,39,Fail
+1VI22CS200,Nicole Carr,CS410,Own they.,49,11,60,Pass
+1VI22CS200,Nicole Carr,CS209,Onto better book.,45,15,60,Pass
+1VI22CS432,Susan Mitchell,CS840,Whether year.,21,47,68,Pass
+1VI22CS432,Susan Mitchell,CS122,Institution allow early.,23,34,57,Pass
+1VI22CS432,Susan Mitchell,CS895,Main try.,10,20,30,Fail
+1VI22CS432,Susan Mitchell,CS640,Traditional create go.,49,15,64,Pass
+1VI22CS432,Susan Mitchell,CS990,Movie add.,44,45,89,Pass
+1VI22CS633,Stephen Lutz,CS952,Economy keep matter.,42,12,54,Pass
+1VI22CS633,Stephen Lutz,CS954,Change seven sound.,7,17,24,Fail
+1VI22CS633,Stephen Lutz,CS680,Agree run.,32,43,75,Pass
+1VI22CS633,Stephen Lutz,CS733,Direction else.,18,7,25,Fail
+1VI22CS633,Stephen Lutz,CS711,Decision ok.,10,40,50,Pass
+1VI22CS589,Anna Bailey,CS425,Treat have.,36,31,67,Pass
+1VI22CS589,Anna Bailey,CS134,That situation.,22,11,33,Fail
+1VI22CS589,Anna Bailey,CS236,Head miss remember.,33,40,73,Pass
+1VI22CS589,Anna Bailey,CS790,Loss guess whose response.,14,23,37,Fail
+1VI22CS589,Anna Bailey,CS698,Them school money.,20,30,50,Pass
+1VI22CS561,Ronald Clarke,CS522,Forget.,14,29,43,Pass
+1VI22CS561,Ronald Clarke,CS725,In half major.,25,33,58,Pass
+1VI22CS561,Ronald Clarke,CS832,Dark quite Republican.,50,19,69,Pass
+1VI22CS561,Ronald Clarke,CS981,Since explain.,12,4,16,Fail
+1VI22CS561,Ronald Clarke,CS282,Person language.,22,31,53,Pass
+1VI22CS726,Zachary Walton,CS886,Herself interview.,25,12,37,Fail
+1VI22CS726,Zachary Walton,CS748,Sort interesting.,50,2,52,Pass
+1VI22CS726,Zachary Walton,CS486,Lose believe.,16,25,41,Pass
+1VI22CS726,Zachary Walton,CS830,Use if final.,2,40,42,Pass
+1VI22CS726,Zachary Walton,CS278,Southern.,4,15,19,Fail
+1VI22CS233,Kimberly Bates,CS940,Try.,41,20,61,Pass
+1VI22CS233,Kimberly Bates,CS801,Still marriage character better.,46,42,88,Pass
+1VI22CS233,Kimberly Bates,CS858,Analysis gun.,11,44,55,Pass
+1VI22CS233,Kimberly Bates,CS245,Stock ever.,29,35,64,Pass
+1VI22CS233,Kimberly Bates,CS221,Military marriage.,24,2,26,Fail
+1VI22CS663,Samantha Horton,CS875,Form do contain.,6,20,26,Fail
+1VI22CS663,Samantha Horton,CS259,Production lead.,40,7,47,Pass
+1VI22CS663,Samantha Horton,CS464,Really exist.,5,7,12,Fail
+1VI22CS663,Samantha Horton,CS812,Material shake most.,47,40,87,Pass
+1VI22CS663,Samantha Horton,CS642,Training director cost.,47,37,84,Pass
+1VI22CS862,Kelly Hubbard,CS893,Out.,2,25,27,Fail
+1VI22CS862,Kelly Hubbard,CS623,Participant large.,25,38,63,Pass
+1VI22CS862,Kelly Hubbard,CS393,Heavy thought.,20,21,41,Pass
+1VI22CS862,Kelly Hubbard,CS973,Example likely put.,0,24,24,Fail
+1VI22CS862,Kelly Hubbard,CS535,Budget there.,3,23,26,Fail
+1VI22CS969,Anna Mahoney,CS352,Significant few green.,8,20,28,Fail
+1VI22CS969,Anna Mahoney,CS829,Worker statement fly.,46,29,75,Pass
+1VI22CS969,Anna Mahoney,CS539,Coach affect that.,12,44,56,Pass
+1VI22CS969,Anna Mahoney,CS370,The task must.,40,46,86,Pass
+1VI22CS969,Anna Mahoney,CS951,West magazine.,22,16,38,Fail
+1VI22CS614,Matthew Lewis,CS898,Foreign energy stay.,45,1,46,Pass
+1VI22CS614,Matthew Lewis,CS378,Close by central.,22,39,61,Pass
+1VI22CS614,Matthew Lewis,CS363,Pm last create operation.,17,21,38,Fail
+1VI22CS614,Matthew Lewis,CS188,Hundred too open.,11,30,41,Pass
+1VI22CS614,Matthew Lewis,CS691,Voice.,6,34,40,Pass
+1VI22CS735,Anthony Freeman,CS886,Of behind.,49,6,55,Pass
+1VI22CS735,Anthony Freeman,CS503,Audience authority reality friend.,37,43,80,Pass
+1VI22CS735,Anthony Freeman,CS408,Gun property news.,43,15,58,Pass
+1VI22CS735,Anthony Freeman,CS703,Grow large.,18,31,49,Pass
+1VI22CS735,Anthony Freeman,CS727,Eat.,26,11,37,Fail
+1VI22CS985,Brian Lopez,CS940,Itself report wife.,40,17,57,Pass
+1VI22CS985,Brian Lopez,CS695,Economic their.,12,8,20,Fail
+1VI22CS985,Brian Lopez,CS701,Early prevent.,34,14,48,Pass
+1VI22CS985,Brian Lopez,CS365,Hold foreign owner.,8,20,28,Fail
+1VI22CS985,Brian Lopez,CS728,Deep north want.,7,32,39,Fail
+1VI22CS124,Michael White,CS807,Million.,30,49,79,Pass
+1VI22CS124,Michael White,CS498,Need tonight.,15,10,25,Fail
+1VI22CS124,Michael White,CS836,Year rate rest.,11,16,27,Fail
+1VI22CS124,Michael White,CS662,Address walk specific.,32,42,74,Pass
+1VI22CS124,Michael White,CS206,Beautiful mean attorney.,0,29,29,Fail
+1VI22CS212,Anthony Douglas,CS425,Statement scene election.,9,33,42,Pass
+1VI22CS212,Anthony Douglas,CS379,Help here late.,21,31,52,Pass
+1VI22CS212,Anthony Douglas,CS265,Young everybody.,47,28,75,Pass
+1VI22CS212,Anthony Douglas,CS424,Record adult.,47,24,71,Pass
+1VI22CS212,Anthony Douglas,CS404,Fly look.,29,39,68,Pass
+1VI22CS255,John Decker,CS532,Reality among already.,49,39,88,Pass
+1VI22CS255,John Decker,CS897,Here fear hospital senior.,39,49,88,Pass
+1VI22CS255,John Decker,CS635,Heavy themselves.,32,2,34,Fail
+1VI22CS255,John Decker,CS150,Leave instead dream.,32,0,32,Fail
+1VI22CS255,John Decker,CS541,Than view.,41,39,80,Pass
+1VI22CS800,Amanda Williams,CS138,Media think.,26,25,51,Pass
+1VI22CS800,Amanda Williams,CS374,Visit return determine.,39,7,46,Pass
+1VI22CS800,Amanda Williams,CS346,Couple camera box.,35,41,76,Pass
+1VI22CS800,Amanda Williams,CS523,Card important ability.,41,31,72,Pass
+1VI22CS800,Amanda Williams,CS361,Concern machine.,22,13,35,Fail
+1VI22CS548,Julia Sweeney,CS981,Inside art investment.,31,19,50,Pass
+1VI22CS548,Julia Sweeney,CS875,Song respond.,16,27,43,Pass
+1VI22CS548,Julia Sweeney,CS911,Certain blood bring.,27,2,29,Fail
+1VI22CS548,Julia Sweeney,CS487,Explain development wide will.,28,32,60,Pass
+1VI22CS548,Julia Sweeney,CS668,History we.,20,27,47,Pass
+1VI22CS572,Robert Shaw,CS242,Available.,27,4,31,Fail
+1VI22CS572,Robert Shaw,CS601,Partner interesting center.,17,38,55,Pass
+1VI22CS572,Robert Shaw,CS441,Carry reach.,18,26,44,Pass
+1VI22CS572,Robert Shaw,CS234,Eat eye mean.,38,50,88,Pass
+1VI22CS572,Robert Shaw,CS265,Project ten opportunity.,42,48,90,Pass
+1VI22CS257,James Lucas,CS254,Rest enough.,31,30,61,Pass
+1VI22CS257,James Lucas,CS141,Agent a.,18,33,51,Pass
+1VI22CS257,James Lucas,CS612,Television process activity myself.,40,43,83,Pass
+1VI22CS257,James Lucas,CS575,Role heavy.,10,44,54,Pass
+1VI22CS257,James Lucas,CS652,Federal rest.,0,21,21,Fail
+1VI22CS689,Deborah Maldonado,CS672,That first prevent.,29,40,69,Pass
+1VI22CS689,Deborah Maldonado,CS189,Network least.,45,41,86,Pass
+1VI22CS689,Deborah Maldonado,CS173,Necessary color human point.,20,0,20,Fail
+1VI22CS689,Deborah Maldonado,CS243,Just stop environmental.,24,39,63,Pass
+1VI22CS689,Deborah Maldonado,CS477,Night he rich.,39,45,84,Pass
+1VI22CS778,Sarah Myers,CS887,Mean theory.,9,48,57,Pass
+1VI22CS778,Sarah Myers,CS458,Director area rule.,21,50,71,Pass
+1VI22CS778,Sarah Myers,CS762,Avoid put with.,19,9,28,Fail
+1VI22CS778,Sarah Myers,CS449,But around.,28,6,34,Fail
+1VI22CS778,Sarah Myers,CS944,Service fight suddenly collection.,22,49,71,Pass
+1VI22CS872,Damon Jackson,CS264,Campaign stock feel.,40,7,47,Pass
+1VI22CS872,Damon Jackson,CS677,Ago agent save.,20,37,57,Pass
+1VI22CS872,Damon Jackson,CS337,House rest.,12,7,19,Fail
+1VI22CS872,Damon Jackson,CS885,Such age.,41,39,80,Pass
+1VI22CS872,Damon Jackson,CS876,Think purpose modern.,3,4,7,Fail
+1VI22CS892,Susan Nelson,CS942,Though quickly major.,28,42,70,Pass
+1VI22CS892,Susan Nelson,CS441,Report family high.,31,15,46,Pass
+1VI22CS892,Susan Nelson,CS427,Down stuff first.,3,39,42,Pass
+1VI22CS892,Susan Nelson,CS172,Baby early.,8,2,10,Fail
+1VI22CS892,Susan Nelson,CS202,Throughout brother past study.,8,5,13,Fail
+1VI22CS305,Haley Farmer,CS264,Determine however parent.,14,3,17,Fail
+1VI22CS305,Haley Farmer,CS405,Room standard.,1,50,51,Pass
+1VI22CS305,Haley Farmer,CS325,Watch road.,35,42,77,Pass
+1VI22CS305,Haley Farmer,CS745,Offer finish.,39,39,78,Pass
+1VI22CS305,Haley Farmer,CS405,Thus TV.,43,0,43,Pass
+1VI22CS685,Yvonne Santiago,CS646,Decide whose police.,14,41,55,Pass
+1VI22CS685,Yvonne Santiago,CS545,Will else.,30,36,66,Pass
+1VI22CS685,Yvonne Santiago,CS495,Pay not million.,37,15,52,Pass
+1VI22CS685,Yvonne Santiago,CS341,Over.,29,9,38,Fail
+1VI22CS685,Yvonne Santiago,CS943,Hope boy.,8,49,57,Pass
+1VI22CS334,Randy Ford,CS344,Take son ground.,44,18,62,Pass
+1VI22CS334,Randy Ford,CS384,With common.,7,13,20,Fail
+1VI22CS334,Randy Ford,CS911,Always perhaps teacher measure.,45,6,51,Pass
+1VI22CS334,Randy Ford,CS121,Million hit.,38,31,69,Pass
+1VI22CS334,Randy Ford,CS625,Pass above standard.,17,6,23,Fail
+1VI22CS291,Allison Stanley,CS128,Economy reach party.,37,5,42,Pass
+1VI22CS291,Allison Stanley,CS132,Away decide step.,48,38,86,Pass
+1VI22CS291,Allison Stanley,CS982,Center catch purpose.,42,30,72,Pass
+1VI22CS291,Allison Stanley,CS501,Teach social fine.,46,9,55,Pass
+1VI22CS291,Allison Stanley,CS785,Guy once son.,37,30,67,Pass
+1VI22CS910,Susan Peters,CS486,Growth send arrive.,21,44,65,Pass
+1VI22CS910,Susan Peters,CS788,Those support.,21,32,53,Pass
+1VI22CS910,Susan Peters,CS535,Food.,46,12,58,Pass
+1VI22CS910,Susan Peters,CS997,Long model.,4,16,20,Fail
+1VI22CS910,Susan Peters,CS887,Born he above.,22,32,54,Pass
+1VI22CS287,Pamela Jones,CS604,Structure consider.,3,43,46,Pass
+1VI22CS287,Pamela Jones,CS823,Receive who.,1,13,14,Fail
+1VI22CS287,Pamela Jones,CS576,Continue Congress.,2,44,46,Pass
+1VI22CS287,Pamela Jones,CS899,When per he.,14,13,27,Fail
+1VI22CS287,Pamela Jones,CS797,Name care scientist.,29,18,47,Pass
+1VI22CS191,Michael Johnson,CS384,Either piece.,21,33,54,Pass
+1VI22CS191,Michael Johnson,CS299,Yes per prepare.,42,24,66,Pass
+1VI22CS191,Michael Johnson,CS350,House factor school low.,22,26,48,Pass
+1VI22CS191,Michael Johnson,CS958,Could goal speech.,46,13,59,Pass
+1VI22CS191,Michael Johnson,CS738,Push middle matter officer.,2,6,8,Fail
+1VI22CS115,Crystal Cowan,CS771,Management land perhaps.,26,39,65,Pass
+1VI22CS115,Crystal Cowan,CS284,Remain program blood.,7,23,30,Fail
+1VI22CS115,Crystal Cowan,CS821,Likely technology reason.,12,4,16,Fail
+1VI22CS115,Crystal Cowan,CS193,Keep fight whether.,23,13,36,Fail
+1VI22CS115,Crystal Cowan,CS899,Such cut.,39,46,85,Pass
+1VI22CS682,Mr. James Edwards,CS807,Above themselves.,48,22,70,Pass
+1VI22CS682,Mr. James Edwards,CS497,Best early about.,33,50,83,Pass
+1VI22CS682,Mr. James Edwards,CS551,Until idea carry.,9,27,36,Fail
+1VI22CS682,Mr. James Edwards,CS355,Good entire reduce simple.,36,25,61,Pass
+1VI22CS682,Mr. James Edwards,CS354,Investment occur.,2,11,13,Fail
+1VI22CS456,Mr. Anthony Stephenson,CS454,Person eight all.,29,7,36,Fail
+1VI22CS456,Mr. Anthony Stephenson,CS118,Watch church their.,12,0,12,Fail
+1VI22CS456,Mr. Anthony Stephenson,CS665,Word some.,42,40,82,Pass
+1VI22CS456,Mr. Anthony Stephenson,CS822,Finish.,44,33,77,Pass
+1VI22CS456,Mr. Anthony Stephenson,CS512,Financial alone.,9,17,26,Fail
+1VI22CS335,Mr. Drew Lewis,CS391,Structure when will.,49,32,81,Pass
+1VI22CS335,Mr. Drew Lewis,CS356,Nothing carry open.,2,45,47,Pass
+1VI22CS335,Mr. Drew Lewis,CS164,Spend expert.,22,45,67,Pass
+1VI22CS335,Mr. Drew Lewis,CS228,Anyone probably lay.,41,5,46,Pass
+1VI22CS335,Mr. Drew Lewis,CS400,Young necessary stock.,11,6,17,Fail
+1VI22CS533,Lisa Schmidt,CS844,Probably either security.,34,25,59,Pass
+1VI22CS533,Lisa Schmidt,CS832,Author fact.,42,38,80,Pass
+1VI22CS533,Lisa Schmidt,CS422,Near across.,20,48,68,Pass
+1VI22CS533,Lisa Schmidt,CS532,Scientist.,2,34,36,Fail
+1VI22CS533,Lisa Schmidt,CS567,Window grow.,36,27,63,Pass
+1VI22CS419,Thomas Hinton,CS232,Who design hotel.,23,1,24,Fail
+1VI22CS419,Thomas Hinton,CS683,Born become before.,47,27,74,Pass
+1VI22CS419,Thomas Hinton,CS802,Medical kitchen.,30,34,64,Pass
+1VI22CS419,Thomas Hinton,CS671,Change store election.,7,25,32,Fail
+1VI22CS419,Thomas Hinton,CS939,Before movie talk.,9,49,58,Pass
+1VI22CS895,Nancy Wong,CS704,Step save service.,20,7,27,Fail
+1VI22CS895,Nancy Wong,CS829,Blue.,24,15,39,Fail
+1VI22CS895,Nancy Wong,CS676,Order color.,14,33,47,Pass
+1VI22CS895,Nancy Wong,CS161,Factor.,21,17,38,Fail
+1VI22CS895,Nancy Wong,CS278,Subject consumer street.,10,1,11,Fail
+1VI22CS501,Tanya West,CS874,Indicate officer.,29,44,73,Pass
+1VI22CS501,Tanya West,CS885,Develop hear.,48,42,90,Pass
+1VI22CS501,Tanya West,CS956,Institution old.,6,23,29,Fail
+1VI22CS501,Tanya West,CS418,Agree design but into.,47,27,74,Pass
+1VI22CS501,Tanya West,CS699,Send interview society.,23,39,62,Pass
+1VI22CS391,Alexander Mason,CS403,Hit group population.,24,45,69,Pass
+1VI22CS391,Alexander Mason,CS935,Many huge white.,13,31,44,Pass
+1VI22CS391,Alexander Mason,CS249,New last toward.,36,13,49,Pass
+1VI22CS391,Alexander Mason,CS864,Action case answer eye.,6,46,52,Pass
+1VI22CS391,Alexander Mason,CS869,Them recent.,30,13,43,Pass
+1VI22CS512,Daniel Blanchard,CS522,Resource others argue.,28,14,42,Pass
+1VI22CS512,Daniel Blanchard,CS643,Probably type.,7,23,30,Fail
+1VI22CS512,Daniel Blanchard,CS945,Middle indicate drop.,8,31,39,Fail
+1VI22CS512,Daniel Blanchard,CS842,Phone evening.,33,47,80,Pass
+1VI22CS512,Daniel Blanchard,CS812,Wide agree past.,35,16,51,Pass
+1VI22CS749,Lisa Gordon,CS407,Network recently young.,20,12,32,Fail
+1VI22CS749,Lisa Gordon,CS612,Figure must administration.,42,7,49,Pass
+1VI22CS749,Lisa Gordon,CS397,Business several one.,46,6,52,Pass
+1VI22CS749,Lisa Gordon,CS332,Back police.,47,13,60,Pass
+1VI22CS749,Lisa Gordon,CS692,Put probably.,22,35,57,Pass
+1VI22CS573,Sean Holloway,CS461,Political area ok science.,45,47,92,Pass
+1VI22CS573,Sean Holloway,CS490,Especially career hit sure.,41,28,69,Pass
+1VI22CS573,Sean Holloway,CS514,These yeah no.,28,41,69,Pass
+1VI22CS573,Sean Holloway,CS834,Decide care weight.,5,49,54,Pass
+1VI22CS573,Sean Holloway,CS109,Hospital student defense apply.,29,49,78,Pass
+1VI22CS971,Erik Perkins,CS779,Blood fly new sense.,26,40,66,Pass
+1VI22CS971,Erik Perkins,CS533,During performance just.,14,29,43,Pass
+1VI22CS971,Erik Perkins,CS984,However drug serious.,0,43,43,Pass
+1VI22CS971,Erik Perkins,CS863,Care physical civil claim.,21,45,66,Pass
+1VI22CS971,Erik Perkins,CS235,Shoulder sign budget.,40,15,55,Pass
+1VI22CS862,Kathryn Owen,CS463,Much loss why.,21,21,42,Pass
+1VI22CS862,Kathryn Owen,CS540,School.,30,21,51,Pass
+1VI22CS862,Kathryn Owen,CS309,Far sign stock study.,21,4,25,Fail
+1VI22CS862,Kathryn Owen,CS268,Education reveal.,3,1,4,Fail
+1VI22CS862,Kathryn Owen,CS928,Quickly table wide.,32,38,70,Pass
+1VI22CS812,Megan Perez,CS103,Detail should.,8,44,52,Pass
+1VI22CS812,Megan Perez,CS790,Gun anything care quite.,25,23,48,Pass
+1VI22CS812,Megan Perez,CS150,Population form without.,22,7,29,Fail
+1VI22CS812,Megan Perez,CS685,Edge grow.,21,50,71,Pass
+1VI22CS812,Megan Perez,CS871,Occur score rate.,34,18,52,Pass
+1VI22CS276,Nathan Hanna,CS245,Foot sign say adult.,7,4,11,Fail
+1VI22CS276,Nathan Hanna,CS436,Between friend raise.,27,16,43,Pass
+1VI22CS276,Nathan Hanna,CS865,Learn bring present.,4,26,30,Fail
+1VI22CS276,Nathan Hanna,CS131,Customer specific.,39,6,45,Pass
+1VI22CS276,Nathan Hanna,CS488,Sea.,24,12,36,Fail
+1VI22CS795,Dawn Acosta,CS952,Turn Republican run.,6,10,16,Fail
+1VI22CS795,Dawn Acosta,CS909,Someone data among.,33,16,49,Pass
+1VI22CS795,Dawn Acosta,CS435,Available event.,36,29,65,Pass
+1VI22CS795,Dawn Acosta,CS585,Show chair.,32,9,41,Pass
+1VI22CS795,Dawn Acosta,CS563,Impact career government.,43,47,90,Pass
+1VI22CS900,Leslie Jackson,CS309,Generation letter.,31,17,48,Pass
+1VI22CS900,Leslie Jackson,CS128,Serious drive.,17,12,29,Fail
+1VI22CS900,Leslie Jackson,CS522,Indicate it.,28,33,61,Pass
+1VI22CS900,Leslie Jackson,CS421,Near community.,31,42,73,Pass
+1VI22CS900,Leslie Jackson,CS505,Interest detail represent.,39,30,69,Pass
+1VI22CS314,Patrick Snyder,CS942,Item way point.,33,46,79,Pass
+1VI22CS314,Patrick Snyder,CS161,In road should.,18,35,53,Pass
+1VI22CS314,Patrick Snyder,CS837,Across be.,11,19,30,Fail
+1VI22CS314,Patrick Snyder,CS862,Hospital ever usually.,27,34,61,Pass
+1VI22CS314,Patrick Snyder,CS145,Point western movie.,42,43,85,Pass
+1VI22CS896,Mercedes Sanchez,CS975,Along around red act.,35,15,50,Pass
+1VI22CS896,Mercedes Sanchez,CS633,Environment bar likely.,34,0,34,Fail
+1VI22CS896,Mercedes Sanchez,CS455,Make weight book.,6,1,7,Fail
+1VI22CS896,Mercedes Sanchez,CS577,Environmental most herself camera.,22,9,31,Fail
+1VI22CS896,Mercedes Sanchez,CS156,Onto bar especially part.,43,47,90,Pass
+1VI22CS155,Sara Simmons,CS885,Left thousand along.,34,7,41,Pass
+1VI22CS155,Sara Simmons,CS245,Without sport rise.,19,39,58,Pass
+1VI22CS155,Sara Simmons,CS168,Painting carry.,15,16,31,Fail
+1VI22CS155,Sara Simmons,CS911,Detail race cause.,48,35,83,Pass
+1VI22CS155,Sara Simmons,CS949,Base find rise.,32,45,77,Pass
+1VI22CS378,Shelby Rodriguez,CS593,Others character rather husband.,14,1,15,Fail
+1VI22CS378,Shelby Rodriguez,CS241,Be capital likely.,42,18,60,Pass
+1VI22CS378,Shelby Rodriguez,CS732,Dark form federal right.,9,8,17,Fail
+1VI22CS378,Shelby Rodriguez,CS506,Since.,43,26,69,Pass
+1VI22CS378,Shelby Rodriguez,CS481,Method trial.,28,4,32,Fail
+1VI22CS463,James Rios,CS598,Information paper officer.,11,31,42,Pass
+1VI22CS463,James Rios,CS402,Beautiful.,40,41,81,Pass
+1VI22CS463,James Rios,CS872,Phone activity situation.,13,7,20,Fail
+1VI22CS463,James Rios,CS452,Half test response.,49,35,84,Pass
+1VI22CS463,James Rios,CS762,Board election really.,5,32,37,Fail
+1VI22CS600,Joyce Gallagher,CS429,These born thing.,44,18,62,Pass
+1VI22CS600,Joyce Gallagher,CS663,Until professor.,40,17,57,Pass
+1VI22CS600,Joyce Gallagher,CS549,Meet suffer.,43,34,77,Pass
+1VI22CS600,Joyce Gallagher,CS246,Bar very chance.,32,47,79,Pass
+1VI22CS600,Joyce Gallagher,CS442,Finally.,19,22,41,Pass
+1VI22CS282,Justin Washington,CS534,Manage town.,40,47,87,Pass
+1VI22CS282,Justin Washington,CS615,Player white sell.,7,26,33,Fail
+1VI22CS282,Justin Washington,CS890,Machine build sometimes section.,28,50,78,Pass
+1VI22CS282,Justin Washington,CS509,How budget attack.,1,34,35,Fail
+1VI22CS282,Justin Washington,CS771,Tonight order.,24,45,69,Pass
+1VI22CS951,Mary Lopez,CS140,History population memory.,25,46,71,Pass
+1VI22CS951,Mary Lopez,CS368,Behavior away.,39,11,50,Pass
+1VI22CS951,Mary Lopez,CS187,Drug.,16,14,30,Fail
+1VI22CS951,Mary Lopez,CS446,Green play visit.,48,17,65,Pass
+1VI22CS951,Mary Lopez,CS538,Blood that.,11,18,29,Fail
+1VI22CS293,Kayla Mullins,CS622,Safe than.,11,4,15,Fail
+1VI22CS293,Kayla Mullins,CS838,Especially story education car.,30,21,51,Pass
+1VI22CS293,Kayla Mullins,CS501,Strategy represent.,7,26,33,Fail
+1VI22CS293,Kayla Mullins,CS364,Claim yourself rich.,1,1,2,Fail
+1VI22CS293,Kayla Mullins,CS651,Away must power.,9,40,49,Pass
+1VI22CS871,Paul Rice,CS318,Machine room.,42,3,45,Pass
+1VI22CS871,Paul Rice,CS314,Same me unit.,27,31,58,Pass
+1VI22CS871,Paul Rice,CS260,Majority find.,10,24,34,Fail
+1VI22CS871,Paul Rice,CS999,Before meet never.,32,35,67,Pass
+1VI22CS871,Paul Rice,CS351,All night.,5,29,34,Fail
+1VI22CS922,Lauren Oneill MD,CS154,Make there.,39,46,85,Pass
+1VI22CS922,Lauren Oneill MD,CS624,Usually million environment.,19,41,60,Pass
+1VI22CS922,Lauren Oneill MD,CS487,Treatment small company.,2,6,8,Fail
+1VI22CS922,Lauren Oneill MD,CS191,Miss gas.,36,6,42,Pass
+1VI22CS922,Lauren Oneill MD,CS100,Should mean fund little.,10,13,23,Fail
+1VI22CS441,Penny Middleton,CS416,Water president what.,6,10,16,Fail
+1VI22CS441,Penny Middleton,CS113,Move only discuss affect.,43,4,47,Pass
+1VI22CS441,Penny Middleton,CS440,Clear next.,3,7,10,Fail
+1VI22CS441,Penny Middleton,CS254,Until clearly.,19,10,29,Fail
+1VI22CS441,Penny Middleton,CS190,Travel bill radio.,25,18,43,Pass
+1VI22CS758,Bruce Parker,CS986,Allow protect catch fight.,14,22,36,Fail
+1VI22CS758,Bruce Parker,CS699,Republican.,0,49,49,Pass
+1VI22CS758,Bruce Parker,CS108,Describe difficult five citizen.,4,7,11,Fail
+1VI22CS758,Bruce Parker,CS463,Over thank behind.,22,21,43,Pass
+1VI22CS758,Bruce Parker,CS280,Dog health reason.,24,36,60,Pass
+1VI22CS109,Benjamin Bennett,CS763,Huge need trade.,28,46,74,Pass
+1VI22CS109,Benjamin Bennett,CS495,Go purpose.,19,34,53,Pass
+1VI22CS109,Benjamin Bennett,CS197,Answer letter kid.,13,23,36,Fail
+1VI22CS109,Benjamin Bennett,CS261,Couple example down.,34,38,72,Pass
+1VI22CS109,Benjamin Bennett,CS572,Lay short also.,25,9,34,Fail
+1VI22CS944,Chad Jackson,CS902,They organization without.,12,33,45,Pass
+1VI22CS944,Chad Jackson,CS204,Recent north.,17,46,63,Pass
+1VI22CS944,Chad Jackson,CS941,Drop such act.,35,11,46,Pass
+1VI22CS944,Chad Jackson,CS274,Walk investment would.,50,2,52,Pass
+1VI22CS944,Chad Jackson,CS861,Thousand tell.,32,15,47,Pass
+1VI22CS622,Tina Rodriguez,CS707,Take benefit.,25,47,72,Pass
+1VI22CS622,Tina Rodriguez,CS711,Nature smile.,21,10,31,Fail
+1VI22CS622,Tina Rodriguez,CS244,Case tough big.,8,33,41,Pass
+1VI22CS622,Tina Rodriguez,CS746,Business it.,7,29,36,Fail
+1VI22CS622,Tina Rodriguez,CS243,Voice performance term help.,20,9,29,Fail
+1VI22CS565,Kevin Pittman,CS763,Into drive watch.,37,10,47,Pass
+1VI22CS565,Kevin Pittman,CS115,Born.,29,29,58,Pass
+1VI22CS565,Kevin Pittman,CS983,Board something.,38,10,48,Pass
+1VI22CS565,Kevin Pittman,CS725,End view certain.,48,1,49,Pass
+1VI22CS565,Kevin Pittman,CS472,Development bill pass.,47,11,58,Pass
+1VI22CS964,Michael Green,CS116,Short share.,46,45,91,Pass
+1VI22CS964,Michael Green,CS957,Line century though.,12,43,55,Pass
+1VI22CS964,Michael Green,CS254,Together plant.,1,20,21,Fail
+1VI22CS964,Michael Green,CS855,Office blue them.,49,28,77,Pass
+1VI22CS964,Michael Green,CS507,Election rule.,17,17,34,Fail
+1VI22CS445,Amy Young,CS621,Especially develop power.,18,31,49,Pass
+1VI22CS445,Amy Young,CS595,All believe.,21,48,69,Pass
+1VI22CS445,Amy Young,CS711,Energy effect young.,34,23,57,Pass
+1VI22CS445,Amy Young,CS679,Build everybody.,26,41,67,Pass
+1VI22CS445,Amy Young,CS728,Country drug participant.,3,12,15,Fail
+1VI22CS708,Jessica Mitchell,CS373,World cold thought member.,12,6,18,Fail
+1VI22CS708,Jessica Mitchell,CS852,Executive spend leave letter.,10,22,32,Fail
+1VI22CS708,Jessica Mitchell,CS114,Close reality truth whom.,21,4,25,Fail
+1VI22CS708,Jessica Mitchell,CS817,Cut stuff.,5,19,24,Fail
+1VI22CS708,Jessica Mitchell,CS786,Look measure.,28,34,62,Pass
+1VI22CS852,Kelsey Ramirez,CS701,Myself event although which.,42,29,71,Pass
+1VI22CS852,Kelsey Ramirez,CS771,Technology necessary.,49,7,56,Pass
+1VI22CS852,Kelsey Ramirez,CS899,Pattern doctor.,7,21,28,Fail
+1VI22CS852,Kelsey Ramirez,CS441,Money alone million.,41,15,56,Pass
+1VI22CS852,Kelsey Ramirez,CS368,Return technology.,0,6,6,Fail
+1VI22CS505,James Blackwell,CS867,Standard subject.,10,3,13,Fail
+1VI22CS505,James Blackwell,CS608,Institution fill.,41,38,79,Pass
+1VI22CS505,James Blackwell,CS705,Discussion relationship memory.,45,27,72,Pass
+1VI22CS505,James Blackwell,CS368,Range student lawyer.,33,24,57,Pass
+1VI22CS505,James Blackwell,CS647,Short field.,35,43,78,Pass
+1VI22CS196,Emily Morris,CS950,Sit.,38,32,70,Pass
+1VI22CS196,Emily Morris,CS274,Against until.,31,15,46,Pass
+1VI22CS196,Emily Morris,CS679,Mind process.,29,25,54,Pass
+1VI22CS196,Emily Morris,CS254,Maintain couple.,8,0,8,Fail
+1VI22CS196,Emily Morris,CS175,Wear whatever.,41,15,56,Pass
+1VI22CS201,Devon Robles,CS697,Course there her.,31,2,33,Fail
+1VI22CS201,Devon Robles,CS866,Again cost father.,20,38,58,Pass
+1VI22CS201,Devon Robles,CS562,Day mention wear.,26,36,62,Pass
+1VI22CS201,Devon Robles,CS328,From official.,44,30,74,Pass
+1VI22CS201,Devon Robles,CS701,Structure book section entire.,5,26,31,Fail
+1VI22CS111,Monica Hill,CS805,Him weight only.,21,38,59,Pass
+1VI22CS111,Monica Hill,CS496,Allow her big.,29,34,63,Pass
+1VI22CS111,Monica Hill,CS548,Tonight late guy.,7,40,47,Pass
+1VI22CS111,Monica Hill,CS888,Himself film.,25,34,59,Pass
+1VI22CS111,Monica Hill,CS199,Middle wrong training.,32,50,82,Pass
+1VI22CS141,Adrian Hansen,CS974,Yes determine.,30,27,57,Pass
+1VI22CS141,Adrian Hansen,CS814,Ok economic.,19,39,58,Pass
+1VI22CS141,Adrian Hansen,CS102,Simple improve.,34,46,80,Pass
+1VI22CS141,Adrian Hansen,CS642,North option professor.,28,22,50,Pass
+1VI22CS141,Adrian Hansen,CS773,Else really cover never.,32,35,67,Pass
+1VI22CS341,Jill Mccall,CS704,End.,38,32,70,Pass
+1VI22CS341,Jill Mccall,CS513,Describe focus speak.,47,18,65,Pass
+1VI22CS341,Jill Mccall,CS182,Manager.,1,8,9,Fail
+1VI22CS341,Jill Mccall,CS453,Light himself.,30,31,61,Pass
+1VI22CS341,Jill Mccall,CS331,Appear someone.,44,17,61,Pass
+1VI22CS855,Eric Glover PhD,CS339,Cause team.,23,39,62,Pass
+1VI22CS855,Eric Glover PhD,CS786,Machine station.,26,41,67,Pass
+1VI22CS855,Eric Glover PhD,CS879,Arm cup address ahead.,25,47,72,Pass
+1VI22CS855,Eric Glover PhD,CS325,Catch imagine.,38,27,65,Pass
+1VI22CS855,Eric Glover PhD,CS528,Market help more smile.,32,15,47,Pass
+1VI22CS612,Pamela Powell,CS329,Draw research whatever.,47,18,65,Pass
+1VI22CS612,Pamela Powell,CS356,Box relationship election south.,45,31,76,Pass
+1VI22CS612,Pamela Powell,CS524,Surface interview.,43,19,62,Pass
+1VI22CS612,Pamela Powell,CS787,Four agree.,21,18,39,Fail
+1VI22CS612,Pamela Powell,CS319,Amount she.,19,9,28,Fail
+1VI22CS199,Jonathan Arias,CS352,Down follow.,5,34,39,Fail
+1VI22CS199,Jonathan Arias,CS150,May knowledge art.,33,41,74,Pass
+1VI22CS199,Jonathan Arias,CS557,Partner purpose campaign.,39,18,57,Pass
+1VI22CS199,Jonathan Arias,CS819,Medical impact reflect.,8,9,17,Fail
+1VI22CS199,Jonathan Arias,CS556,Drug determine.,35,27,62,Pass
+1VI22CS786,Eric Romero,CS683,Game make.,32,16,48,Pass
+1VI22CS786,Eric Romero,CS746,Yet more fine since.,36,48,84,Pass
+1VI22CS786,Eric Romero,CS310,Food security.,10,16,26,Fail
+1VI22CS786,Eric Romero,CS634,Traditional word weight.,41,29,70,Pass
+1VI22CS786,Eric Romero,CS592,So father you.,46,37,83,Pass
+1VI22CS192,Amy Hudson,CS649,Reduce project.,20,36,56,Pass
+1VI22CS192,Amy Hudson,CS796,Understand these.,7,17,24,Fail
+1VI22CS192,Amy Hudson,CS276,Character however front.,20,41,61,Pass
+1VI22CS192,Amy Hudson,CS929,Watch base medical.,13,5,18,Fail
+1VI22CS192,Amy Hudson,CS777,Behind government conference.,10,50,60,Pass
+1VI22CS696,Christian Gray,CS352,Off bad.,4,24,28,Fail
+1VI22CS696,Christian Gray,CS420,Whether speech.,18,28,46,Pass
+1VI22CS696,Christian Gray,CS547,Edge.,45,12,57,Pass
+1VI22CS696,Christian Gray,CS572,Ten line.,31,5,36,Fail
+1VI22CS696,Christian Gray,CS852,Protect lawyer pretty.,4,31,35,Fail
+1VI22CS496,Pamela Garrett,CS627,Finally suggest keep.,6,12,18,Fail
+1VI22CS496,Pamela Garrett,CS641,Word look few.,21,18,39,Fail
+1VI22CS496,Pamela Garrett,CS460,Recognize class accept near.,30,43,73,Pass
+1VI22CS496,Pamela Garrett,CS506,True arrive.,27,32,59,Pass
+1VI22CS496,Pamela Garrett,CS215,Member scientist tell.,15,25,40,Pass
+1VI22CS696,Donald Munoz,CS707,Movement myself left.,11,40,51,Pass
+1VI22CS696,Donald Munoz,CS103,Size lay baby.,3,14,17,Fail
+1VI22CS696,Donald Munoz,CS709,Heavy story.,1,39,40,Pass
+1VI22CS696,Donald Munoz,CS992,Or early.,28,19,47,Pass
+1VI22CS696,Donald Munoz,CS254,Sit crime.,0,11,11,Fail
+1VI22CS568,Christopher Hill,CS937,Eight religious sing.,11,33,44,Pass
+1VI22CS568,Christopher Hill,CS719,Sense wish.,35,35,70,Pass
+1VI22CS568,Christopher Hill,CS917,Hold answer evening.,38,49,87,Pass
+1VI22CS568,Christopher Hill,CS673,Politics already individual.,30,15,45,Pass
+1VI22CS568,Christopher Hill,CS686,Bar decade environment although.,34,6,40,Pass
+1VI22CS899,Mark Harris,CS584,Possible tough hotel.,22,13,35,Fail
+1VI22CS899,Mark Harris,CS939,Wife appear ready.,12,20,32,Fail
+1VI22CS899,Mark Harris,CS821,It attack.,46,34,80,Pass
+1VI22CS899,Mark Harris,CS905,Experience century.,23,18,41,Pass
+1VI22CS899,Mark Harris,CS564,Story ask.,20,9,29,Fail
+1VI22CS356,Katherine Peterson,CS448,Mission everyone.,45,2,47,Pass
+1VI22CS356,Katherine Peterson,CS456,Turn.,45,14,59,Pass
+1VI22CS356,Katherine Peterson,CS876,Draw issue.,24,2,26,Fail
+1VI22CS356,Katherine Peterson,CS256,Everyone thought.,12,40,52,Pass
+1VI22CS356,Katherine Peterson,CS422,It too amount.,14,43,57,Pass
+1VI22CS584,Cynthia Shepard,CS198,Determine often.,30,47,77,Pass
+1VI22CS584,Cynthia Shepard,CS187,Artist quickly be.,26,8,34,Fail
+1VI22CS584,Cynthia Shepard,CS829,Will loss especially.,15,17,32,Fail
+1VI22CS584,Cynthia Shepard,CS898,Should section.,24,39,63,Pass
+1VI22CS584,Cynthia Shepard,CS350,Than only within.,50,37,87,Pass
+1VI22CS754,Jacob Odonnell,CS544,Phone his.,30,10,40,Pass
+1VI22CS754,Jacob Odonnell,CS745,View plan.,20,5,25,Fail
+1VI22CS754,Jacob Odonnell,CS180,Stock soon system.,20,13,33,Fail
+1VI22CS754,Jacob Odonnell,CS648,Stop.,21,17,38,Fail
+1VI22CS754,Jacob Odonnell,CS533,Turn item matter.,35,13,48,Pass
+1VI22CS832,Timothy Cook,CS250,Close order.,35,50,85,Pass
+1VI22CS832,Timothy Cook,CS634,Election spring seven.,6,32,38,Fail
+1VI22CS832,Timothy Cook,CS747,Guess.,14,27,41,Pass
+1VI22CS832,Timothy Cook,CS974,Experience employee.,20,41,61,Pass
+1VI22CS832,Timothy Cook,CS220,Citizen each drop.,39,11,50,Pass
+1VI22CS605,Lindsey Swanson,CS805,Car act camera.,37,41,78,Pass
+1VI22CS605,Lindsey Swanson,CS521,Far something mouth.,9,23,32,Fail
+1VI22CS605,Lindsey Swanson,CS704,According rise notice.,47,4,51,Pass
+1VI22CS605,Lindsey Swanson,CS523,More red out tell.,19,4,23,Fail
+1VI22CS605,Lindsey Swanson,CS373,Short cost tree.,21,14,35,Fail
+1VI22CS798,Cody Price,CS474,Effect claim.,29,35,64,Pass
+1VI22CS798,Cody Price,CS451,Raise figure report.,5,10,15,Fail
+1VI22CS798,Cody Price,CS195,Financial score focus key.,17,34,51,Pass
+1VI22CS798,Cody Price,CS901,Rock take few.,3,27,30,Fail
+1VI22CS798,Cody Price,CS899,Force best information.,31,9,40,Pass
+1VI22CS217,Monica Dodson,CS651,Responsibility.,38,22,60,Pass
+1VI22CS217,Monica Dodson,CS863,Stage scene child.,21,24,45,Pass
+1VI22CS217,Monica Dodson,CS476,Exactly accept.,39,27,66,Pass
+1VI22CS217,Monica Dodson,CS585,House billion majority.,41,34,75,Pass
+1VI22CS217,Monica Dodson,CS236,Writer ahead arm.,11,12,23,Fail
+1VI22CS204,Brenda Clark,CS409,Enter feeling line.,27,7,34,Fail
+1VI22CS204,Brenda Clark,CS566,Last century.,38,3,41,Pass
+1VI22CS204,Brenda Clark,CS738,Clear trip capital.,11,18,29,Fail
+1VI22CS204,Brenda Clark,CS912,Toward of development.,3,45,48,Pass
+1VI22CS204,Brenda Clark,CS855,Deep consider clearly.,19,20,39,Fail
+1VI22CS254,Richard Scott,CS695,Effort quite think.,35,33,68,Pass
+1VI22CS254,Richard Scott,CS168,Hope national throw.,23,29,52,Pass
+1VI22CS254,Richard Scott,CS430,History history local.,1,15,16,Fail
+1VI22CS254,Richard Scott,CS657,Type wear environmental.,50,8,58,Pass
+1VI22CS254,Richard Scott,CS251,Approach fish heart.,11,50,61,Pass
+1VI22CS711,Ashley Adams,CS675,Girl physical read.,12,46,58,Pass
+1VI22CS711,Ashley Adams,CS621,It window.,11,49,60,Pass
+1VI22CS711,Ashley Adams,CS828,Court research.,3,21,24,Fail
+1VI22CS711,Ashley Adams,CS932,Answer old.,24,6,30,Fail
+1VI22CS711,Ashley Adams,CS384,Imagine or investment.,50,41,91,Pass
+1VI22CS639,Danielle Rivera,CS296,Feeling admit also prove.,14,20,34,Fail
+1VI22CS639,Danielle Rivera,CS903,Huge both ahead.,38,36,74,Pass
+1VI22CS639,Danielle Rivera,CS825,Book the.,7,1,8,Fail
+1VI22CS639,Danielle Rivera,CS597,Tend theory interesting.,2,5,7,Fail
+1VI22CS639,Danielle Rivera,CS218,Election benefit call business.,37,43,80,Pass
+1VI22CS518,Beth Lopez,CS551,Deal take spend goal.,21,35,56,Pass
+1VI22CS518,Beth Lopez,CS531,Sign poor enter.,6,6,12,Fail
+1VI22CS518,Beth Lopez,CS825,Time get answer.,21,12,33,Fail
+1VI22CS518,Beth Lopez,CS906,Great around weight.,4,4,8,Fail
+1VI22CS518,Beth Lopez,CS925,Nation thing collection.,18,14,32,Fail
+1VI22CS199,Kristin Lucero,CS852,Book system.,21,6,27,Fail
+1VI22CS199,Kristin Lucero,CS423,More fast.,16,30,46,Pass
+1VI22CS199,Kristin Lucero,CS362,Great international.,23,11,34,Fail
+1VI22CS199,Kristin Lucero,CS947,When talk.,3,4,7,Fail
+1VI22CS199,Kristin Lucero,CS160,Responsibility PM.,26,3,29,Fail
+1VI22CS765,Douglas Williams,CS122,Travel design.,2,3,5,Fail
+1VI22CS765,Douglas Williams,CS373,Land be.,42,4,46,Pass
+1VI22CS765,Douglas Williams,CS319,Indeed buy.,5,16,21,Fail
+1VI22CS765,Douglas Williams,CS453,Up eat provide.,18,46,64,Pass
+1VI22CS765,Douglas Williams,CS687,High.,3,48,51,Pass
+1VI22CS392,James Casey,CS275,President head.,24,46,70,Pass
+1VI22CS392,James Casey,CS180,Head ground.,37,19,56,Pass
+1VI22CS392,James Casey,CS350,Story kind six.,31,38,69,Pass
+1VI22CS392,James Casey,CS956,Majority upon.,50,46,96,Pass
+1VI22CS392,James Casey,CS370,Relationship.,33,34,67,Pass
+1VI22CS831,Anna Rollins,CS551,House professional example.,27,36,63,Pass
+1VI22CS831,Anna Rollins,CS379,Break yeah science.,21,13,34,Fail
+1VI22CS831,Anna Rollins,CS650,Away whose.,17,26,43,Pass
+1VI22CS831,Anna Rollins,CS209,Look effort.,17,4,21,Fail
+1VI22CS831,Anna Rollins,CS615,Style left today.,2,37,39,Fail
+1VI22CS915,Cheryl Allen,CS921,Thought serve.,31,30,61,Pass
+1VI22CS915,Cheryl Allen,CS908,Physical station those.,21,22,43,Pass
+1VI22CS915,Cheryl Allen,CS386,Marriage act.,26,39,65,Pass
+1VI22CS915,Cheryl Allen,CS305,Notice toward season.,20,18,38,Fail
+1VI22CS915,Cheryl Allen,CS688,Girl item will.,3,27,30,Fail
+1VI22CS956,Beth Carroll,CS464,Eye house everyone.,39,1,40,Pass
+1VI22CS956,Beth Carroll,CS523,That scene.,26,5,31,Fail
+1VI22CS956,Beth Carroll,CS371,Hospital computer pretty.,26,13,39,Fail
+1VI22CS956,Beth Carroll,CS683,Plan become matter.,49,21,70,Pass
+1VI22CS956,Beth Carroll,CS203,Economy.,1,0,1,Fail
+1VI22CS634,Samantha Murphy,CS210,Right less edge activity.,28,21,49,Pass
+1VI22CS634,Samantha Murphy,CS507,Perform memory.,49,45,94,Pass
+1VI22CS634,Samantha Murphy,CS282,Know nothing.,29,21,50,Pass
+1VI22CS634,Samantha Murphy,CS642,Size.,40,32,72,Pass
+1VI22CS634,Samantha Murphy,CS704,Artist understand.,50,26,76,Pass
+1VI22CS716,Kevin Hill,CS833,Laugh.,29,38,67,Pass
+1VI22CS716,Kevin Hill,CS982,Institution main evening.,8,13,21,Fail
+1VI22CS716,Kevin Hill,CS231,Agree onto certain place.,13,16,29,Fail
+1VI22CS716,Kevin Hill,CS328,Else.,12,40,52,Pass
+1VI22CS716,Kevin Hill,CS990,Member performance.,19,4,23,Fail
+1VI22CS539,Annette Reynolds,CS407,Seat research season.,15,11,26,Fail
+1VI22CS539,Annette Reynolds,CS195,Keep lay.,48,8,56,Pass
+1VI22CS539,Annette Reynolds,CS398,Production day collection.,3,20,23,Fail
+1VI22CS539,Annette Reynolds,CS645,Or beautiful church.,15,13,28,Fail
+1VI22CS539,Annette Reynolds,CS937,Several nearly.,25,25,50,Pass
+1VI22CS891,Kelsey Jenkins,CS502,Economy coach government.,4,1,5,Fail
+1VI22CS891,Kelsey Jenkins,CS915,Point benefit benefit.,6,30,36,Fail
+1VI22CS891,Kelsey Jenkins,CS442,Blood make.,41,40,81,Pass
+1VI22CS891,Kelsey Jenkins,CS154,Budget.,23,41,64,Pass
+1VI22CS891,Kelsey Jenkins,CS227,Including under seven.,2,29,31,Fail
+1VI22CS273,Terry Garza,CS956,Relate town candidate.,25,3,28,Fail
+1VI22CS273,Terry Garza,CS327,Assume feel employee upon.,4,19,23,Fail
+1VI22CS273,Terry Garza,CS158,Add finally service.,39,40,79,Pass
+1VI22CS273,Terry Garza,CS461,Would according.,17,22,39,Fail
+1VI22CS273,Terry Garza,CS691,Argue mention.,3,5,8,Fail
+1VI22CS180,Lisa Dunn,CS916,Investment sometimes.,29,24,53,Pass
+1VI22CS180,Lisa Dunn,CS897,Media fight.,36,20,56,Pass
+1VI22CS180,Lisa Dunn,CS821,World speak officer.,0,42,42,Pass
+1VI22CS180,Lisa Dunn,CS500,Certainly your.,29,47,76,Pass
+1VI22CS180,Lisa Dunn,CS379,Early hear week.,37,19,56,Pass
+1VI22CS335,Christine Lynch,CS943,Product represent big.,13,8,21,Fail
+1VI22CS335,Christine Lynch,CS538,Character research fire.,18,27,45,Pass
+1VI22CS335,Christine Lynch,CS129,Sure.,5,14,19,Fail
+1VI22CS335,Christine Lynch,CS373,Hair thousand miss.,26,13,39,Fail
+1VI22CS335,Christine Lynch,CS440,Far until.,50,21,71,Pass
+1VI22CS288,Brian Ramirez,CS445,Letter doctor spring.,25,7,32,Fail
+1VI22CS288,Brian Ramirez,CS110,Form lawyer visit federal.,35,15,50,Pass
+1VI22CS288,Brian Ramirez,CS276,Down play their.,46,27,73,Pass
+1VI22CS288,Brian Ramirez,CS665,Clearly show challenge.,15,20,35,Fail
+1VI22CS288,Brian Ramirez,CS280,Drug.,15,35,50,Pass
+1VI22CS471,Debra Sexton,CS232,Early listen.,34,34,68,Pass
+1VI22CS471,Debra Sexton,CS208,Later beautiful.,37,7,44,Pass
+1VI22CS471,Debra Sexton,CS225,Should their.,45,49,94,Pass
+1VI22CS471,Debra Sexton,CS921,Like that few.,40,19,59,Pass
+1VI22CS471,Debra Sexton,CS538,Career policy space.,19,29,48,Pass
+1VI22CS178,Michael Frey,CS839,Environment international spend professor.,24,50,74,Pass
+1VI22CS178,Michael Frey,CS894,Because full anything.,7,14,21,Fail
+1VI22CS178,Michael Frey,CS458,Energy memory daughter.,49,14,63,Pass
+1VI22CS178,Michael Frey,CS840,Your reality.,23,11,34,Fail
+1VI22CS178,Michael Frey,CS554,Could owner small teacher.,31,16,47,Pass
+1VI22CS646,Robert Sandoval,CS393,Old success difference.,33,50,83,Pass
+1VI22CS646,Robert Sandoval,CS880,Claim remain.,9,42,51,Pass
+1VI22CS646,Robert Sandoval,CS253,Political forget.,41,24,65,Pass
+1VI22CS646,Robert Sandoval,CS986,Hand market third.,4,29,33,Fail
+1VI22CS646,Robert Sandoval,CS651,Trouble rise expert.,12,5,17,Fail
+1VI22CS234,Miranda Greene,CS121,Address skin rather.,6,2,8,Fail
+1VI22CS234,Miranda Greene,CS475,Pressure room.,36,22,58,Pass
+1VI22CS234,Miranda Greene,CS802,Ground worker.,19,41,60,Pass
+1VI22CS234,Miranda Greene,CS291,Interesting keep good.,10,41,51,Pass
+1VI22CS234,Miranda Greene,CS143,Wind community military.,42,33,75,Pass
+1VI22CS500,Julie Johnson,CS248,Source.,23,47,70,Pass
+1VI22CS500,Julie Johnson,CS344,Role entire during must.,29,32,61,Pass
+1VI22CS500,Julie Johnson,CS912,Suffer describe really.,13,10,23,Fail
+1VI22CS500,Julie Johnson,CS791,Lead fall.,45,44,89,Pass
+1VI22CS500,Julie Johnson,CS191,May school recent.,47,15,62,Pass
+1VI22CS780,Julie Ryan,CS836,Summer person.,0,46,46,Pass
+1VI22CS780,Julie Ryan,CS303,Rule material.,40,42,82,Pass
+1VI22CS780,Julie Ryan,CS541,Game treatment.,12,15,27,Fail
+1VI22CS780,Julie Ryan,CS788,Order house.,1,45,46,Pass
+1VI22CS780,Julie Ryan,CS546,Amount bring agency course.,46,33,79,Pass
+1VI22CS988,Terry Shaw,CS854,Congress value door.,29,9,38,Fail
+1VI22CS988,Terry Shaw,CS641,Window the.,35,0,35,Fail
+1VI22CS988,Terry Shaw,CS950,Party fact former.,35,18,53,Pass
+1VI22CS988,Terry Shaw,CS329,Rich case.,6,6,12,Fail
+1VI22CS988,Terry Shaw,CS348,Move power.,14,4,18,Fail
+1VI22CS901,Megan Moore,CS407,Sound bit.,3,29,32,Fail
+1VI22CS901,Megan Moore,CS812,Himself edge.,8,26,34,Fail
+1VI22CS901,Megan Moore,CS151,Federal color.,23,17,40,Pass
+1VI22CS901,Megan Moore,CS998,Successful least.,38,7,45,Pass
+1VI22CS901,Megan Moore,CS379,Today surface.,30,43,73,Pass
+1VI22CS215,Maria Peterson,CS134,Difference huge.,7,1,8,Fail
+1VI22CS215,Maria Peterson,CS804,Fund.,35,29,64,Pass
+1VI22CS215,Maria Peterson,CS681,As health.,36,28,64,Pass
+1VI22CS215,Maria Peterson,CS719,Response avoid music boy.,42,21,63,Pass
+1VI22CS215,Maria Peterson,CS903,Certain authority.,11,5,16,Fail
+1VI22CS808,Nathan Smith MD,CS403,Question usually exactly.,44,47,91,Pass
+1VI22CS808,Nathan Smith MD,CS969,Dinner dream.,7,1,8,Fail
+1VI22CS808,Nathan Smith MD,CS678,Career write.,4,35,39,Fail
+1VI22CS808,Nathan Smith MD,CS774,Wish sell.,39,43,82,Pass
+1VI22CS808,Nathan Smith MD,CS501,Glass with green.,11,4,15,Fail
+1VI22CS963,John Williams,CS749,Security.,45,45,90,Pass
+1VI22CS963,John Williams,CS327,Present student.,29,46,75,Pass
+1VI22CS963,John Williams,CS234,Student need.,24,21,45,Pass
+1VI22CS963,John Williams,CS278,Week not special.,48,43,91,Pass
+1VI22CS963,John Williams,CS940,Social could beat.,36,40,76,Pass
+1VI22CS547,Erica Garner,CS213,Team.,36,46,82,Pass
+1VI22CS547,Erica Garner,CS917,Actually wish.,25,6,31,Fail
+1VI22CS547,Erica Garner,CS312,Learn lose.,15,10,25,Fail
+1VI22CS547,Erica Garner,CS664,Could maybe anything sea.,7,6,13,Fail
+1VI22CS547,Erica Garner,CS429,Season need heart.,25,40,65,Pass
+1VI22CS124,Ana Delgado MD,CS424,Movement eye stock.,25,23,48,Pass
+1VI22CS124,Ana Delgado MD,CS362,Edge.,37,35,72,Pass
+1VI22CS124,Ana Delgado MD,CS845,Should do me.,49,5,54,Pass
+1VI22CS124,Ana Delgado MD,CS313,Attorney loss unit.,7,4,11,Fail
+1VI22CS124,Ana Delgado MD,CS572,Bad partner.,12,6,18,Fail
+1VI22CS501,Nicole Davis,CS565,Father let side.,24,45,69,Pass
+1VI22CS501,Nicole Davis,CS252,See million source over.,41,41,82,Pass
+1VI22CS501,Nicole Davis,CS318,Field understand easy.,15,46,61,Pass
+1VI22CS501,Nicole Davis,CS180,Attorney marriage.,8,44,52,Pass
+1VI22CS501,Nicole Davis,CS603,Run.,31,40,71,Pass
+1VI22CS789,Jack Hawkins,CS448,Certain.,25,6,31,Fail
+1VI22CS789,Jack Hawkins,CS427,Wrong American onto.,5,13,18,Fail
+1VI22CS789,Jack Hawkins,CS112,Station break their.,47,26,73,Pass
+1VI22CS789,Jack Hawkins,CS279,Few difficult animal.,49,43,92,Pass
+1VI22CS789,Jack Hawkins,CS432,Side woman score.,5,29,34,Fail
+1VI22CS852,Brittany Garcia,CS109,Likely yet.,13,27,40,Pass
+1VI22CS852,Brittany Garcia,CS497,Mouth population nature.,48,35,83,Pass
+1VI22CS852,Brittany Garcia,CS713,Dinner again community.,20,6,26,Fail
+1VI22CS852,Brittany Garcia,CS840,Half organization.,27,48,75,Pass
+1VI22CS852,Brittany Garcia,CS790,Allow special Congress.,22,25,47,Pass
+1VI22CS708,Martha Alvarez,CS625,Speak and.,22,46,68,Pass
+1VI22CS708,Martha Alvarez,CS250,Everyone example.,34,20,54,Pass
+1VI22CS708,Martha Alvarez,CS382,Foreign impact produce.,5,12,17,Fail
+1VI22CS708,Martha Alvarez,CS607,About newspaper.,6,34,40,Pass
+1VI22CS708,Martha Alvarez,CS706,Very candidate democratic card.,30,46,76,Pass
+1VI22CS269,Manuel Marquez,CS644,Enjoy particular.,49,7,56,Pass
+1VI22CS269,Manuel Marquez,CS119,School view establish.,5,10,15,Fail
+1VI22CS269,Manuel Marquez,CS593,Across risk business.,35,29,64,Pass
+1VI22CS269,Manuel Marquez,CS683,Court yeah base.,8,50,58,Pass
+1VI22CS269,Manuel Marquez,CS559,Look name.,20,11,31,Fail
+1VI22CS972,Crystal Sandoval,CS300,Civil test.,17,31,48,Pass
+1VI22CS972,Crystal Sandoval,CS476,Order recently.,17,3,20,Fail
+1VI22CS972,Crystal Sandoval,CS215,Chance growth so model.,44,31,75,Pass
+1VI22CS972,Crystal Sandoval,CS966,You score.,11,35,46,Pass
+1VI22CS972,Crystal Sandoval,CS535,Style call wear.,33,10,43,Pass
+1VI22CS353,Brooke Butler,CS941,Despite send could.,24,45,69,Pass
+1VI22CS353,Brooke Butler,CS129,Computer available.,15,32,47,Pass
+1VI22CS353,Brooke Butler,CS867,Up anyone item.,37,29,66,Pass
+1VI22CS353,Brooke Butler,CS329,State though.,24,2,26,Fail
+1VI22CS353,Brooke Butler,CS608,Model rock investment.,24,11,35,Fail
+1VI22CS735,Johnny Robles,CS341,Population item.,23,10,33,Fail
+1VI22CS735,Johnny Robles,CS682,Bank organization.,1,34,35,Fail
+1VI22CS735,Johnny Robles,CS287,Culture firm name.,29,2,31,Fail
+1VI22CS735,Johnny Robles,CS371,General everybody court.,40,46,86,Pass
+1VI22CS735,Johnny Robles,CS977,Buy attention go.,41,43,84,Pass
+1VI22CS114,Alex Brown,CS117,Game production majority.,41,25,66,Pass
+1VI22CS114,Alex Brown,CS659,Practice very low.,10,10,20,Fail
+1VI22CS114,Alex Brown,CS449,Fast particular rule today.,11,7,18,Fail
+1VI22CS114,Alex Brown,CS106,War follow read world.,24,43,67,Pass
+1VI22CS114,Alex Brown,CS249,Miss cover room.,37,47,84,Pass
+1VI22CS147,Ricky Petty,CS339,Raise plan.,18,42,60,Pass
+1VI22CS147,Ricky Petty,CS649,Most agent throw us.,18,38,56,Pass
+1VI22CS147,Ricky Petty,CS307,Test song performance.,22,31,53,Pass
+1VI22CS147,Ricky Petty,CS651,Reach interview organization.,25,38,63,Pass
+1VI22CS147,Ricky Petty,CS333,All human.,23,44,67,Pass
+1VI22CS472,Leah Villa,CS126,Sound design attention.,32,44,76,Pass
+1VI22CS472,Leah Villa,CS576,Way know over.,29,28,57,Pass
+1VI22CS472,Leah Villa,CS927,Building what.,24,34,58,Pass
+1VI22CS472,Leah Villa,CS613,Election music.,28,11,39,Fail
+1VI22CS472,Leah Villa,CS441,Nature not however.,41,30,71,Pass
+1VI22CS373,Roger Thompson,CS899,Late rate growth.,38,42,80,Pass
+1VI22CS373,Roger Thompson,CS255,Bad week out.,17,2,19,Fail
+1VI22CS373,Roger Thompson,CS958,Difficult seem court.,4,19,23,Fail
+1VI22CS373,Roger Thompson,CS233,Two piece save.,14,11,25,Fail
+1VI22CS373,Roger Thompson,CS103,Product follow.,35,25,60,Pass
+1VI22CS712,Nathaniel Thompson,CS604,List reach nor.,21,3,24,Fail
+1VI22CS712,Nathaniel Thompson,CS638,Travel research.,27,35,62,Pass
+1VI22CS712,Nathaniel Thompson,CS922,Fight source like opportunity.,16,8,24,Fail
+1VI22CS712,Nathaniel Thompson,CS459,Word allow news.,34,38,72,Pass
+1VI22CS712,Nathaniel Thompson,CS668,Small arrive.,34,27,61,Pass
+1VI22CS225,David Hart,CS687,Forget nation.,30,6,36,Fail
+1VI22CS225,David Hart,CS994,Boy visit.,44,30,74,Pass
+1VI22CS225,David Hart,CS547,Past.,50,38,88,Pass
+1VI22CS225,David Hart,CS220,Cup reflect help.,3,49,52,Pass
+1VI22CS225,David Hart,CS459,Job easy first.,30,42,72,Pass
+1VI22CS209,Frederick Paul III,CS752,Fill pattern us.,10,33,43,Pass
+1VI22CS209,Frederick Paul III,CS522,Mrs.,9,2,11,Fail
+1VI22CS209,Frederick Paul III,CS653,Interest color staff.,49,19,68,Pass
+1VI22CS209,Frederick Paul III,CS909,Customer parent foreign.,21,39,60,Pass
+1VI22CS209,Frederick Paul III,CS394,Risk crime direction.,12,14,26,Fail
+1VI22CS382,Cathy May,CS815,Community soldier.,43,35,78,Pass
+1VI22CS382,Cathy May,CS711,Capital.,16,11,27,Fail
+1VI22CS382,Cathy May,CS666,After against likely able.,42,44,86,Pass
+1VI22CS382,Cathy May,CS374,Least anyone.,19,48,67,Pass
+1VI22CS382,Cathy May,CS263,Rate much.,44,15,59,Pass
+1VI22CS887,Thomas Ramos,CS617,Forward worry affect expert.,28,39,67,Pass
+1VI22CS887,Thomas Ramos,CS721,Term time increase.,2,8,10,Fail
+1VI22CS887,Thomas Ramos,CS705,Impact feel.,22,3,25,Fail
+1VI22CS887,Thomas Ramos,CS637,Speech alone term.,45,20,65,Pass
+1VI22CS887,Thomas Ramos,CS156,Cell stop special.,30,33,63,Pass
+1VI22CS804,Natasha Jackson,CS275,Town story.,3,50,53,Pass
+1VI22CS804,Natasha Jackson,CS821,Their arrive.,14,39,53,Pass
+1VI22CS804,Natasha Jackson,CS654,Interesting interview total.,34,39,73,Pass
+1VI22CS804,Natasha Jackson,CS102,Surface involve.,26,13,39,Fail
+1VI22CS804,Natasha Jackson,CS670,Address same guy play.,26,11,37,Fail
+1VI22CS774,Brenda Gill MD,CS302,Us shoulder before.,35,0,35,Fail
+1VI22CS774,Brenda Gill MD,CS179,Pressure song.,49,17,66,Pass
+1VI22CS774,Brenda Gill MD,CS358,Friend the.,15,9,24,Fail
+1VI22CS774,Brenda Gill MD,CS920,Ever inside main.,37,12,49,Pass
+1VI22CS774,Brenda Gill MD,CS866,Enough ground.,43,13,56,Pass
+1VI22CS832,Clayton Fuentes,CS585,Paper scene.,0,34,34,Fail
+1VI22CS832,Clayton Fuentes,CS822,Movement tax pull.,31,48,79,Pass
+1VI22CS832,Clayton Fuentes,CS112,Ever man paper.,21,3,24,Fail
+1VI22CS832,Clayton Fuentes,CS137,Number billion.,29,15,44,Pass
+1VI22CS832,Clayton Fuentes,CS671,Box politics wide.,40,10,50,Pass
+1VI22CS659,Kevin Sims,CS125,Have street.,46,20,66,Pass
+1VI22CS659,Kevin Sims,CS347,Able garden medical.,44,27,71,Pass
+1VI22CS659,Kevin Sims,CS163,Throughout reduce culture.,31,33,64,Pass
+1VI22CS659,Kevin Sims,CS339,At now read.,34,7,41,Pass
+1VI22CS659,Kevin Sims,CS721,Only control his produce.,44,45,89,Pass
+1VI22CS675,Jasmin Fletcher,CS438,Huge herself personal.,36,28,64,Pass
+1VI22CS675,Jasmin Fletcher,CS323,Mention discover think.,28,26,54,Pass
+1VI22CS675,Jasmin Fletcher,CS812,Mouth firm.,39,30,69,Pass
+1VI22CS675,Jasmin Fletcher,CS297,Report cover memory.,26,13,39,Fail
+1VI22CS675,Jasmin Fletcher,CS545,Get out.,28,37,65,Pass
+1VI22CS437,Holly Miller,CS104,Quality tough want.,1,30,31,Fail
+1VI22CS437,Holly Miller,CS761,Red century really.,40,21,61,Pass
+1VI22CS437,Holly Miller,CS417,Four other.,44,40,84,Pass
+1VI22CS437,Holly Miller,CS635,Agency these.,29,44,73,Pass
+1VI22CS437,Holly Miller,CS747,Front standard fact.,23,24,47,Pass
+1VI22CS982,Seth Fuentes,CS138,Arm court.,11,28,39,Fail
+1VI22CS982,Seth Fuentes,CS839,Good hour perform.,26,45,71,Pass
+1VI22CS982,Seth Fuentes,CS882,Every policy.,50,43,93,Pass
+1VI22CS982,Seth Fuentes,CS513,Doctor leg.,48,28,76,Pass
+1VI22CS982,Seth Fuentes,CS893,Serious happen.,47,3,50,Pass
+1VI22CS153,Robert Ruiz,CS522,Different across opportunity American.,48,40,88,Pass
+1VI22CS153,Robert Ruiz,CS263,Trade sign lot.,38,46,84,Pass
+1VI22CS153,Robert Ruiz,CS609,Along subject down.,27,13,40,Pass
+1VI22CS153,Robert Ruiz,CS782,Also trial.,10,46,56,Pass
+1VI22CS153,Robert Ruiz,CS134,List high cup.,31,2,33,Fail
+1VI22CS727,Laura Jones,CS531,For.,1,1,2,Fail
+1VI22CS727,Laura Jones,CS592,Study energy.,37,43,80,Pass
+1VI22CS727,Laura Jones,CS738,Fire air clearly.,36,30,66,Pass
+1VI22CS727,Laura Jones,CS281,Lay method.,41,37,78,Pass
+1VI22CS727,Laura Jones,CS903,Floor although figure.,18,41,59,Pass
+1VI22CS382,Zachary Goodwin,CS170,Expect head.,7,10,17,Fail
+1VI22CS382,Zachary Goodwin,CS731,Evidence season partner.,40,36,76,Pass
+1VI22CS382,Zachary Goodwin,CS909,Method night.,15,13,28,Fail
+1VI22CS382,Zachary Goodwin,CS925,Spend admit to.,0,34,34,Fail
+1VI22CS382,Zachary Goodwin,CS128,Where raise skin.,44,47,91,Pass
+1VI22CS407,Jennifer Smith,CS919,Trip step.,28,24,52,Pass
+1VI22CS407,Jennifer Smith,CS228,Protect consumer report.,34,49,83,Pass
+1VI22CS407,Jennifer Smith,CS155,Despite goal.,13,26,39,Fail
+1VI22CS407,Jennifer Smith,CS310,Sure middle.,10,46,56,Pass
+1VI22CS407,Jennifer Smith,CS879,Total entire.,38,38,76,Pass
+1VI22CS429,Kaitlyn Singh,CS658,Seven manage.,43,0,43,Pass
+1VI22CS429,Kaitlyn Singh,CS296,Him prevent.,11,31,42,Pass
+1VI22CS429,Kaitlyn Singh,CS453,Officer either tree third.,50,37,87,Pass
+1VI22CS429,Kaitlyn Singh,CS370,Fast police structure.,31,50,81,Pass
+1VI22CS429,Kaitlyn Singh,CS512,Reach when.,10,33,43,Pass
+1VI22CS351,Maria Hartman,CS228,Suddenly civil.,10,0,10,Fail
+1VI22CS351,Maria Hartman,CS776,Action enjoy country.,36,45,81,Pass
+1VI22CS351,Maria Hartman,CS417,Girl paper sense.,6,43,49,Pass
+1VI22CS351,Maria Hartman,CS553,Natural election apply.,25,31,56,Pass
+1VI22CS351,Maria Hartman,CS464,Often fear able.,37,34,71,Pass
+1VI22CS967,Matthew Walsh,CS574,Behavior.,25,8,33,Fail
+1VI22CS967,Matthew Walsh,CS171,Tonight.,42,46,88,Pass
+1VI22CS967,Matthew Walsh,CS253,Pick eight use occur.,27,13,40,Pass
+1VI22CS967,Matthew Walsh,CS373,Month Congress some.,14,1,15,Fail
+1VI22CS967,Matthew Walsh,CS458,Player sometimes.,7,31,38,Fail
+1VI22CS472,Jennifer Leblanc,CS940,Focus yard professor.,23,28,51,Pass
+1VI22CS472,Jennifer Leblanc,CS202,Already agreement big.,47,10,57,Pass
+1VI22CS472,Jennifer Leblanc,CS926,Him deep expert.,8,0,8,Fail
+1VI22CS472,Jennifer Leblanc,CS283,Campaign hundred.,32,46,78,Pass
+1VI22CS472,Jennifer Leblanc,CS717,Those close forget.,10,15,25,Fail
+1VI22CS385,Rebecca Yu,CS783,Stage behind if.,11,36,47,Pass
+1VI22CS385,Rebecca Yu,CS326,Many usually available.,23,10,33,Fail
+1VI22CS385,Rebecca Yu,CS714,Finally get for.,36,44,80,Pass
+1VI22CS385,Rebecca Yu,CS642,Knowledge pressure.,48,27,75,Pass
+1VI22CS385,Rebecca Yu,CS762,Fly note.,37,19,56,Pass
+1VI22CS887,Nicholas Williams,CS280,Design.,39,35,74,Pass
+1VI22CS887,Nicholas Williams,CS885,Recent into call.,16,40,56,Pass
+1VI22CS887,Nicholas Williams,CS531,Against but during.,31,47,78,Pass
+1VI22CS887,Nicholas Williams,CS731,Product popular near.,22,2,24,Fail
+1VI22CS887,Nicholas Williams,CS726,Member total age.,32,3,35,Fail
+1VI22CS605,Logan Jones,CS796,Hot successful.,38,26,64,Pass
+1VI22CS605,Logan Jones,CS394,Group major.,50,13,63,Pass
+1VI22CS605,Logan Jones,CS848,Many southern fly medical.,44,16,60,Pass
+1VI22CS605,Logan Jones,CS797,Someone tend analysis.,47,29,76,Pass
+1VI22CS605,Logan Jones,CS283,Put both.,37,26,63,Pass
+1VI22CS148,Kathryn Merritt,CS667,There mention.,44,11,55,Pass
+1VI22CS148,Kathryn Merritt,CS620,Where partner.,25,14,39,Fail
+1VI22CS148,Kathryn Merritt,CS580,Also positive.,22,39,61,Pass
+1VI22CS148,Kathryn Merritt,CS570,Best for.,11,14,25,Fail
+1VI22CS148,Kathryn Merritt,CS619,Usually prove share issue.,6,48,54,Pass
+1VI22CS964,David Beard,CS291,Three enter many.,23,29,52,Pass
+1VI22CS964,David Beard,CS600,Bad middle might.,31,30,61,Pass
+1VI22CS964,David Beard,CS359,What contain his.,30,14,44,Pass
+1VI22CS964,David Beard,CS575,Technology no.,10,17,27,Fail
+1VI22CS964,David Beard,CS214,For purpose such.,17,43,60,Pass
+1VI22CS909,Marc Herrera,CS409,High card anything.,23,4,27,Fail
+1VI22CS909,Marc Herrera,CS749,Color benefit.,6,48,54,Pass
+1VI22CS909,Marc Herrera,CS797,House consider.,43,28,71,Pass
+1VI22CS909,Marc Herrera,CS944,Own woman.,11,46,57,Pass
+1VI22CS909,Marc Herrera,CS432,Population bit among.,11,15,26,Fail
+1VI22CS631,Bradley Owens,CS326,Trial agreement.,48,29,77,Pass
+1VI22CS631,Bradley Owens,CS269,Nearly ask.,0,9,9,Fail
+1VI22CS631,Bradley Owens,CS890,Simple tax identify.,6,34,40,Pass
+1VI22CS631,Bradley Owens,CS579,Sit statement choice.,40,45,85,Pass
+1VI22CS631,Bradley Owens,CS666,Study rate skin.,43,39,82,Pass
+1VI22CS420,Megan Bennett,CS179,Baby many control.,35,27,62,Pass
+1VI22CS420,Megan Bennett,CS727,Consumer reason rather.,8,25,33,Fail
+1VI22CS420,Megan Bennett,CS317,Bring pay window.,0,27,27,Fail
+1VI22CS420,Megan Bennett,CS354,Trial artist design.,43,5,48,Pass
+1VI22CS420,Megan Bennett,CS284,West down.,18,10,28,Fail
+1VI22CS812,Derek Taylor,CS228,Million bed.,24,47,71,Pass
+1VI22CS812,Derek Taylor,CS396,Fall up.,37,10,47,Pass
+1VI22CS812,Derek Taylor,CS266,Describe debate require.,2,8,10,Fail
+1VI22CS812,Derek Taylor,CS246,Figure road.,7,34,41,Pass
+1VI22CS812,Derek Taylor,CS304,Theory what.,26,42,68,Pass
+1VI22CS471,Jamie Wood,CS161,Speak particular class.,29,33,62,Pass
+1VI22CS471,Jamie Wood,CS342,Run on.,33,32,65,Pass
+1VI22CS471,Jamie Wood,CS262,Money return box person.,28,36,64,Pass
+1VI22CS471,Jamie Wood,CS559,Trade teacher bar.,21,34,55,Pass
+1VI22CS471,Jamie Wood,CS856,Manager board entire result.,15,16,31,Fail
+1VI22CS258,Anthony Sutton,CS354,With day public.,20,30,50,Pass
+1VI22CS258,Anthony Sutton,CS959,Cut almost end.,7,27,34,Fail
+1VI22CS258,Anthony Sutton,CS249,Mean national author.,39,7,46,Pass
+1VI22CS258,Anthony Sutton,CS820,Young benefit.,45,29,74,Pass
+1VI22CS258,Anthony Sutton,CS558,Material hot guess.,48,28,76,Pass
+1VI22CS853,Raymond Smith,CS802,Design goal.,1,30,31,Fail
+1VI22CS853,Raymond Smith,CS955,Research property road.,15,19,34,Fail
+1VI22CS853,Raymond Smith,CS596,Response class.,33,29,62,Pass
+1VI22CS853,Raymond Smith,CS623,Letter age service.,2,18,20,Fail
+1VI22CS853,Raymond Smith,CS453,Chance sure.,14,2,16,Fail
+1VI22CS150,Sara Henry,CS808,Into issue support agreement.,34,44,78,Pass
+1VI22CS150,Sara Henry,CS833,All seem kid team.,9,48,57,Pass
+1VI22CS150,Sara Henry,CS232,Vote work firm.,31,26,57,Pass
+1VI22CS150,Sara Henry,CS181,Learn two suffer.,32,3,35,Fail
+1VI22CS150,Sara Henry,CS906,Alone.,47,48,95,Pass
+1VI22CS410,Donald Matthews,CS793,Item heart.,22,8,30,Fail
+1VI22CS410,Donald Matthews,CS510,Arrive station table.,36,41,77,Pass
+1VI22CS410,Donald Matthews,CS368,Hotel increase government.,3,1,4,Fail
+1VI22CS410,Donald Matthews,CS849,All drive.,5,38,43,Pass
+1VI22CS410,Donald Matthews,CS774,Field environmental.,40,39,79,Pass
+1VI22CS627,Todd Thompson,CS471,Blood magazine.,35,18,53,Pass
+1VI22CS627,Todd Thompson,CS353,Environment policy.,10,10,20,Fail
+1VI22CS627,Todd Thompson,CS232,Ground commercial draw arm.,20,14,34,Fail
+1VI22CS627,Todd Thompson,CS237,Present support hope bag.,13,47,60,Pass
+1VI22CS627,Todd Thompson,CS937,Mr dark fly.,12,46,58,Pass
+1VI22CS564,Tara Nielsen,CS878,People would real.,14,23,37,Fail
+1VI22CS564,Tara Nielsen,CS218,Include real fact.,31,48,79,Pass
+1VI22CS564,Tara Nielsen,CS822,Hard pull some.,11,43,54,Pass
+1VI22CS564,Tara Nielsen,CS420,Mr size.,21,8,29,Fail
+1VI22CS564,Tara Nielsen,CS256,Money value.,9,41,50,Pass
+1VI22CS124,Melanie Roberts,CS186,A attack behind.,26,12,38,Fail
+1VI22CS124,Melanie Roberts,CS146,Simply hot clear.,22,15,37,Fail
+1VI22CS124,Melanie Roberts,CS867,Ok ok wonder.,12,35,47,Pass
+1VI22CS124,Melanie Roberts,CS675,Be discover call.,13,27,40,Pass
+1VI22CS124,Melanie Roberts,CS239,Him argue.,30,4,34,Fail
+1VI22CS143,Kevin Young,CS707,Shake listen south.,47,5,52,Pass
+1VI22CS143,Kevin Young,CS180,Human beyond.,19,13,32,Fail
+1VI22CS143,Kevin Young,CS956,Anything good.,28,41,69,Pass
+1VI22CS143,Kevin Young,CS854,Task five.,28,47,75,Pass
+1VI22CS143,Kevin Young,CS561,Difference deep.,7,33,40,Pass
+1VI22CS320,Ronnie Frank,CS604,Shake charge eye southern.,16,46,62,Pass
+1VI22CS320,Ronnie Frank,CS361,South institution pass.,16,46,62,Pass
+1VI22CS320,Ronnie Frank,CS786,Risk big design.,3,21,24,Fail
+1VI22CS320,Ronnie Frank,CS583,Professional.,25,11,36,Fail
+1VI22CS320,Ronnie Frank,CS822,Each put.,46,43,89,Pass
+1VI22CS428,George Wolf,CS285,Board six.,49,2,51,Pass
+1VI22CS428,George Wolf,CS401,Recognize.,33,23,56,Pass
+1VI22CS428,George Wolf,CS167,Without agreement friend.,36,35,71,Pass
+1VI22CS428,George Wolf,CS627,Enjoy measure.,1,3,4,Fail
+1VI22CS428,George Wolf,CS977,Decade team increase.,19,27,46,Pass
+1VI22CS470,Mary Powers,CS905,Official between wind.,1,20,21,Fail
+1VI22CS470,Mary Powers,CS462,Management where chance.,7,50,57,Pass
+1VI22CS470,Mary Powers,CS521,Build these edge.,30,37,67,Pass
+1VI22CS470,Mary Powers,CS211,Third carry.,43,32,75,Pass
+1VI22CS470,Mary Powers,CS850,Staff maybe writer.,23,14,37,Fail
+1VI22CS905,Greg Acosta,CS682,Level development.,12,12,24,Fail
+1VI22CS905,Greg Acosta,CS816,It adult kind.,27,46,73,Pass
+1VI22CS905,Greg Acosta,CS803,Off increase.,4,5,9,Fail
+1VI22CS905,Greg Acosta,CS711,Question reveal.,15,18,33,Fail
+1VI22CS905,Greg Acosta,CS510,Leg space bad wide.,29,29,58,Pass
+1VI22CS586,Suzanne Willis MD,CS540,Carry quite agree.,44,38,82,Pass
+1VI22CS586,Suzanne Willis MD,CS829,Professional medical part send.,20,35,55,Pass
+1VI22CS586,Suzanne Willis MD,CS331,Thousand which political.,43,27,70,Pass
+1VI22CS586,Suzanne Willis MD,CS132,Point money.,4,4,8,Fail
+1VI22CS586,Suzanne Willis MD,CS845,Decade daughter important.,31,17,48,Pass
+1VI22CS657,Sherry Pierce,CS887,Especially reveal.,29,1,30,Fail
+1VI22CS657,Sherry Pierce,CS445,Chance commercial positive.,6,1,7,Fail
+1VI22CS657,Sherry Pierce,CS578,Outside measure his.,47,32,79,Pass
+1VI22CS657,Sherry Pierce,CS667,Fly still.,38,1,39,Fail
+1VI22CS657,Sherry Pierce,CS216,Article base.,3,16,19,Fail
+1VI22CS805,Gerald Harvey,CS496,Admit support answer.,22,23,45,Pass
+1VI22CS805,Gerald Harvey,CS192,Agreement sometimes interview.,4,46,50,Pass
+1VI22CS805,Gerald Harvey,CS123,Notice.,29,50,79,Pass
+1VI22CS805,Gerald Harvey,CS243,Power moment.,40,11,51,Pass
+1VI22CS805,Gerald Harvey,CS221,Keep city.,27,6,33,Fail
+1VI22CS378,Samantha Goodwin,CS424,View first.,35,34,69,Pass
+1VI22CS378,Samantha Goodwin,CS493,World drug.,32,45,77,Pass
+1VI22CS378,Samantha Goodwin,CS700,Through trip now.,11,48,59,Pass
+1VI22CS378,Samantha Goodwin,CS792,Exactly market real.,48,5,53,Pass
+1VI22CS378,Samantha Goodwin,CS376,Theory.,5,33,38,Fail
+1VI22CS705,Tristan Russell DDS,CS893,Table many him.,20,41,61,Pass
+1VI22CS705,Tristan Russell DDS,CS719,Including letter.,36,25,61,Pass
+1VI22CS705,Tristan Russell DDS,CS597,Candidate.,13,28,41,Pass
+1VI22CS705,Tristan Russell DDS,CS260,Game evidence.,23,40,63,Pass
+1VI22CS705,Tristan Russell DDS,CS926,Establish window usually.,14,40,54,Pass
+1VI22CS502,Aaron Jones,CS213,Day southern medical.,3,48,51,Pass
+1VI22CS502,Aaron Jones,CS217,Voice might he.,35,8,43,Pass
+1VI22CS502,Aaron Jones,CS863,Bed stage others head.,10,21,31,Fail
+1VI22CS502,Aaron Jones,CS579,Off president.,46,6,52,Pass
+1VI22CS502,Aaron Jones,CS946,Style discover type.,44,11,55,Pass
+1VI22CS994,Kim Reed,CS597,Will model note.,37,45,82,Pass
+1VI22CS994,Kim Reed,CS739,Into big sit.,44,39,83,Pass
+1VI22CS994,Kim Reed,CS729,Morning beat.,47,46,93,Pass
+1VI22CS994,Kim Reed,CS383,Factor doctor energy.,12,13,25,Fail
+1VI22CS994,Kim Reed,CS205,Series concern.,5,22,27,Fail
+1VI22CS977,Gail Carter,CS360,Sound degree name.,14,6,20,Fail
+1VI22CS977,Gail Carter,CS939,Could toward song.,45,36,81,Pass
+1VI22CS977,Gail Carter,CS965,Material.,49,48,97,Pass
+1VI22CS977,Gail Carter,CS530,Here believe ball first.,29,50,79,Pass
+1VI22CS977,Gail Carter,CS548,Yet source.,13,23,36,Fail
+1VI22CS158,Robin Sanchez,CS765,Speak form local.,46,36,82,Pass
+1VI22CS158,Robin Sanchez,CS551,Crime buy.,44,16,60,Pass
+1VI22CS158,Robin Sanchez,CS462,Car for.,29,3,32,Fail
+1VI22CS158,Robin Sanchez,CS755,Sing election.,24,23,47,Pass
+1VI22CS158,Robin Sanchez,CS634,Possible arrive.,28,4,32,Fail
+1VI22CS299,Kelly Anderson,CS678,Recently we.,8,15,23,Fail
+1VI22CS299,Kelly Anderson,CS737,Over similar couple.,42,32,74,Pass
+1VI22CS299,Kelly Anderson,CS992,National art.,31,35,66,Pass
+1VI22CS299,Kelly Anderson,CS951,Direction sit.,12,50,62,Pass
+1VI22CS299,Kelly Anderson,CS864,Base out after.,48,30,78,Pass
+1VI22CS575,Julie Martinez,CS145,Wide bar member.,0,16,16,Fail
+1VI22CS575,Julie Martinez,CS720,Fly team expert often.,37,25,62,Pass
+1VI22CS575,Julie Martinez,CS353,Become bank eye.,22,30,52,Pass
+1VI22CS575,Julie Martinez,CS443,Green policy bed certainly.,41,34,75,Pass
+1VI22CS575,Julie Martinez,CS604,Figure fact.,46,4,50,Pass
+1VI22CS560,Kevin Wheeler,CS234,Nation.,49,31,80,Pass
+1VI22CS560,Kevin Wheeler,CS685,Possible clear.,7,12,19,Fail
+1VI22CS560,Kevin Wheeler,CS498,Want page.,49,10,59,Pass
+1VI22CS560,Kevin Wheeler,CS135,Truth cold community.,26,48,74,Pass
+1VI22CS560,Kevin Wheeler,CS641,Campaign class age.,46,21,67,Pass
+1VI22CS503,Omar Reid,CS650,Away beautiful.,22,35,57,Pass
+1VI22CS503,Omar Reid,CS218,Wide information.,39,21,60,Pass
+1VI22CS503,Omar Reid,CS199,Possible eye cover.,15,32,47,Pass
+1VI22CS503,Omar Reid,CS553,Nice seat most.,37,17,54,Pass
+1VI22CS503,Omar Reid,CS332,Every.,15,36,51,Pass
+1VI22CS908,Priscilla Lara,CS795,Collection my time.,4,9,13,Fail
+1VI22CS908,Priscilla Lara,CS119,Practice race strategy.,45,26,71,Pass
+1VI22CS908,Priscilla Lara,CS147,Like it partner.,38,13,51,Pass
+1VI22CS908,Priscilla Lara,CS135,Whose doctor.,28,36,64,Pass
+1VI22CS908,Priscilla Lara,CS609,Everybody shoulder eye.,29,20,49,Pass
+1VI22CS344,Jeremy Gutierrez,CS913,Really while rate.,45,34,79,Pass
+1VI22CS344,Jeremy Gutierrez,CS536,Child.,47,14,61,Pass
+1VI22CS344,Jeremy Gutierrez,CS903,Range research.,19,48,67,Pass
+1VI22CS344,Jeremy Gutierrez,CS958,Professional.,5,15,20,Fail
+1VI22CS344,Jeremy Gutierrez,CS726,However effort.,47,45,92,Pass
+1VI22CS938,Jason Park,CS109,Environment likely create.,3,6,9,Fail
+1VI22CS938,Jason Park,CS503,Stand consider party.,7,49,56,Pass
+1VI22CS938,Jason Park,CS911,Can age.,48,5,53,Pass
+1VI22CS938,Jason Park,CS663,Idea office series.,45,35,80,Pass
+1VI22CS938,Jason Park,CS215,Everything economic.,49,48,97,Pass
+1VI22CS498,Tracy Gray,CS673,Management for.,21,35,56,Pass
+1VI22CS498,Tracy Gray,CS107,Because treat.,32,39,71,Pass
+1VI22CS498,Tracy Gray,CS900,Window machine board.,46,18,64,Pass
+1VI22CS498,Tracy Gray,CS767,Marriage road bit.,19,17,36,Fail
+1VI22CS498,Tracy Gray,CS847,Challenge.,18,26,44,Pass
+1VI22CS807,Charles Schmidt,CS795,Very some by.,38,48,86,Pass
+1VI22CS807,Charles Schmidt,CS177,Evidence treatment call.,21,45,66,Pass
+1VI22CS807,Charles Schmidt,CS962,Against somebody we.,0,6,6,Fail
+1VI22CS807,Charles Schmidt,CS977,Skin.,15,25,40,Pass
+1VI22CS807,Charles Schmidt,CS283,Imagine manager.,8,43,51,Pass
+1VI22CS434,Rachel Ramsey,CS930,Stuff fight.,30,21,51,Pass
+1VI22CS434,Rachel Ramsey,CS778,Piece could she.,12,3,15,Fail
+1VI22CS434,Rachel Ramsey,CS810,Impact worry just.,8,9,17,Fail
+1VI22CS434,Rachel Ramsey,CS614,Service address.,8,4,12,Fail
+1VI22CS434,Rachel Ramsey,CS464,Writer city.,28,13,41,Pass
+1VI22CS133,Jose Stewart,CS472,Court successful.,41,12,53,Pass
+1VI22CS133,Jose Stewart,CS900,Learn discussion world.,8,31,39,Fail
+1VI22CS133,Jose Stewart,CS528,Human natural determine.,45,43,88,Pass
+1VI22CS133,Jose Stewart,CS935,Career he.,24,38,62,Pass
+1VI22CS133,Jose Stewart,CS698,Occur allow.,12,44,56,Pass
+1VI22CS320,Natasha Garrison,CS824,Serve country reason.,0,32,32,Fail
+1VI22CS320,Natasha Garrison,CS632,Store.,50,18,68,Pass
+1VI22CS320,Natasha Garrison,CS909,Both most parent.,44,13,57,Pass
+1VI22CS320,Natasha Garrison,CS137,Sense open black.,26,14,40,Pass
+1VI22CS320,Natasha Garrison,CS305,Democrat center organization.,30,38,68,Pass
+1VI22CS708,William Adams,CS219,Read three anything.,47,38,85,Pass
+1VI22CS708,William Adams,CS858,Send speak.,42,13,55,Pass
+1VI22CS708,William Adams,CS807,Career democratic.,2,20,22,Fail
+1VI22CS708,William Adams,CS805,Both.,49,37,86,Pass
+1VI22CS708,William Adams,CS130,Like result.,36,46,82,Pass
+1VI22CS446,Mary Johnson,CS656,Be.,14,17,31,Fail
+1VI22CS446,Mary Johnson,CS107,Evidence like party.,14,7,21,Fail
+1VI22CS446,Mary Johnson,CS946,Road western.,2,33,35,Fail
+1VI22CS446,Mary Johnson,CS395,Item down.,14,49,63,Pass
+1VI22CS446,Mary Johnson,CS341,Result believe owner.,23,14,37,Fail
+1VI22CS507,Jessica Lutz,CS549,Capital imagine.,24,6,30,Fail
+1VI22CS507,Jessica Lutz,CS837,Report adult eye party.,29,39,68,Pass
+1VI22CS507,Jessica Lutz,CS370,Half performance.,30,28,58,Pass
+1VI22CS507,Jessica Lutz,CS241,Technology city.,1,43,44,Pass
+1VI22CS507,Jessica Lutz,CS599,Morning main.,40,40,80,Pass
+1VI22CS288,Megan Ochoa,CS604,He paper history.,38,12,50,Pass
+1VI22CS288,Megan Ochoa,CS406,Admit term.,37,31,68,Pass
+1VI22CS288,Megan Ochoa,CS807,Yard similar.,24,28,52,Pass
+1VI22CS288,Megan Ochoa,CS355,White marriage.,33,2,35,Fail
+1VI22CS288,Megan Ochoa,CS690,Feel issue production.,24,46,70,Pass
+1VI22CS458,Michael Bray,CS823,Nothing poor nor.,48,9,57,Pass
+1VI22CS458,Michael Bray,CS832,Those.,32,42,74,Pass
+1VI22CS458,Michael Bray,CS493,There industry.,38,39,77,Pass
+1VI22CS458,Michael Bray,CS375,Standard care ago for.,23,50,73,Pass
+1VI22CS458,Michael Bray,CS928,Fire option.,4,2,6,Fail
+1VI22CS978,Dawn Cross,CS725,Something.,22,47,69,Pass
+1VI22CS978,Dawn Cross,CS784,Consumer moment.,7,31,38,Fail
+1VI22CS978,Dawn Cross,CS360,State cut.,16,11,27,Fail
+1VI22CS978,Dawn Cross,CS233,Enough father.,40,17,57,Pass
+1VI22CS978,Dawn Cross,CS332,New after campaign.,21,7,28,Fail
+1VI22CS696,Dr. Richard Hicks,CS154,Movie address foreign.,22,35,57,Pass
+1VI22CS696,Dr. Richard Hicks,CS593,Soldier situation society.,10,5,15,Fail
+1VI22CS696,Dr. Richard Hicks,CS623,You ready.,9,48,57,Pass
+1VI22CS696,Dr. Richard Hicks,CS612,How store.,36,21,57,Pass
+1VI22CS696,Dr. Richard Hicks,CS675,That relationship.,32,49,81,Pass
+1VI22CS673,Rebekah Collier,CS918,Arm have.,32,19,51,Pass
+1VI22CS673,Rebekah Collier,CS550,Cover discover.,40,33,73,Pass
+1VI22CS673,Rebekah Collier,CS852,Hand skin.,15,15,30,Fail
+1VI22CS673,Rebekah Collier,CS880,Individual your example.,38,27,65,Pass
+1VI22CS673,Rebekah Collier,CS427,International note.,43,24,67,Pass
+1VI22CS928,John Patel,CS944,Huge leg strong part.,5,36,41,Pass
+1VI22CS928,John Patel,CS942,She quite she.,6,47,53,Pass
+1VI22CS928,John Patel,CS646,Your hotel.,40,32,72,Pass
+1VI22CS928,John Patel,CS696,Computer value total.,9,30,39,Fail
+1VI22CS928,John Patel,CS573,Effort.,14,16,30,Fail
+1VI22CS329,Ashley Graham,CS130,Occur special.,3,42,45,Pass
+1VI22CS329,Ashley Graham,CS717,Paper call.,50,21,71,Pass
+1VI22CS329,Ashley Graham,CS533,Black key third.,49,28,77,Pass
+1VI22CS329,Ashley Graham,CS969,Too soldier office.,6,0,6,Fail
+1VI22CS329,Ashley Graham,CS367,Easy road federal.,30,14,44,Pass
+1VI22CS279,Cassandra Moore,CS259,Believe environment.,14,49,63,Pass
+1VI22CS279,Cassandra Moore,CS500,Away community.,4,29,33,Fail
+1VI22CS279,Cassandra Moore,CS251,School his.,3,8,11,Fail
+1VI22CS279,Cassandra Moore,CS952,Lose everything.,49,12,61,Pass
+1VI22CS279,Cassandra Moore,CS426,Public nation investment.,6,29,35,Fail
+1VI22CS616,Michael Garcia,CS645,Listen it where.,18,19,37,Fail
+1VI22CS616,Michael Garcia,CS936,Change home cell.,18,14,32,Fail
+1VI22CS616,Michael Garcia,CS834,Staff capital.,15,37,52,Pass
+1VI22CS616,Michael Garcia,CS547,Image three.,10,14,24,Fail
+1VI22CS616,Michael Garcia,CS248,International reduce.,19,44,63,Pass
+1VI22CS652,Curtis Howell,CS788,Address use set today.,47,37,84,Pass
+1VI22CS652,Curtis Howell,CS218,Involve discover prevent.,23,7,30,Fail
+1VI22CS652,Curtis Howell,CS730,Most physical.,26,47,73,Pass
+1VI22CS652,Curtis Howell,CS623,Authority onto.,4,0,4,Fail
+1VI22CS652,Curtis Howell,CS115,On.,50,18,68,Pass
+1VI22CS761,Jenna Olson,CS582,Amount year.,21,23,44,Pass
+1VI22CS761,Jenna Olson,CS544,Purpose according.,46,8,54,Pass
+1VI22CS761,Jenna Olson,CS471,Industry gun box.,13,38,51,Pass
+1VI22CS761,Jenna Olson,CS773,So I.,3,23,26,Fail
+1VI22CS761,Jenna Olson,CS100,Plan story.,50,42,92,Pass
+1VI22CS343,Zachary Payne,CS645,Live send.,14,5,19,Fail
+1VI22CS343,Zachary Payne,CS582,Take.,16,46,62,Pass
+1VI22CS343,Zachary Payne,CS910,Throughout various.,35,34,69,Pass
+1VI22CS343,Zachary Payne,CS419,Turn live quickly.,3,20,23,Fail
+1VI22CS343,Zachary Payne,CS161,Son hope.,18,30,48,Pass
+1VI22CS753,Paul King,CS236,Outside foreign.,34,19,53,Pass
+1VI22CS753,Paul King,CS293,Product understand.,10,44,54,Pass
+1VI22CS753,Paul King,CS141,Yeah just.,46,1,47,Pass
+1VI22CS753,Paul King,CS266,Have throw.,50,35,85,Pass
+1VI22CS753,Paul King,CS264,Take life every.,21,28,49,Pass
+1VI22CS641,Robert Martinez,CS627,Serve far pressure.,12,3,15,Fail
+1VI22CS641,Robert Martinez,CS707,Everybody type.,36,27,63,Pass
+1VI22CS641,Robert Martinez,CS823,Lose item.,40,42,82,Pass
+1VI22CS641,Robert Martinez,CS714,Old research.,46,44,90,Pass
+1VI22CS641,Robert Martinez,CS200,Ask commercial road.,29,12,41,Pass
+1VI22CS539,Miguel Patel,CS549,May yourself listen.,30,2,32,Fail
+1VI22CS539,Miguel Patel,CS100,Staff interesting.,27,4,31,Fail
+1VI22CS539,Miguel Patel,CS439,She avoid decision.,40,9,49,Pass
+1VI22CS539,Miguel Patel,CS147,Discuss work.,3,11,14,Fail
+1VI22CS539,Miguel Patel,CS743,Prepare team.,0,43,43,Pass
+1VI22CS816,Thomas Turner,CS895,Most form.,14,26,40,Pass
+1VI22CS816,Thomas Turner,CS442,Discuss site party.,38,3,41,Pass
+1VI22CS816,Thomas Turner,CS530,Stuff author image.,30,6,36,Fail
+1VI22CS816,Thomas Turner,CS172,Receive short.,15,33,48,Pass
+1VI22CS816,Thomas Turner,CS984,Might experience cause.,28,36,64,Pass
+1VI22CS509,Michael Martin,CS321,Quality alone green.,39,9,48,Pass
+1VI22CS509,Michael Martin,CS701,Tonight.,20,5,25,Fail
+1VI22CS509,Michael Martin,CS563,Sell already land.,43,17,60,Pass
+1VI22CS509,Michael Martin,CS994,Risk test stand full.,25,26,51,Pass
+1VI22CS509,Michael Martin,CS791,List need.,40,25,65,Pass
+1VI22CS781,Sarah Price,CS127,Administration tree.,28,43,71,Pass
+1VI22CS781,Sarah Price,CS844,Nation throughout military.,34,29,63,Pass
+1VI22CS781,Sarah Price,CS784,Involve recognize.,35,32,67,Pass
+1VI22CS781,Sarah Price,CS473,High prepare attention.,35,17,52,Pass
+1VI22CS781,Sarah Price,CS408,Important same.,25,48,73,Pass
+1VI22CS380,Brian Rangel,CS525,Himself represent hope.,15,22,37,Fail
+1VI22CS380,Brian Rangel,CS657,Side add.,20,1,21,Fail
+1VI22CS380,Brian Rangel,CS621,Interest feel.,22,42,64,Pass
+1VI22CS380,Brian Rangel,CS693,Entire fall degree.,15,3,18,Fail
+1VI22CS380,Brian Rangel,CS297,Likely thousand.,13,19,32,Fail
+1VI22CS110,Rachel Moore,CS161,Interesting south draw responsibility.,30,42,72,Pass
+1VI22CS110,Rachel Moore,CS584,Ahead set.,23,11,34,Fail
+1VI22CS110,Rachel Moore,CS152,She rock audience.,18,48,66,Pass
+1VI22CS110,Rachel Moore,CS472,Try him cultural.,2,37,39,Fail
+1VI22CS110,Rachel Moore,CS102,Image young catch.,48,14,62,Pass
+1VI22CS496,Wendy Blankenship PhD,CS203,Economy.,26,46,72,Pass
+1VI22CS496,Wendy Blankenship PhD,CS232,Leader allow.,32,5,37,Fail
+1VI22CS496,Wendy Blankenship PhD,CS644,Show charge.,8,34,42,Pass
+1VI22CS496,Wendy Blankenship PhD,CS321,Low natural rule.,34,17,51,Pass
+1VI22CS496,Wendy Blankenship PhD,CS916,Establish begin.,9,1,10,Fail
+1VI22CS277,Cynthia Powers,CS310,Buy kitchen week.,22,25,47,Pass
+1VI22CS277,Cynthia Powers,CS106,Many television into cell.,28,4,32,Fail
+1VI22CS277,Cynthia Powers,CS372,Public school red.,48,31,79,Pass
+1VI22CS277,Cynthia Powers,CS220,Enjoy receive.,37,24,61,Pass
+1VI22CS277,Cynthia Powers,CS103,Address few occur.,42,48,90,Pass
+1VI22CS173,Janet Valdez,CS887,Fear any perform difficult.,44,14,58,Pass
+1VI22CS173,Janet Valdez,CS744,Line home stay.,41,23,64,Pass
+1VI22CS173,Janet Valdez,CS692,Check summer.,17,5,22,Fail
+1VI22CS173,Janet Valdez,CS385,Push.,11,35,46,Pass
+1VI22CS173,Janet Valdez,CS246,Thank author.,33,27,60,Pass
+1VI22CS118,Chelsea Ortiz,CS218,Letter middle anything.,21,37,58,Pass
+1VI22CS118,Chelsea Ortiz,CS785,Talk own.,50,11,61,Pass
+1VI22CS118,Chelsea Ortiz,CS324,Friend might.,2,6,8,Fail
+1VI22CS118,Chelsea Ortiz,CS879,Culture appear.,1,34,35,Fail
+1VI22CS118,Chelsea Ortiz,CS243,Her region fall.,48,13,61,Pass
+1VI22CS461,Kristina Costa,CS509,Dinner mother.,16,33,49,Pass
+1VI22CS461,Kristina Costa,CS563,Strategy young.,45,41,86,Pass
+1VI22CS461,Kristina Costa,CS108,Article bag item.,22,48,70,Pass
+1VI22CS461,Kristina Costa,CS974,Everyone improve.,32,14,46,Pass
+1VI22CS461,Kristina Costa,CS582,Hand remain sea.,22,12,34,Fail
+1VI22CS121,Carla Robinson,CS521,Happy something.,25,23,48,Pass
+1VI22CS121,Carla Robinson,CS890,Loss local.,48,10,58,Pass
+1VI22CS121,Carla Robinson,CS561,Huge partner ready.,46,13,59,Pass
+1VI22CS121,Carla Robinson,CS702,Others Mr.,6,31,37,Fail
+1VI22CS121,Carla Robinson,CS564,Challenge upon important.,44,15,59,Pass
+1VI22CS852,Adam Romero,CS794,Lead community carry.,19,6,25,Fail
+1VI22CS852,Adam Romero,CS712,Who near specific.,41,18,59,Pass
+1VI22CS852,Adam Romero,CS164,Ahead purpose share.,17,37,54,Pass
+1VI22CS852,Adam Romero,CS431,Trial billion network reflect.,9,28,37,Fail
+1VI22CS852,Adam Romero,CS608,Evening forward again.,21,23,44,Pass
+1VI22CS555,Julia Lloyd,CS532,Need scientist usually.,22,49,71,Pass
+1VI22CS555,Julia Lloyd,CS363,Recognize or.,19,49,68,Pass
+1VI22CS555,Julia Lloyd,CS586,Section soldier.,5,44,49,Pass
+1VI22CS555,Julia Lloyd,CS806,Reality everybody.,34,40,74,Pass
+1VI22CS555,Julia Lloyd,CS562,Close experience.,10,31,41,Pass
+1VI22CS428,Kenneth Moss,CS248,Peace however.,18,35,53,Pass
+1VI22CS428,Kenneth Moss,CS520,Finally.,28,14,42,Pass
+1VI22CS428,Kenneth Moss,CS316,List soldier of.,21,21,42,Pass
+1VI22CS428,Kenneth Moss,CS926,Peace item Congress.,36,49,85,Pass
+1VI22CS428,Kenneth Moss,CS951,Cost prove reach.,28,40,68,Pass
+1VI22CS795,Dr. Teresa Juarez MD,CS980,Quality sell election care.,24,47,71,Pass
+1VI22CS795,Dr. Teresa Juarez MD,CS957,Necessary environmental.,1,15,16,Fail
+1VI22CS795,Dr. Teresa Juarez MD,CS910,Area fact.,26,31,57,Pass
+1VI22CS795,Dr. Teresa Juarez MD,CS415,Others.,30,1,31,Fail
+1VI22CS795,Dr. Teresa Juarez MD,CS830,Source personal.,5,13,18,Fail
+1VI22CS738,Brenda Robles,CS319,Him five bar.,6,3,9,Fail
+1VI22CS738,Brenda Robles,CS707,Play rock hard.,9,34,43,Pass
+1VI22CS738,Brenda Robles,CS849,Pressure increase professional.,26,32,58,Pass
+1VI22CS738,Brenda Robles,CS221,Surface.,11,19,30,Fail
+1VI22CS738,Brenda Robles,CS280,Ago left most.,13,25,38,Fail
+1VI22CS477,Christopher Avila DDS,CS729,Simple give sign.,43,21,64,Pass
+1VI22CS477,Christopher Avila DDS,CS852,Upon Congress pass.,2,0,2,Fail
+1VI22CS477,Christopher Avila DDS,CS633,Today already.,30,49,79,Pass
+1VI22CS477,Christopher Avila DDS,CS436,Explain natural.,37,46,83,Pass
+1VI22CS477,Christopher Avila DDS,CS194,Order year direction.,23,32,55,Pass
+1VI22CS349,Diamond King,CS557,Have concern hour.,0,5,5,Fail
+1VI22CS349,Diamond King,CS528,Health prepare all easy.,44,29,73,Pass
+1VI22CS349,Diamond King,CS519,Why kind however operation.,35,15,50,Pass
+1VI22CS349,Diamond King,CS983,Will agreement.,39,46,85,Pass
+1VI22CS349,Diamond King,CS854,Million bad.,38,16,54,Pass
+1VI22CS921,Shawn Lopez,CS709,Follow standard.,20,47,67,Pass
+1VI22CS921,Shawn Lopez,CS264,Resource position space.,0,14,14,Fail
+1VI22CS921,Shawn Lopez,CS336,Scene arrive keep.,5,35,40,Pass
+1VI22CS921,Shawn Lopez,CS790,Pm north everyone.,5,38,43,Pass
+1VI22CS921,Shawn Lopez,CS105,Perhaps provide learn.,8,0,8,Fail
+1VI22CS796,Michelle Williams,CS739,Something write teach.,24,4,28,Fail
+1VI22CS796,Michelle Williams,CS766,Professional continue.,0,25,25,Fail
+1VI22CS796,Michelle Williams,CS951,Tell message pull.,49,13,62,Pass
+1VI22CS796,Michelle Williams,CS686,Wall task physical.,10,50,60,Pass
+1VI22CS796,Michelle Williams,CS534,Oil old.,10,48,58,Pass
+1VI22CS417,Michael Wilson,CS172,Choose article.,33,40,73,Pass
+1VI22CS417,Michael Wilson,CS333,Law your.,23,21,44,Pass
+1VI22CS417,Michael Wilson,CS476,Rich account follow.,39,11,50,Pass
+1VI22CS417,Michael Wilson,CS471,Magazine indicate democratic.,20,50,70,Pass
+1VI22CS417,Michael Wilson,CS667,Race section machine.,4,3,7,Fail
+1VI22CS651,Tyrone Bradford,CS588,Suffer.,32,3,35,Fail
+1VI22CS651,Tyrone Bradford,CS323,Property perhaps kind.,49,40,89,Pass
+1VI22CS651,Tyrone Bradford,CS643,Enter general.,22,19,41,Pass
+1VI22CS651,Tyrone Bradford,CS328,Each site.,35,13,48,Pass
+1VI22CS651,Tyrone Bradford,CS513,Cell on police.,27,34,61,Pass
+1VI22CS506,Dr. Kevin Romero MD,CS686,Use song.,30,6,36,Fail
+1VI22CS506,Dr. Kevin Romero MD,CS966,Plan those.,29,49,78,Pass
+1VI22CS506,Dr. Kevin Romero MD,CS985,Method officer commercial.,33,39,72,Pass
+1VI22CS506,Dr. Kevin Romero MD,CS158,Age matter.,13,44,57,Pass
+1VI22CS506,Dr. Kevin Romero MD,CS189,Color others plan.,20,38,58,Pass
+1VI22CS869,Michael Pacheco,CS988,Approach create discuss.,33,42,75,Pass
+1VI22CS869,Michael Pacheco,CS906,Other system.,0,1,1,Fail
+1VI22CS869,Michael Pacheco,CS873,Fast there administration.,35,4,39,Fail
+1VI22CS869,Michael Pacheco,CS890,Mean network.,2,4,6,Fail
+1VI22CS869,Michael Pacheco,CS309,Finally realize me find.,35,6,41,Pass
+1VI22CS310,Frank Leonard,CS485,You do.,44,49,93,Pass
+1VI22CS310,Frank Leonard,CS867,Evening.,25,11,36,Fail
+1VI22CS310,Frank Leonard,CS118,Indicate do heart.,11,13,24,Fail
+1VI22CS310,Frank Leonard,CS570,Short hear recently certain.,39,15,54,Pass
+1VI22CS310,Frank Leonard,CS321,Me list always.,45,12,57,Pass
