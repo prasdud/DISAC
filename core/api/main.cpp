@@ -39,11 +39,11 @@ int main(int argc, char const *argv[])
                 std::cout<< "DONE."<<std::endl;
                 break;
         }
-        case 5:
+        case 4:
             std::cout<< "Validating the blockchain "<<std::endl;
             std::cout<< "DONE."<<std::endl;
             break;
-        case 6:
+        case 5:
             std::cout<< "EXITING, GOODBYE"<<std::endl;
             exit(0);
         

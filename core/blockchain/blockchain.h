@@ -11,7 +11,7 @@ public:
     Blockchain(){
         
         // Open the SQLite database connection
-        int exit = sqlite3_open("/home/prasdud/playground/c++/disac/core/blockchain/example.db", &DB);
+        int exit = sqlite3_open("../blockchain/example.db", &DB);
         if (exit) {
             std::cerr << "Error opening database: " << sqlite3_errmsg(DB) << std::endl;
             std::exit(-1);
@@ -112,7 +112,7 @@ public:
     }
 
     bool validateBlockchain(){
-        
+        return true;
     }
 
 private:
