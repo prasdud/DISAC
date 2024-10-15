@@ -3,7 +3,7 @@ A blockchain based data integrity system for academic credentials, written from 
 
 # TODO
 1. finish temporary testing terminal
-2. implement blockchain validation. merkle trees?
+2. implement blockchain validation.
 3. backend API, Crow
 4. figure out offchain pdf storage
 
@@ -16,3 +16,4 @@ A blockchain based data integrity system for academic credentials, written from 
 ## LONG TERM
 1. How to scale up? Multiple universities.
 2. Assume mistake in certificate, how will blockchain accomodate that?
+3. Check performance metrics for regular blockchain validation and see it merkle trees are required
