@@ -3,10 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generate Certificate | DISAC</title>
+    <title>Generate Certificate</title>
 </head>
 <body>
     <h1>Generate Certificate</h1>
-    <p>Content</p>
+    <form method="POST">
+        <label for="usn">USN:</label>
+        <input type="text" id="usn" name="usn" required><br><br>
+
+        <label for="name">Student Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="semester">Semester:</label>
+        <input type="text" id="semester" name="semester" required><br><br>
+
+        <label for="month_year">Month / Year:</label>
+        <input type="text" id="month_year" name="month_year" required><br><br>
+
+        <div id="subjects">
+            <h3>Subjects</h3>
+            <div class="subject">
+                <label>Subject Code:</label>
+                <input type="text" name="subject_code_0" required>
+                <label>Subject Title:</label>
+                <input type="text" name="subject_title_0" required>
+                <label>Internal Marks:</label>
+                <input type="number" name="internal_marks_0" required>
+                <label>External Marks:</label>
+                <input type="number" name="external_marks_0" required>
+                <label>Total Marks:</label>
+                <input type="number" name="total_marks_0" required>
+                <label>Subject Result:</label>
+                <input type="text" name="subject_result_0" required>
+            </div>
+        </div>
+        <input type="hidden" id="subject_count" name="subject_count" value="1">
+        <button type="button" onclick="addSubject()">Add Another Subject</button><br><br>
+
+        <input type="submit" value="Generate Certificate">
+    </form>
+
+    <script>
+        function addSubject() {
+            const count = document.getElementById('subject_count');
+            const index = count.value;
+            const subjectsDiv = document.getElementById('subjects');
+            const newSubject = `
+                <div class="subject">
+                    <label>Subject Code:</label>
+                    <input type="text" name="subject_code_${index}" required>
+                    <label>Subject Title:</label>
+                    <input type="text" name="subject_title_${index}" required>
+                    <label>Internal Marks:</label>
+                    <input type="number" name="internal_marks_${index}" required>
+                    <label>External Marks:</label>
+                    <input type="number" name="external_marks_${index}" required>
+                    <label>Total Marks:</label>
+                    <input type="number" name="total_marks_${index}" required>
+                    <label>Subject Result:</label>
+                    <input type="text" name="subject_result_${index}" required>
+                </div>
+            `;
+            subjectsDiv.insertAdjacentHTML('beforeend', newSubject);
+            count.value = parseInt(index) + 1;
+        }
+    </script>
 </body>
 </html>
