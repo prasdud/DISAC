@@ -1,71 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generate Certificate</title>
+    <style>
+        /* Previous styles remain the same */
+        #status {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .success {
+            background-color: #dff0d8;
+            color: #3c763d;
+            border: 1px solid #d6e9c6;
+        }
+        .error {
+            background-color: #f2dede;
+            color: #a94442;
+            border: 1px solid #ebccd1;
+        }
+    </style>
 </head>
 <body>
-    <h1>Generate Certificate</h1>
-    <form method="POST">
-        <label for="usn">USN:</label>
-        <input type="text" id="usn" name="usn" required><br><br>
-
-        <label for="name">Student Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
-
-        <label for="semester">Semester:</label>
-        <input type="text" id="semester" name="semester" required><br><br>
-
-        <label for="month_year">Month / Year:</label>
-        <input type="text" id="month_year" name="month_year" required><br><br>
-
-        <div id="subjects">
-            <h3>Subjects</h3>
-            <div class="subject">
-                <label>Subject Code:</label>
-                <input type="text" name="subject_code_0" required>
-                <label>Subject Title:</label>
-                <input type="text" name="subject_title_0" required>
-                <label>Internal Marks:</label>
-                <input type="number" name="internal_marks_0" required>
-                <label>External Marks:</label>
-                <input type="number" name="external_marks_0" required>
-                <label>Total Marks:</label>
-                <input type="number" name="total_marks_0" required>
-                <label>Subject Result:</label>
-                <input type="text" name="subject_result_0" required>
+    <h2>Generate Certificate</h2>
+    <div id="status" style="display: none;"></div>
+    <form id="certificateForm" onsubmit="submitForm(event)">
+        <div id="subjectsContainer">
+            <div class="subject-entry">
+                <div class="form-group">
+                    <label>Subject Code:</label>
+                    <input type="text" name="subjectCode[]" required>
+                </div>
+                <div class="form-group">
+                    <label>Subject Title:</label>
+                    <input type="text" name="subjectTitle[]" required>
+                </div>
+                <div class="form-group">
+                    <label>Internal Marks:</label>
+                    <input type="number" name="internalMarks[]" required>
+                </div>
+                <div class="form-group">
+                    <label>External Marks:</label>
+                    <input type="number" name="externalMarks[]" required>
+                </div>
+                <div class="form-group">
+                    <label>Total Marks:</label>
+                    <input type="number" name="totalMarks[]" required>
+                </div>
+                <div class="form-group">
+                    <label>Subject Result:</label>
+                    <input type="text" name="subjectResult[]" required>
+                </div>
             </div>
         </div>
-        <input type="hidden" id="subject_count" name="subject_count" value="1">
-        <button type="button" onclick="addSubject()">Add Another Subject</button><br><br>
 
-        <input type="submit" value="Generate Certificate">
+        <button type="button" onclick="addSubject()">Add Another Subject</button>
+        <button type="submit">Generate Certificate</button>
     </form>
 
     <script>
+        // Test server connection on page load
+        window.onload = async function() {
+            try {
+                const response = await fetch('http://localhost:3000/test');
+                if (response.ok) {
+                    console.log('Server connection successful');
+                } else {
+                    showStatus('Server connection failed', 'error');
+                }
+            } catch (error) {
+                showStatus('Cannot connect to server: ' + error.message, 'error');
+            }
+        }
+
+        function showStatus(message, type) {
+            const status = document.getElementById('status');
+            status.textContent = message;
+            status.className = type;
+            status.style.display = 'block';
+        }
+
+        async function submitForm(event) {
+            event.preventDefault();
+            showStatus('Submitting form...', 'success');
+
+            // Collect form data
+            const formData = {
+                subjectCode: [],
+                subjectTitle: [],
+                internalMarks: [],
+                externalMarks: [],
+                totalMarks: [],
+                subjectResult: []
+            };
+
+            // Collect all subject entries
+            const subjectEntries = document.querySelectorAll('.subject-entry');
+            subjectEntries.forEach(entry => {
+                formData.subjectCode.push(entry.querySelector('[name="subjectCode[]"]').value);
+                formData.subjectTitle.push(entry.querySelector('[name="subjectTitle[]"]').value);
+                formData.internalMarks.push(parseInt(entry.querySelector('[name="internalMarks[]"]').value));
+                formData.externalMarks.push(parseInt(entry.querySelector('[name="externalMarks[]"]').value));
+                formData.totalMarks.push(parseInt(entry.querySelector('[name="totalMarks[]"]').value));
+                formData.subjectResult.push(entry.querySelector('[name="subjectResult[]"]').value);
+            });
+
+            console.log('Sending data:', formData);
+
+            try {
+                const response = await fetch('http://localhost:3000/generate', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    mode: 'no-cors',
+                    body: JSON.stringify(formData)
+                });
+
+                console.log('Response status:', response.status);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                console.log('Response data:', data);
+
+                if (data.status === 'success') {
+                    showStatus('Certificate generated successfully! Downloading PDF...', 'success');
+                    window.location.href = `http://localhost:3000/pdf/${data.pdfPath}`;
+                } else {
+                    throw new Error(data.message || 'Failed to generate certificate');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                showStatus('Error: ' + error.message, 'error');
+            }
+        }
+
         function addSubject() {
-            const count = document.getElementById('subject_count');
-            const index = count.value;
-            const subjectsDiv = document.getElementById('subjects');
-            const newSubject = `
-                <div class="subject">
-                    <label>Subject Code:</label>
-                    <input type="text" name="subject_code_${index}" required>
-                    <label>Subject Title:</label>
-                    <input type="text" name="subject_title_${index}" required>
-                    <label>Internal Marks:</label>
-                    <input type="number" name="internal_marks_${index}" required>
-                    <label>External Marks:</label>
-                    <input type="number" name="external_marks_${index}" required>
-                    <label>Total Marks:</label>
-                    <input type="number" name="total_marks_${index}" required>
-                    <label>Subject Result:</label>
-                    <input type="text" name="subject_result_${index}" required>
-                </div>
-            `;
-            subjectsDiv.insertAdjacentHTML('beforeend', newSubject);
-            count.value = parseInt(index) + 1;
+            const container = document.getElementById('subjectsContainer');
+            const newSubject = document.querySelector('.subject-entry').cloneNode(true);
+            const inputs = newSubject.querySelectorAll('input');
+            inputs.forEach(input => input.value = '');
+            container.appendChild(newSubject);
         }
     </script>
 </body>
