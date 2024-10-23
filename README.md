@@ -2,7 +2,7 @@
 A blockchain based data integrity system for academic credentials, written from scratch in C++.
 
 # TODO
-1. API crow implementation
+1. fine tune the certificate generator, add images, enter name usn semester month year and qr code
 2. implement block validation.
 3. implement blockchain validation (merkle trees)
 4. architecture for multiple nodes
