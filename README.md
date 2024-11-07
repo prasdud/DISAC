@@ -6,6 +6,7 @@ A blockchain based data integrity system for academic credentials, written from 
 2. implement block validation.
 3. implement blockchain validation (merkle trees)
 4. architecture for multiple nodes
+5. read up on crow api
 
 ## TEAM
 1. Explain block and blockchain codebase
