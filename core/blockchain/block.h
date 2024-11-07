@@ -170,7 +170,7 @@ private:
 
         std::string calculateBlockHash() const {
             std::stringstream block_data;
-            block_data << student_id << cert_hash << prev_hash << timestamp;
+            block_data << student_id << cert_hash << prev_hash;
 
             return calculateHash(block_data.str());
         }

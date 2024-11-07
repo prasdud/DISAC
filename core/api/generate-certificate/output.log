@@ -158,37 +158,38 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<vtulogo.png, id=1, 220.825pt x 220.825pt>
-File: vtulogo.png Graphic file (type png)
-<use vtulogo.png>
-Package pdftex.def Info: vtulogo.png  used on input line 9.
-(pdftex.def)             Requested size: 115.4998pt x 115.50018pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 10.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 10.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 10.
 
-LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 15.
-
-<vitlogo.jpg, id=3, 1174.3875pt x 1174.3875pt>
-File: vitlogo.jpg Graphic file (type jpg)
-<use vitlogo.jpg>
-Package pdftex.def Info: vitlogo.jpg  used on input line 18.
-(pdftex.def)             Requested size: 115.4998pt x 115.49239pt.
-File: vtulogo.png Graphic file (type png)
-<use vtulogo.png>
-Package pdftex.def Info: vtulogo.png  used on input line 34.
-(pdftex.def)             Requested size: 115.4998pt x 115.50018pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
-[]|\OT1/cmr/bx/n/12 Subject
- []
+LaTeX Warning: File `vtulogo.png' not found on input line 9.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
+! Package pdftex.def Error: File `vtulogo.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...ludegraphics[width=\textwidth]{vtulogo.png}
+                                                  
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.9 ...ludegraphics[width=\textwidth]{vtulogo.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
+Here is how much of TeX's memory you used:
+ 1910 strings out of 478287
+ 30960 string characters out of 5849289
+ 325346 words of memory out of 5000000
+ 20131 multiletter control sequences out of 15000+600000
+ 469557 words of font info for 29 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,2n,62p,204b,141s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
+10000) in paragraph at lines 41--41
 []|\OT1/cmr/bx/n/12 Internal
  []
 
