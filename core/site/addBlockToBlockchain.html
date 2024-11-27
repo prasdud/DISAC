@@ -3,14 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add block to blockchain | DISAC</title>
+    <title>Add Block to Blockchain | DISAC</title>
 </head>
 <body>
-    <h1>Add block to blockchain</h1>
+    <h1>Add Block to Blockchain</h1>
     <div>
-        <input type="file" name="upload" accept="application/pdf"/>        
-        <button onclick="hashCertificate()">Hash</button>
-        <form id="blockForm" onsubmit="submitForm(event)">
+        <form id="blockForm" onsubmit="submitForm(event)" method="POST" enctype="multipart/form-data">
             <div id="container">
                 <div class="data-entry">
                     <div class="form-group">
@@ -21,11 +19,42 @@
                         <label>Student ID:</label>
                         <input type="text" name="studentId" required>
                     </div>
+                    <div class="form-group">
+                        <label>PDF File:</label>
+                        <input type="file" name="pdf_file" required>
+                    </div>
                 </div>
             </div>
-    
             <button type="submit">Add block to chain</button>
         </form>
     </div>
+
+    <script>
+        // Function to handle form submission
+        document.getElementById("blockForm").addEventListener("submit", async function(event) {
+            event.preventDefault();
+            const formData = new FormData(this);
+
+            try {
+                const response = await fetch('http://localhost:18080/add_block', {
+                    method: 'POST',
+                    headers: {
+                        'Accept': 'application/json',
+                    },
+                    body: formData // Send the form data directly, including the file
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    console.log("Block added successfully:", data);
+                } else {
+                    console.error("Error adding block:", data.message);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        });
+    </script>
 </body>
 </html>

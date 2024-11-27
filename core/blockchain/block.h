@@ -14,29 +14,21 @@
 
 class Block{
 public:
-    Block(std::string prevHash)
-    : student_id(""), prev_hash(prevHash), timestamp(std::time(nullptr)) {
-        std::string tempName;
-        std::string tempId;
-        std::string tempPdf;
-        std::cout << "Enter the student name -> " << std::endl;
-        std::cin>> tempName; // Use getline to capture full name
-        setStudentName(tempName);
+    Block(std::string prevHash, const std::string& studentName, const std::string& studentId, const std::string& pdf_data)
+    : student_name(studentName), student_id(studentId), prev_hash(prevHash), timestamp(std::time(nullptr)) {
+        setStudentName(studentName);
+        setStudentId(studentId);
+        setPdfName(pdf_data);
+
+        // Use the PDF data passed as an argument to calculate the binary content
+        pdf_binary = calculateBinary(pdf_data);
         
-        std::cout << "Enter the student id -> " << std::endl;
-        std::cin >> tempId;
-        setStudentId(tempId);
-        
-        std::cout << "Enter the pdf file -> " << std::endl;
-        std::cin >> tempPdf;
-        setPdfName(tempPdf);
-        
-        pdf_binary = calculateBinary(); // Calculate binary representation on creation
-        cert_hash = calculateHash(pdf_binary); // Calculate hash based on binary
+        // Calculate the certificate hash and block hash
+        cert_hash = calculateHash(pdf_binary);
         curr_hash = calculateBlockHash();
         updateCurrHash();
     }
-
+    
     friend std::ostream & operator<<(std::ostream & os, Block const & block){
         os <<"Student name: "<< block.student_name <<std::endl
             <<"Student id: "<<block.student_id <<std::endl
@@ -101,31 +93,19 @@ private:
 
 
 
-    std::string calculateBinary() const{
-        //int const size = 20;
-        std::uintmax_t size = std::filesystem::file_size("../../assets/dummy-certs/"+pdf_name+".pdf");
-        //std::cout<<size<<std::endl;
-
-        std::vector<char> ndata(size);
+    std::string calculateBinary(const std::string& pdf_data) const {
         std::string result_binary;
-        //getting input data.pdf
-        std::ifstream infile("../../assets/dummy-certs/"+pdf_name+".pdf", std::ios::binary);
-        if (!infile.read(ndata.data(), size)) {
-            std::cerr << "Error reading file." << std::endl;
-            return result_binary;
+        
+        // Convert each byte of the PDF data to a binary string
+        for (unsigned char byte : pdf_data) {
+            std::bitset<8> bit(byte);  // Convert byte to 8-bit binary
+            result_binary += bit.to_string();  // Append the binary string representation
         }
 
-        //writing to output
-        for (char c : ndata) {
-            std::bitset<8> x(c);
-            result_binary += x.to_string();
-            //std::cout << x<<std::endl;
-        }
-
-        std::cout << "Encoding complete." << std::endl;
-	    return result_binary;
-
+        std::cout << "PDF encoding complete." << std::endl;
+        return result_binary;
     }
+
 
     std::string calculateHash(const std::string& binary) const {
             unsigned char hash[SHA256_DIGEST_LENGTH];

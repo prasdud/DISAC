@@ -1,65 +1,59 @@
-#include <iostream>
 #include <crow.h>
 #include "../blockchain/blockchain.h"
+#include "../blockchain/block.h"
+#include <fstream>
+#include <iostream>
 
 crow::response handle_add_block(const crow::request& req) {
-    // Extract form data from the request
-    std::string student_name;
-    std::string student_id;
-    std::string pdf_name;
+    try {
+        // Access raw POST body
+        std::string body = req.body;
+        // Here, you will need to manually parse the body if it's in multipart format
 
-    // Get the form data using Crow's parsing function
-    auto studentName = req.url_params.get("studentName");
-    auto studentId = req.url_params.get("studentId");
-    auto pdfFile = req.url_params.get("pdfFile");
+        // Debugging: Output the raw body
+        std::cout << "Received raw body: " << body << std::endl;
 
-    if (!studentName || !studentId || !pdfFile) {
-        return crow::response(400, "Missing required fields.");
+        // Manually extracting the form data from body string (if it's form-encoded)
+        // If the body is in multipart format, you'd need a more advanced parsing strategy.
+        // For now, let's assume it's in URL encoded format for simplicity.
+        
+        // Example: Parsing query-style body (This is just an example, you need proper multipart parsing for files)
+        std::string student_name = "defaultName";  // Replace with actual extraction logic
+        std::string student_id = "defaultId";     // Replace with actual extraction logic
+        std::string pdf_file = "defaultPdf";      // Replace with actual extraction logic
+
+        // Verify the fields are not empty
+        if (student_name.empty() || student_id.empty() || pdf_file.empty()) {
+            return crow::response(400, "Missing required fields.");
+        }
+
+        // Debugging output to check the received data
+        std::cout << "Received data:" << std::endl;
+        std::cout << "Student Name: " << student_name << std::endl;
+        std::cout << "Student ID: " << student_id << std::endl;
+        std::cout << "PDF file: " << pdf_file << std::endl;
+
+        // Get the previous block hash from the blockchain
+        Blockchain blockchain;
+        std::string prevHash = blockchain.getLastBlockHash();
+
+        // Create a new Block with the received data
+        Block new_block(prevHash, student_name, student_id, pdf_file);
+
+        // Add the block to the blockchain
+        blockchain.addNewBlock(new_block);
+
+        return crow::response(200, "Block added successfully!");
+    } catch (const std::exception& e) {
+        return crow::response(500, std::string("Error: ") + e.what());
     }
-
-    student_name = *studentName;
-    student_id = *studentId;
-    pdf_name = *pdfFile; // PDF name (not binary)
-
-    // Check if all fields are provided
-    if (student_name.empty() || student_id.empty() || pdf_name.empty()) {
-        return crow::response(400, "Missing required fields.");
-    }
-
-    // Assuming Blockchain and Block classes are defined and you are creating a new block
-    Blockchain blockchain;
-    std::string prevHash = blockchain.getLastBlockHash();
-    Block new_block(prevHash);
-
-    new_block.setStudentName(student_name);
-    new_block.setStudentId(student_id);
-    new_block.setPdfName(pdf_name);  // Set the PDF name (handle file data as needed)
-
-    blockchain.addNewBlock(new_block);
-
-    return crow::response(200, "Block added successfully!");
 }
 
 int main() {
     crow::SimpleApp app;
 
-    // Handle preflight (OPTIONS) requests to allow CORS
-    app.route_dynamic("/add_block")
-        .methods(crow::HTTPMethod::OPTIONS)
-    ([](const crow::request& req) {
-        crow::response resp(204);
-        resp.set_header("Access-Control-Allow-Origin", "http://127.0.0.1:5500");
-        resp.set_header("Access-Control-Allow-Methods", "POST, GET, OPTIONS");
-        resp.set_header("Access-Control-Allow-Headers", "Content-Type");
-        return resp;
-    });
-
-    // Define the actual POST endpoint
-    app.route_dynamic("/add_block")
-        .methods(crow::HTTPMethod::POST)
-    ([](const crow::request& req) {
-        return handle_add_block(req);
-    });
+    // Define route to handle adding blocks
+    CROW_ROUTE(app, "/add_block").methods("POST"_method)(handle_add_block);
 
     // Start the server
     app.port(18080).multithreaded().run();
