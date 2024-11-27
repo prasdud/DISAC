@@ -27,14 +27,19 @@
             </div>
             <button type="submit">Add block to chain</button>
         </form>
+        
     </div>
 
     <script>
-        // Function to handle form submission
         document.getElementById("blockForm").addEventListener("submit", async function(event) {
             event.preventDefault();
             const formData = new FormData(this);
-
+            
+            // Debugging: log the FormData to ensure correct data
+            formData.forEach((value, key) => {
+                console.log(key + ": " + value);
+            });
+    
             try {
                 const response = await fetch('http://localhost:18080/add_block', {
                     method: 'POST',
@@ -43,9 +48,9 @@
                     },
                     body: formData // Send the form data directly, including the file
                 });
-
+    
                 const data = await response.json();
-
+    
                 if (response.ok) {
                     console.log("Block added successfully:", data);
                 } else {
@@ -56,5 +61,6 @@
             }
         });
     </script>
+
 </body>
 </html>
