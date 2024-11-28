@@ -6,6 +6,7 @@
 #include <sstream>
 #include <map>
 #include <filesystem>
+#include <ctime>
 
 // Utility function to save uploaded file
 std::string save_uploaded_file(const std::string& file_content, const std::string& filename) {
@@ -26,6 +27,27 @@ std::string save_uploaded_file(const std::string& file_content, const std::strin
     return unique_filename;
 }
 
+// Utility function to trim whitespace and multipart artifacts
+std::string trim_multipart_value(const std::string& value) {
+    std::string cleaned = value;
+    
+    // Remove leading/trailing whitespace
+    size_t start = cleaned.find_first_not_of(" \t\r\n");
+    size_t end = cleaned.find_last_not_of(" \t\r\n");
+    
+    if (start != std::string::npos && end != std::string::npos) {
+        cleaned = cleaned.substr(start, end - start + 1);
+    }
+    
+    // Remove any boundary markers or other multipart artifacts
+    size_t boundary_pos = cleaned.find("--");
+    if (boundary_pos != std::string::npos) {
+        cleaned = cleaned.substr(0, boundary_pos);
+    }
+    
+    return cleaned;
+}
+
 crow::response handle_add_block(const crow::request& req) {
     try {
         // Get the raw body and content type
@@ -37,7 +59,6 @@ crow::response handle_add_block(const crow::request& req) {
         std::cout << "Body length: " << body.length() << std::endl;
 
         // Multipart form data parsing
-        std::map<std::string, std::string> form_data;
         std::string student_name, student_id, file_content, filename;
 
         // Basic multipart parsing (split by boundary)
@@ -64,16 +85,14 @@ crow::response handle_add_block(const crow::request& req) {
                     size_t content_start = part.find("\r\n\r\n");
                     if (content_start != std::string::npos) {
                         student_name = part.substr(content_start + 4);
-                        // Remove trailing newlines
-                        student_name.erase(student_name.find_last_not_of("\r\n") + 1);
+                        student_name = trim_multipart_value(student_name);
                     }
                 }
                 else if (part.find("name=\"studentId\"") != std::string::npos) {
                     size_t content_start = part.find("\r\n\r\n");
                     if (content_start != std::string::npos) {
                         student_id = part.substr(content_start + 4);
-                        // Remove trailing newlines
-                        student_id.erase(student_id.find_last_not_of("\r\n") + 1);
+                        student_id = trim_multipart_value(student_id);
                     }
                 }
                 else if (part.find("name=\"pdf_file\"") != std::string::npos) {
@@ -113,7 +132,7 @@ crow::response handle_add_block(const crow::request& req) {
         Blockchain blockchain;
         std::string prevHash = blockchain.getLastBlockHash();
 
-        // Create a new Block with the received data
+        // Create a new Block with the saved file path
         Block new_block(prevHash, student_name, student_id, saved_file_path);
 
         // Add the block to the blockchain
