@@ -8,8 +8,62 @@
 <body>
     <h1>Validate Certificate</h1>
     <div>
-        <input type="text" placeholder="Enter certificate hash" id="hashInput">
-        <button onclick="searchCertificate()">Search</button>
+        <form id="certificateValidationForm">
+            <div class="form-group">
+                <label for="studentName">Student Name:</label>
+                <input type="text" id="studentName" name="studentName" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="studentId">Student ID:</label>
+                <input type="text" id="studentId" name="studentId" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="pdfFile">PDF File:</label>
+                <input type="file" id="pdfFile" name="pdfFile" accept=".pdf" required>
+            </div>
+            
+            <button type="submit">Validate Certificate</button>
+        </form>
+    
+        <div id="validationResult"></div>
+    
+        <script>
+            document.getElementById('certificateValidationForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Get form data
+                const formData = new FormData();
+                formData.append('studentName', document.getElementById('studentName').value);
+                formData.append('studentId', document.getElementById('studentId').value);
+                formData.append('pdf_file', document.getElementById('pdfFile').files[0]);
+    
+                // Send validation request
+                fetch('http://localhost:18080/validate_certificate', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => {
+                    const resultDiv = document.getElementById('validationResult');
+                    
+                    if (response.ok) {
+                        resultDiv.textContent = 'Certificate is valid!';
+                        resultDiv.className = 'valid';
+                    } else {
+                        resultDiv.textContent = 'Certificate is invalid.';
+                        resultDiv.className = 'invalid';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    const resultDiv = document.getElementById('validationResult');
+                    resultDiv.textContent = 'An error occurred during validation.';
+                    resultDiv.className = 'invalid';
+                });
+            });
+        </script>
+        
     </div>
 </body>
 </html>

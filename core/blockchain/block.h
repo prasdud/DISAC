@@ -100,21 +100,7 @@ public:
         pdf_name = new_pdf_name;
     }
 
-
-
-private:
-    std::string student_name;
-    std::string student_id;
-    std::string cert_hash;
-    std::string prev_hash;
-    std::string curr_hash;
-    std::string pdf_binary;
-    std::string pdf_name;
-    time_t timestamp;
-
-
-
-    std::string calculateBinary(const std::string& pdf_file_path) const {
+    static std::string calculateBinary(const std::string& pdf_file_path) {
         std::string result_binary;
 
         // Open the file in binary mode
@@ -134,18 +120,18 @@ private:
             result_binary += bit.to_string(); // Append the binary string representation
         }
 
-        std::cout << "PDF content successfully converted to binary."+ pdf_file_path << std::endl;
+        std::cout << "PDF content successfully converted to binary." + pdf_file_path << std::endl;
         std::cout << result_binary<< std::endl;
         return result_binary;
     }
 
 
-    std::string calculatePDFHash(const std::string& pdf_file_path) const {
+    static std::string calculatePDFHash(const std::string& pdf_file_path){
         std::ifstream file(pdf_file_path, std::ios::binary);
         if (!file) {
             throw std::runtime_error("Failed to open PDF file: " + pdf_file_path);
         }
-
+        std:: cout<<"Opened pdf file successfully! "+ pdf_file_path<<std::endl;
         // Create SHA-256 context
         SHA256_CTX sha256;
         SHA256_Init(&sha256);
@@ -179,11 +165,57 @@ private:
         std::cout << "PDF File Path: " << pdf_file_path << std::endl;
         std::cout << "Calculated PDF SHA-256 Hash: " << hash_result << std::endl;
         std::cout << "Hash Length: " << hash_result.length() << std::endl;
-
+        std::cout<<hash_result<<std::endl;
         return hash_result;
     }
+    static std::string calculateBinaryFromFile(const std::string& pdfPath) {
+    std::ifstream pdfFile(pdfPath, std::ios::binary);
+    if (!pdfFile) {
+        throw std::runtime_error("Failed to open PDF file: " + pdfPath);
+    }
 
-    std::string calculateBlockHash() const {
+    std::ostringstream oss;
+    oss << pdfFile.rdbuf();
+    std::string pdfContent = oss.str();
+
+    return calculateBinary(pdfContent);
+}
+
+    static std::string calculateHash(const std::string& binaryData) {
+        unsigned char hash[SHA256_DIGEST_LENGTH];
+        unsigned int hashLength;
+
+        // Create and finalize SHA-256 hash
+        EVP_MD_CTX* ctx = EVP_MD_CTX_new();
+        EVP_DigestInit_ex(ctx, EVP_sha256(), nullptr);
+        EVP_DigestUpdate(ctx, binaryData.c_str(), binaryData.size());
+        EVP_DigestFinal_ex(ctx, hash, &hashLength);
+        EVP_MD_CTX_free(ctx);
+
+        // Convert hash to hex string
+        std::stringstream ss;
+        for (unsigned int i = 0; i < hashLength; i++) {
+            ss << std::hex << std::setw(2) << std::setfill('0') << static_cast<int>(hash[i]);
+        }
+        return ss.str();
+    }
+
+
+private:
+    std::string student_name;
+    std::string student_id;
+    std::string cert_hash;
+    std::string prev_hash;
+    std::string curr_hash;
+    std::string pdf_binary;
+    std::string pdf_name;
+    time_t timestamp;
+
+
+
+
+
+    std::string calculateBlockHash() {
         std::stringstream block_data;
         block_data << student_id << cert_hash << prev_hash;
         

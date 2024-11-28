@@ -111,6 +111,41 @@ public:
         }
     }
 
+    bool validateCertificate(const std::string& student_id, const std::string& new_pdf_path) {
+        // Step 1: Retrieve the stored certificate hash from the database
+        std::string sql = "SELECT certificate_hash FROM blockchain WHERE student_id = ? ORDER BY timestamp DESC LIMIT 1";
+        sqlite3_stmt* stmt;
+        
+        if (sqlite3_prepare_v2(DB, sql.c_str(), -1, &stmt, nullptr) != SQLITE_OK) {
+            throw std::runtime_error("Failed to prepare statement");
+        }
+
+        std::cout << "Validating Certificate:" << std::endl;
+        std::cout << "Student ID: " << student_id << std::endl;
+        std::cout << "PDF Path: " << new_pdf_path << std::endl;
+        
+        if (!std::filesystem::exists(new_pdf_path)) {
+            std::cerr << "File does not exist: " << new_pdf_path << std::endl;
+            return false;
+        }
+        sqlite3_bind_text(stmt, 1, student_id.c_str(), -1, SQLITE_STATIC);
+
+        if (sqlite3_step(stmt) != SQLITE_ROW) {
+            sqlite3_finalize(stmt);
+            return false;  // No certificate found for the given student ID
+        }
+
+        std::string stored_cert_hash = reinterpret_cast<const char*>(sqlite3_column_text(stmt, 0));
+        sqlite3_finalize(stmt);
+
+        // Step 2: Calculate the hash of the new PDF file
+        std::string new_cert_hash = Block::calculatePDFHash(new_pdf_path);
+
+        // Step 3: Compare the calculated hash with the stored hash
+        return stored_cert_hash == new_cert_hash;
+    }
+
+
     bool validateBlockchain(){
         return true;
     }
