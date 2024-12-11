@@ -41,6 +41,11 @@ int main(int argc, char const *argv[])
         }
         case 4:
             std::cout<< "Validating the blockchain "<<std::endl;
+            if (blockchain.validateBlockchain()) {
+                std::cout << "Blockchain validation successful!" << std::endl;
+            } else {
+                std::cout << "Blockchain is invalid!" << std::endl;
+            }
             std::cout<< "DONE."<<std::endl;
             break;
         case 5:

@@ -146,9 +146,43 @@ public:
     }
 
 
-    bool validateBlockchain(){
+    bool validateBlockchain() {
+        const char* query = "SELECT * FROM blockchain ORDER BY id ASC;"; // Query to fetch blocks ordered by ID
+        sqlite3_stmt* stmt;
+
+        // Prepare the SQL query
+        if (sqlite3_prepare_v2(DB, query, -1, &stmt, nullptr) != SQLITE_OK) {
+            std::cerr << "Failed to prepare select statement: " << sqlite3_errmsg(DB) << std::endl;
+            return false;
+        }
+
+        std::string prev_block_hash = "0000000"; // Starting with a default value for the genesis block
+
+        while (sqlite3_step(stmt) == SQLITE_ROW) {
+            // Retrieve data from the database
+            std::string block_hash = reinterpret_cast<const char*>(sqlite3_column_text(stmt, 2));  // Current block hash
+            std::string prev_hash = reinterpret_cast<const char*>(sqlite3_column_text(stmt, 3));   // Previous block hash
+
+            // Check if the current block's previous hash matches the previous block's hash
+            if (prev_hash != prev_block_hash) {
+                std::cerr << "Blockchain is corrupted at block with hash: " << block_hash << std::endl;
+                sqlite3_finalize(stmt);
+                return false; // Return false if there is a mismatch
+            }
+
+            // Update the previous block's hash for the next iteration
+            prev_block_hash = block_hash;
+        }
+
+        // If all blocks are valid, return true
+        sqlite3_finalize(stmt);
+        std::cout << "Blockchain is valid!" << std::endl;
         return true;
     }
+
+
+
+
 
 private:
     std::vector<Block> chain;

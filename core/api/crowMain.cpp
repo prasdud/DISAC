@@ -51,6 +51,12 @@ std::string trim_multipart_value(const std::string& value) {
     return cleaned;
 }
 
+void add_cors_headers(crow::response& res) {
+    res.add_header("Access-Control-Allow-Origin", "*");
+    res.add_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+    res.add_header("Access-Control-Allow-Headers", "Content-Type");
+}
+
 crow::response handle_add_block(const crow::request& req) {
     try {
         // Get the raw body and content type
@@ -170,6 +176,36 @@ int main() {
         res.add_header("Access-Control-Allow-Origin", "*");
         res.add_header("Access-Control-Allow-Methods", "POST, OPTIONS");
         res.add_header("Access-Control-Allow-Headers", "Content-Type");
+        res.code = 200;
+        return res;
+    });
+    app.route_dynamic("/validate_blockchain")
+        .methods("GET"_method)([](const crow::request& req) {
+            try {
+                Blockchain blockchain;
+                bool is_valid = blockchain.validateBlockchain();
+
+                crow::response res;
+                if (is_valid) {
+                    res = crow::response(200, "Blockchain is valid");
+                } else {
+                    res = crow::response(400, "Blockchain is invalid");
+                }
+                add_cors_headers(res);
+                return res;
+            } catch (const std::exception& e) {
+                std::cerr << "Blockchain Validation Error: " << e.what() << std::endl;
+                crow::response res(500, std::string("Validation Error: ") + e.what());
+                add_cors_headers(res);
+                return res;
+            }
+        });
+
+    // Handle preflight OPTIONS request for /validate_blockchain
+    CROW_ROUTE(app, "/validate_blockchain").methods("OPTIONS"_method)
+    ([](const crow::request& req) {
+        crow::response res;
+        add_cors_headers(res);
         res.code = 200;
         return res;
     });

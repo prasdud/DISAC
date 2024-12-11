@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validate Blockchain | DISAC</title>
+    <style>
+        .status {
+            font-weight: bold;
+            padding: 10px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .valid {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .invalid {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .error {
+            background-color: #FF9800;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Validate Blockchain</h1>
+    <p>Click the button below to validate the blockchain.</p>
+
+    <button id="validateBtn">Validate Blockchain</button>
+
+    <div id="status" class="status"></div>
+
+    <script>
+        document.getElementById("validateBtn").addEventListener("click", function() {
+            const statusElement = document.getElementById("status");
+    
+            // Reset previous status
+            statusElement.className = 'status';  // Reset class
+            statusElement.textContent = '';      // Clear any text
+    
+            // Make an actual API call to validate blockchain
+            fetch('http://localhost:18080/validate_blockchain', {
+                method: 'GET'
+            })
+            .then(response => {
+                console.log("Response status:", response.status);  // Log the response status for debugging
+                if (response.status === 200) {
+                    statusElement.textContent = "Blockchain is Valid!";
+                    statusElement.classList.add("valid");
+                } else if (response.status === 400) {
+                    statusElement.textContent = "Blockchain Validation Request is Invalid!";
+                    statusElement.classList.add("invalid");
+                } else if (response.status === 500) {
+                    statusElement.textContent = "Internal Server Error during Validation!";
+                    statusElement.classList.add("error");
+                } else {
+                    statusElement.textContent = "Unknown Error: " + response.status;
+                    statusElement.classList.add("error");
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                statusElement.textContent = "Blockchain Validation Failed!";
+                statusElement.classList.add("error");
+            });
+        });
+    </script>
+    
+</body>
+</html>
