@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employer Dashboard | DISAC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            margin: 0;
+            height: 100vh;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar h2 {
+            color: #ffffff;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            padding: 10px;
+            cursor: pointer;
+        }
+        .sidebar ul li:hover {
+            background-color: #495057;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+            background-color: #f8f9fa;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: calc(100% - 40px);
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <h2>DISAC</h2>
+        <ul>
+            <li onclick="showContent('validateCertificate.html')">Validate Certificate</li>
+            <li onclick="showContent('about.html')">About</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <iframe id="contentFrame" src="" frameborder="0"></iframe>
+    </div>
+
+    <script>
+        function showContent(file) {
+            const contentFrame = document.getElementById('contentFrame');
+            contentFrame.src = file;
+        }
+    </script>
+
+</body>
+</html>
