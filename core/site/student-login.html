@@ -166,7 +166,7 @@
             </div>
             <div class="login-right">
                 <form class="login-form">
-                    <h5 class="text-center mb-4">Sign In</h5>
+                    <h5 class="text-center mb-4" style="color: #61c122;">Sign In</h5>
                     <div class="form-group">
                         <label>Email</label>
                         <input type="email" class="form-control" placeholder="Enter your email">
@@ -185,7 +185,7 @@
     <script>
         // In-memory users for Student login
         const students = [
-            { email: 'john@vemanait.edu.in', password: 'john' },
+            { email: 'timothy@vemanait.edu.in', password: 'timothy' },
         ];
 
         document.querySelector('.login-form').addEventListener('submit', function(e) {
@@ -207,7 +207,7 @@
 
             if (student) {
                 alert('Login successful!');
-                window.location.href = '/student-dashboard.html'; // Student Dashboard URL
+                window.location.href = 'studentDashboard.html'; // Student Dashboard URL
             } else {
                 alert('Invalid email or password.');
             }

@@ -204,9 +204,9 @@
             if (user) {
                 alert('Login successful!');
                 if (user.role === 'admin') {
-                    window.location.href = '/admin-dashboard.html'; // Admin Dashboard URL
+                    window.location.href = 'adminDashboard.html'; // Admin Dashboard URL
                 } else if (user.role === 'employer') {
-                    window.location.href = '/employer-dashboard.html'; // Employer Dashboard URL
+                    window.location.href = 'employerDashboard.html'; // Employer Dashboard URL
                 }
             } else {
                 alert('Invalid email or password.');

@@ -13,7 +13,7 @@
         }
         .sidebar {
             width: 250px;
-            background-color: #343a40;
+            background-color: #424e59;
             color: white;
             padding: 20px;
             box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
@@ -35,13 +35,27 @@
         .content {
             flex: 1;
             padding: 20px;
-            background-color: #f8f9fa;
             overflow: hidden;
+            background: linear-gradient(338deg, #229348, #185c91, #9cb9d1, #37393b);
+            background-size: 240% 240%;
+            animation: gradient-animation 12s ease infinite;
         }
         iframe {
             width: 100%;
             height: calc(100% - 40px);
             border: none;
+        }
+
+        @keyframes gradient-animation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
         }
     </style>
 </head>

@@ -4,16 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validate Certificate | DISAC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(338deg, #229348, #185c91, #9cb9d1, #37393b);
+            background-size: 240% 240%;
+            animation: gradient-animation 12s ease infinite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+        @keyframes gradient-animation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        .container {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input[type="text"], input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #validationResult {
+            margin-top: 20px;
+            font-size: 1rem;
+            text-align: center;
+        }
+        #validationResult.valid {
+            color: green;
+        }
+        #validationResult.invalid {
+            color: red;
+        }
+    </style>
 </head>
 <body>
-    <h1>Validate Certificate</h1>
-    <div>
+    <div class="container">
+        <h1>Validate Certificate</h1>
         <form id="certificateValidationForm">
-            <div class="form-group">
-                <label for="studentName">Student Name:</label>
-                <input type="text" id="studentName" name="studentName" required>
-            </div>
-            
             <div class="form-group">
                 <label for="studentId">Student ID:</label>
                 <input type="text" id="studentId" name="studentId" required>
@@ -28,42 +101,59 @@
         </form>
     
         <div id="validationResult"></div>
+    </div>
+
+    <script>
+        document.getElementById('certificateValidationForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData();
+            formData.append('studentId', document.getElementById('studentId').value);
+            formData.append('pdf_file', document.getElementById('pdfFile').files[0]);
     
-        <script>
-            document.getElementById('certificateValidationForm').addEventListener('submit', function(e) {
-                e.preventDefault();
-                
-                // Get form data
-                const formData = new FormData();
-                formData.append('studentName', document.getElementById('studentName').value);
-                formData.append('studentId', document.getElementById('studentId').value);
-                formData.append('pdf_file', document.getElementById('pdfFile').files[0]);
-    
-                // Send validation request
-                fetch('http://localhost:18080/validate_certificate', {
-                    method: 'POST',
-                    body: formData
-                })
-                .then(response => {
-                    const resultDiv = document.getElementById('validationResult');
-                    
-                    if (response.ok) {
+            // Send validation request
+            fetch('http://localhost:18080/validate_certificate', {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    // Do NOT set Content-Type header, let browser set it with boundary
+                    'Accept': 'application/json'
+                }
+            })
+            .then(response => {
+                const resultDiv = document.getElementById('validationResult');
+
+                switch (response.status) {
+                    case 200:
                         resultDiv.textContent = 'Certificate is valid!';
                         resultDiv.className = 'valid';
-                    } else {
-                        resultDiv.textContent = 'Certificate is invalid.';
+                        break;
+                    case 400:
+                        resultDiv.textContent = 'Certificate is NOT valid!';
                         resultDiv.className = 'invalid';
-                    }
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                    const resultDiv = document.getElementById('validationResult');
-                    resultDiv.textContent = 'An error occurred during validation.';
-                    resultDiv.className = 'invalid';
-                });
+                        break;
+                    case 404:
+                        resultDiv.textContent = 'Validation service not found.';
+                        resultDiv.className = 'invalid';
+                        break;
+                    case 500:
+                        resultDiv.textContent = 'Internal server error. Please try again later.';
+                        resultDiv.className = 'invalid';
+                        break;
+                    default:
+                        resultDiv.textContent = 'An unexpected error occurred.';
+                        resultDiv.className = 'invalid';
+                        break;
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                const resultDiv = document.getElementById('validationResult');
+                resultDiv.textContent = 'Failed to connect to the validation service.';
+                resultDiv.className = 'invalid';
             });
-        </script>
-        
-    </div>
+        });
+    </script>
 </body>
 </html>
