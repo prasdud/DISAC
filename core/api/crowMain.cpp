@@ -51,6 +51,12 @@ std::string trim_multipart_value(const std::string& value) {
     return cleaned;
 }
 
+void add_cors_headers(crow::response& res) {
+    res.add_header("Access-Control-Allow-Origin", "*");
+    res.add_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+    res.add_header("Access-Control-Allow-Headers", "Content-Type");
+}
+
 crow::response handle_add_block(const crow::request& req) {
     try {
         // Get the raw body and content type
@@ -173,6 +179,36 @@ int main() {
         res.code = 200;
         return res;
     });
+    app.route_dynamic("/validate_blockchain")
+        .methods("GET"_method)([](const crow::request& req) {
+            try {
+                Blockchain blockchain;
+                bool is_valid = blockchain.validateBlockchain();
+
+                crow::response res;
+                if (is_valid) {
+                    res = crow::response(200, "Blockchain is valid");
+                } else {
+                    res = crow::response(400, "Blockchain is invalid");
+                }
+                add_cors_headers(res);
+                return res;
+            } catch (const std::exception& e) {
+                std::cerr << "Blockchain Validation Error: " << e.what() << std::endl;
+                crow::response res(500, std::string("Validation Error: ") + e.what());
+                add_cors_headers(res);
+                return res;
+            }
+        });
+
+    // Handle preflight OPTIONS request for /validate_blockchain
+    CROW_ROUTE(app, "/validate_blockchain").methods("OPTIONS"_method)
+    ([](const crow::request& req) {
+        crow::response res;
+        add_cors_headers(res);
+        res.code = 200;
+        return res;
+    });
 
     CROW_ROUTE(app, "/validate_certificate").methods("POST"_method)([](const crow::request& req) {
         try {
@@ -185,48 +221,43 @@ int main() {
             std::cout << "Body length: " << body.length() << std::endl;
 
             // Multipart form data parsing
-            std::string student_name, student_id, file_content, filename;
+            std::string student_id, file_content, filename;
+
+            // Extra debugging: print full body if parsing fails
+            std::cout << "Full request body: " << body << std::endl;
 
             // Find the boundary
             size_t boundary_pos = content_type.find("boundary=");
             if (boundary_pos == std::string::npos) {
+                std::cout << "No boundary found in Content-Type" << std::endl;
                 return crow::response(400, "Invalid multipart form data");
             }
 
-            std::string boundary = content_type.substr(boundary_pos + 9);
+            std::string boundary = "--" + content_type.substr(boundary_pos + 9);
             std::vector<std::string> parts;
             
             // Split body by boundary
-            size_t start = 0;
-            while (true) {
-                size_t pos = body.find(boundary, start);
-                if (pos == std::string::npos) break;
+            size_t pos = body.find(boundary);
+            while (pos != std::string::npos) {
+                size_t next_pos = body.find(boundary, pos + boundary.length());
+                if (next_pos == std::string::npos) break;
+
+                std::string part = body.substr(pos + boundary.length(), next_pos - pos - boundary.length());
+                parts.push_back(part);
                 
-                std::string part = body.substr(start, pos - start);
-                if (!part.empty()) parts.push_back(part);
-                
-                start = pos + boundary.length();
+                pos = next_pos;
             }
 
             // Process each part
             for (const auto& part : parts) {
-                // Check for student name
-                if (part.find("name=\"studentName\"") != std::string::npos) {
-                    size_t content_start = part.find("\r\n\r\n");
-                    if (content_start != std::string::npos) {
-                        student_name = part.substr(content_start + 4);
-                        student_name = trim_multipart_value(student_name);
-                    }
-                }
-                // Check for student ID
-                else if (part.find("name=\"studentId\"") != std::string::npos) {
+                if (part.find("name=\"studentId\"") != std::string::npos) {
                     size_t content_start = part.find("\r\n\r\n");
                     if (content_start != std::string::npos) {
                         student_id = part.substr(content_start + 4);
                         student_id = trim_multipart_value(student_id);
+                        std::cout << "Parsed Student ID: " << student_id << std::endl;
                     }
                 }
-                // Check for PDF file
                 else if (part.find("name=\"pdf_file\"") != std::string::npos) {
                     // Extract filename
                     size_t filename_pos = part.find("filename=\"");
@@ -241,20 +272,16 @@ int main() {
                         file_content = part.substr(content_start + 4);
                         // Remove trailing newlines and boundary markers
                         file_content.erase(file_content.find_last_not_of("\r\n-") + 1);
+                        std::cout << "Parsed File Content Length: " << file_content.length() << std::endl;
                     }
                 }
             }
 
             // Validate input
             if (student_id.empty() || file_content.empty()) {
+                std::cout << "Missing student ID or file content" << std::endl;
                 return crow::response(400, "Missing student ID or file content");
             }
-
-            // Debugging output
-            std::cout << "Validation Request Details:" << std::endl;
-            std::cout << "Student Name: " << student_name << std::endl;
-            std::cout << "Student ID: " << student_id << std::endl;
-            std::cout << "Filename: " << filename << std::endl;
 
             // Save the uploaded file
             std::string saved_file_path = save_uploaded_file(file_content, filename);
@@ -264,18 +291,42 @@ int main() {
             bool is_valid = blockchain.validateCertificate(student_id, saved_file_path);
 
             // Return validation result
+            crow::response res;
             if (is_valid) {
-                std::cout<<"200 Certificate is valid for student id "+student_id<<std::endl;
-                return crow::response(200, "Certificate is valid for Student ID: " + student_id);
+                std::cout << "200 Certificate is valid for student id " << student_id << std::endl;
+                res = crow::response(200, "Certificate is valid for Student ID: " + student_id);
             } else {
-                std::cout<<"400 Certificate is not valid for student id "+student_id<<std::endl;
-                return crow::response(400, "Certificate is invalid for Student ID: " + student_id);
+                std::cout << "400 Certificate is not valid for student id " << student_id << std::endl;
+                res = crow::response(400, "Certificate is invalid for Student ID: " + student_id);
             }
+
+            // Add CORS headers
+            res.add_header("Access-Control-Allow-Origin", "*");
+            res.add_header("Access-Control-Allow-Methods", "POST, OPTIONS");
+            res.add_header("Access-Control-Allow-Headers", "Content-Type");
+
+            return res;
         } catch (const std::exception& e) {
             // Comprehensive error logging
             std::cerr << "Certificate Validation Error: " << e.what() << std::endl;
-            return crow::response(500, std::string("Validation Error: ") + e.what());
+            
+            crow::response res(500, std::string("Validation Error: ") + e.what());
+            res.add_header("Access-Control-Allow-Origin", "*");
+            res.add_header("Access-Control-Allow-Methods", "POST, OPTIONS");
+            res.add_header("Access-Control-Allow-Headers", "Content-Type");
+            
+            return res;
         }
+    });
+
+    // Add OPTIONS route for preflight
+    CROW_ROUTE(app, "/validate_certificate").methods("OPTIONS"_method)([](const crow::request& req) {
+        crow::response res;
+        res.add_header("Access-Control-Allow-Origin", "*");
+        res.add_header("Access-Control-Allow-Methods", "POST, OPTIONS");
+        res.add_header("Access-Control-Allow-Headers", "Content-Type");
+        res.code = 200;
+        return res;
     });
 
 

@@ -4,10 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | DISAC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(338deg, #229348, #185c91, #9cb9d1, #37393b);
+            background-size: 240% 240%;
+            animation: gradient-animation 12s ease infinite;
+            color: #fff;
+            text-align: center;
+        }
+
+        @keyframes gradient-animation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease forwards;
+            opacity: 0;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 10px auto;
+            animation: fadeIn 2s ease forwards 1s;
+            opacity: 0;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>About</h1>
-    <p>DISAC is a blockchain based data integrity system with an emphasis on secure storage, encryption and verification of academic credentials i.e diplomas.</p>
-    <p></p>
+    <div>
+        <h1>About</h1>
+        <p>DISAC is a blockchain-based data integrity system with an emphasis on secure storage, encryption, and verification of academic credentials such as diplomas.</p>
+    </div>
 </body>
 </html>

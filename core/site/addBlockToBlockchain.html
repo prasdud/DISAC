@@ -4,42 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Block to Blockchain | DISAC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(338deg, #229348, #185c91, #9cb9d1, #37393b);
+            background-size: 240% 240%;
+            animation: gradient-animation 12s ease infinite;
+            color: #fff;
+            text-align: center;
+        }
+
+        @keyframes gradient-animation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease forwards;
+            opacity: 0;
+        }
+
+        form {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 2s ease forwards 1s;
+            opacity: 0;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 4px;
+            border: none;
+            font-size: 1rem;
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+        }
+
+        input[type="file"] {
+            padding: 5px;
+        }
+
+        button {
+            background: #229348;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: #185c91;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Add Block to Blockchain</h1>
     <div>
+        <h1>Add Block to Blockchain</h1>
         <form id="blockForm" onsubmit="submitForm(event)" method="POST" enctype="multipart/form-data">
             <div id="container">
                 <div class="data-entry">
                     <div class="form-group">
-                        <label>Student Name:</label>
-                        <input type="text" name="studentName" required>
+                        <label for="studentName">Student Name:</label>
+                        <input type="text" id="studentName" name="studentName" required>
                     </div>
                     <div class="form-group">
-                        <label>Student ID:</label>
-                        <input type="text" name="studentId" required>
+                        <label for="studentId">Student ID:</label>
+                        <input type="text" id="studentId" name="studentId" required>
                     </div>
                     <div class="form-group">
-                        <label>PDF File:</label>
-                        <input type="file" name="pdf_file" required>
+                        <label for="pdf_file">PDF File:</label>
+                        <input type="file" id="pdf_file" name="pdf_file" required>
                     </div>
                 </div>
             </div>
             <button type="submit">Add block to chain</button>
         </form>
-        
     </div>
 
     <script>
         document.getElementById("blockForm").addEventListener("submit", async function(event) {
             event.preventDefault();
             const formData = new FormData(this);
-            
+
             // Debugging: log the FormData to ensure correct data
             formData.forEach((value, key) => {
                 console.log(key + ": " + value);
             });
-    
+
             try {
                 const response = await fetch('http://localhost:18080/add_block', {
                     method: 'POST',
@@ -48,9 +140,9 @@
                     },
                     body: formData // Send the form data directly, including the file
                 });
-    
+
                 const data = await response.json();
-    
+
                 if (response.ok) {
                     console.log("Block added successfully:", data);
                 } else {
@@ -61,6 +153,5 @@
             }
         });
     </script>
-
 </body>
 </html>
